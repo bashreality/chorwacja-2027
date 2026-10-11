@@ -123,7 +123,8 @@ position:relative;overflow:hidden;background:#0c1220;color:#fff;text-align:cente
 .ti-wrap{display:flex;gap:12px;align-items:flex-start}
 .ti-c{flex:1;min-width:0}
 .ti-ph{width:80px;height:60px;border-radius:10px;object-fit:cover;flex-shrink:0;cursor:pointer;
-background:#e7e5e4;display:none;transition:transform .2s;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+background:#e7e5e4;transition:transform .2s,opacity .3s;box-shadow:0 2px 8px rgba(0,0,0,.1);opacity:0}
+.ti-ph.loaded{opacity:1}
 .ti-ph:hover{transform:scale(1.05)}
 @media(min-width:640px){.ti-ph{width:100px;height:72px}}
 
@@ -531,18 +532,7 @@ function tc(dayId,idx,e){
   up();
 }
 
-function td(id){const el=document.getElementById('d'+id),w=el.classList.contains('op');
-  el.closest('.sec').querySelectorAll('.dc.op').forEach(d=>d.classList.remove('op'));
-  if(!w){el.classList.add('op');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'nearest'}),100)}}
-
-function go(btn){
-  const c=btn.dataset.c;
-  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
-  document.getElementById('s-'+c).classList.add('on');
-  document.querySelectorAll('.tb').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');
-  window.scrollTo({top:document.getElementById('tn').offsetTop,behavior:'smooth'});
-}
+// td() and go() defined below with photo support
 
 function up(){
   let t=0,d=0;
@@ -622,39 +612,70 @@ function openLb(img,e){
 function closeLb(){document.getElementById('lb').classList.remove('show')}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
 
-// === LOAD PHOTOS FROM WIKIPEDIA ===
-async function loadPhotos(){
-  let cache={};
-  try{cache=JSON.parse(localStorage.getItem('cro_ph')||'{}');}catch(e){}
+// === PHOTO SYSTEM ===
+let photoCache={};
+try{photoCache=JSON.parse(localStorage.getItem('cro_ph')||'{}')}catch(e){}
 
-  const els=document.querySelectorAll('[data-wiki]');
-  const titles=[...new Set([...els].map(e=>e.dataset.wiki))];
+async function getPhotoUrl(wikiTitle){
+  if(photoCache[wikiTitle]) return photoCache[wikiTitle];
+  try{
+    const r=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiTitle));
+    if(!r.ok) return null;
+    const j=await r.json();
+    if(j.thumbnail&&j.thumbnail.source){
+      const url=j.thumbnail.source.replace(/\/\d+px-/,'/400px-');
+      photoCache[wikiTitle]={url,alt:j.displaytitle||wikiTitle.replace(/_/g,' ')};
+      try{localStorage.setItem('cro_ph',JSON.stringify(photoCache))}catch(e){}
+      return photoCache[wikiTitle];
+    }
+  }catch(e){}
+  return null;
+}
 
-  // apply cached first
-  for(const el of els){
-    const url=cache[el.dataset.wiki];
-    if(url){el.src=url;el.style.display='block';el.alt=el.dataset.wiki.replace(/_/g,' ').replace(/%27/g,"'")}
-  }
+function applyPhotos(){
+  document.querySelectorAll('img[data-wiki]').forEach(async img=>{
+    if(img.classList.contains('loaded')) return;
+    const wt=img.dataset.wiki;
+    const cached=photoCache[wt];
+    if(cached){
+      img.src=cached.url;img.alt=cached.alt;img.classList.add('loaded');
+    } else {
+      const data=await getPhotoUrl(wt);
+      if(data){img.src=data.url;img.alt=data.alt;img.classList.add('loaded')}
+    }
+  });
+}
 
-  // fetch missing
-  const missing=titles.filter(t=>!cache[t]);
-  for(const title of missing){
-    try{
-      const r=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+title);
-      const j=await r.json();
-      if(j.thumbnail&&j.thumbnail.source){
-        const url=j.thumbnail.source.replace(/\/\d+px-/,'/400px-');
-        cache[title]=url;
-        document.querySelectorAll(`[data-wiki="${title}"]`).forEach(el=>{
-          el.src=url;el.style.display='block';el.alt=j.displaytitle||title.replace(/_/g,' ')});
-      }
-    }catch(e){}
-  }
-  try{localStorage.setItem('cro_ph',JSON.stringify(cache))}catch(e){}
+// Pre-fetch all unique wiki titles on load
+async function prefetchPhotos(){
+  const allTitles=[...new Set(Object.values(PHOTOS))];
+  const missing=allTitles.filter(t=>!photoCache[t]);
+  await Promise.all(missing.map(t=>getPhotoUrl(t)));
+  applyPhotos();
 }
 
 render();
-loadPhotos();
+prefetchPhotos();
+
+// Also apply photos whenever a day is opened (for hidden sections)
+const origTd=td;
+function td(id){
+  const el=document.getElementById('d'+id),w=el.classList.contains('op');
+  el.closest('.sec').querySelectorAll('.dc.op').forEach(d=>d.classList.remove('op'));
+  if(!w){el.classList.add('op');setTimeout(()=>{applyPhotos();el.scrollIntoView({behavior:'smooth',block:'nearest'})},50)}
+}
+
+// Apply when switching tabs too
+const origGo=go;
+function go(btn){
+  const c=btn.dataset.c;
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.getElementById('s-'+c).classList.add('on');
+  document.querySelectorAll('.tb').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  window.scrollTo({top:document.getElementById('tn').offsetTop,behavior:'smooth'});
+  setTimeout(applyPhotos,100);
+}
 </script>
 </body>
 </html>
