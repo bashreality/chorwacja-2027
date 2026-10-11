@@ -7,439 +7,423 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="CRO 2027">
 <meta name="theme-color" content="#0c1220">
-<title>Chorwacja 2027 — Plan podrozy</title>
+<title>Chorwacja 2027</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-:root{
---f-sans:'DM Sans',system-ui,sans-serif;--f-serif:'Playfair Display',Georgia,serif;
+:root{--f:'DM Sans',system-ui,sans-serif;--fs:'Playfair Display',Georgia,serif;
 --z:#0ea5e9;--s:#a855f7;--b:#f97316;--d:#10b981;
---bg:#fafaf9;--card:#fff;--brd:#e7e5e4;--txt:#1c1917;--txt2:#78716c;--txt3:#a8a29e;
---r:16px;--sh:0 1px 3px rgba(0,0,0,.04),0 6px 24px rgba(0,0,0,.06);
-}
-html{font-family:var(--f-sans);color:var(--txt);scroll-behavior:smooth;background:var(--bg)}
+--bg:#fafaf9;--card:#fff;--brd:#e7e5e4;--tx:#1c1917;--tx2:#78716c;--tx3:#a8a29e;
+--r:16px;--sh:0 1px 3px rgba(0,0,0,.04),0 6px 24px rgba(0,0,0,.06)}
+html{font-family:var(--f);color:var(--tx);scroll-behavior:smooth;background:var(--bg)}
 body{overflow-x:hidden}
-a{color:inherit;text-decoration:none}
-button{font-family:var(--f-sans);cursor:pointer;border:none;background:none}
+button{font-family:var(--f);cursor:pointer;border:none;background:none}
 
-/* === HERO === */
 .hero{min-height:100dvh;display:flex;flex-direction:column;justify-content:center;align-items:center;
 position:relative;overflow:hidden;background:#0c1220;color:#fff;text-align:center;padding:40px 24px}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#0c1220 0%,#164e63 30%,#0e7490 50%,#0891b2 65%,#f59e0b 85%,#ea580c 100%);opacity:.7;animation:hs 20s ease-in-out infinite alternate}
+@keyframes hs{0%{filter:hue-rotate(0) brightness(1)}50%{filter:hue-rotate(-15deg) brightness(1.1)}100%{filter:hue-rotate(10deg) brightness(.95)}}
+.hero-ov{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 80%,rgba(0,0,0,.3),transparent 70%)}
+.hero-c{position:relative;z-index:1;max-width:800px}
+.hero-c .flag{font-size:56px;margin-bottom:20px;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,.3))}
+.hero h1{font-family:var(--fs);font-size:clamp(36px,7vw,72px);font-weight:800;line-height:1.1;letter-spacing:-1px;margin-bottom:12px;text-shadow:0 2px 20px rgba(0,0,0,.3)}
+.hero .sub{font-size:clamp(14px,2.5vw,20px);opacity:.7;margin-bottom:36px;letter-spacing:1px}
+.hero-st{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.hero-st div{text-align:center}
+.hero-st .v{font-family:var(--fs);font-size:clamp(28px,4vw,44px);font-weight:700;display:block;line-height:1.2}
+.hero-st .l{font-size:12px;opacity:.5;text-transform:uppercase;letter-spacing:2px;margin-top:2px}
+.hero-rt{display:flex;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap;font-size:clamp(13px,2vw,16px);font-weight:600;opacity:.8}
+.hero-rt .a{opacity:.3;font-size:18px}
+.hero-sc{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:1;font-size:12px;opacity:.4;letter-spacing:2px;text-transform:uppercase;animation:bd 2s ease-in-out infinite}
+@keyframes bd{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
 
-.hero-bg{position:absolute;inset:0;
-background:linear-gradient(135deg,#0c1220 0%,#164e63 30%,#0e7490 50%,#0891b2 65%,#f59e0b 85%,#ea580c 100%);
-opacity:.7;animation:hero-shift 20s ease-in-out infinite alternate}
-@keyframes hero-shift{0%{filter:hue-rotate(0deg) brightness(1)}50%{filter:hue-rotate(-15deg) brightness(1.1)}100%{filter:hue-rotate(10deg) brightness(.95)}}
+.tn{position:sticky;top:0;z-index:50;background:rgba(250,250,249,.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--brd);padding:0 24px;transition:box-shadow .3s}
+.tn.sc{box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.tn-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;height:56px;gap:4px}
+.tn-br{font-family:var(--fs);font-weight:700;font-size:18px;margin-right:auto;white-space:nowrap}
+.tn-br span{opacity:.4;font-weight:400}
+.tb{padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;color:var(--tx2);transition:all .2s;white-space:nowrap}
+.tb:hover{background:rgba(0,0,0,.04)}.tb.on{color:var(--tx);background:rgba(0,0,0,.06)}
+.tn-pg{display:flex;align-items:center;gap:8px;margin-left:12px}
+.tn-bar{width:80px;height:4px;background:var(--brd);border-radius:2px;overflow:hidden}
+.tn-fl{height:100%;border-radius:2px;background:var(--d);transition:width .5s}
+.tn-pc{font-size:13px;font-weight:700;color:var(--d)}
+@media(max-width:768px){.tb{padding:6px 8px;font-size:11px}.tn-pg{display:none}.tn-in{gap:1px}}
 
-.hero-overlay{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 80%,rgba(0,0,0,.3),transparent 70%)}
+.sec{display:none;max-width:900px;margin:0 auto;padding:32px 20px 80px}.sec.on{display:block}
 
-.hero-content{position:relative;z-index:1;max-width:800px}
-.hero-flag{font-size:56px;margin-bottom:20px;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,.3))}
-.hero h1{font-family:var(--f-serif);font-size:clamp(36px,7vw,72px);font-weight:800;line-height:1.1;
-letter-spacing:-1px;margin-bottom:12px;text-shadow:0 2px 20px rgba(0,0,0,.3)}
-.hero .subtitle{font-size:clamp(14px,2.5vw,20px);opacity:.7;font-weight:400;margin-bottom:36px;letter-spacing:1px}
+.ci{margin-bottom:32px;padding:40px 0 32px;border-bottom:1px solid var(--brd)}
+.ci .cl{font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.cl.zadar{color:var(--z)}.cl.split{color:var(--s)}.cl.brela{color:var(--b)}.cl.dubrovnik{color:var(--d)}
+.ci h2{font-family:var(--fs);font-size:clamp(28px,5vw,44px);font-weight:800;line-height:1.15;letter-spacing:-1px;margin-bottom:6px}
+.ci .cm{font-size:15px;color:var(--tx2)}
 
-.hero-stats{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
-.hero-stat{text-align:center}
-.hero-stat .val{font-family:var(--f-serif);font-size:clamp(28px,4vw,44px);font-weight:700;display:block;line-height:1.2}
-.hero-stat .label{font-size:12px;opacity:.5;text-transform:uppercase;letter-spacing:2px;margin-top:2px}
+.dc{position:relative;margin-bottom:16px;background:var(--card);border:1px solid var(--brd);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;transition:all .25s}
+.dc:hover{box-shadow:0 2px 6px rgba(0,0,0,.06),0 12px 32px rgba(0,0,0,.08)}
+.dc.dn{border-color:rgba(16,185,129,.25);background:linear-gradient(135deg,#f0fdf4,#ecfdf5)}
 
-.hero-route{display:flex;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap;font-size:clamp(13px,2vw,16px);font-weight:600;opacity:.8}
-.hero-route .arrow{opacity:.3;font-size:18px}
+.dh{display:flex;align-items:center;gap:14px;padding:18px 20px;cursor:pointer;-webkit-user-select:none}
+.dd{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:var(--fs);font-weight:800;font-size:16px;color:#fff;flex-shrink:0}
+.dd.zadar{background:var(--z)}.dd.split{background:var(--s)}.dd.brela{background:var(--b)}.dd.dubrovnik{background:var(--d)}
+.dc.dn .dd{background:var(--d)}
+.dh-i{flex:1;min-width:0}
+.dh-dt{font-size:12px;color:var(--tx3);font-weight:600;margin-bottom:2px}
+.dh-t{font-size:16px;font-weight:700;line-height:1.3}
+.dh-s{font-size:13px;color:var(--tx2);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dh-r{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.dh-p{font-size:11px;font-weight:700;padding:4px 10px;border-radius:8px;background:#f5f5f4;color:var(--tx3)}
+.dc.dn .dh-p{background:rgba(16,185,129,.1);color:var(--d)}
+.dh-a{font-size:20px;color:var(--tx3);transition:transform .3s}
+.dc.op .dh-a{transform:rotate(90deg)}
 
-.hero-scroll{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:1;
-font-size:12px;opacity:.4;letter-spacing:2px;text-transform:uppercase;
-animation:bounce-down 2s ease-in-out infinite}
-@keyframes bounce-down{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+.db{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.4,0,.2,1)}
+.dc.op .db{max-height:6000px}
+.db-in{padding:0 20px 24px}
+.db-dv{height:1px;background:var(--brd);margin-bottom:20px}
 
-/* === TOP NAV (sticky) === */
-.topnav{position:sticky;top:0;z-index:50;background:rgba(250,250,249,.85);
-backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
-border-bottom:1px solid var(--brd);padding:0 24px;transition:box-shadow .3s}
-.topnav.scrolled{box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.ti{display:flex;gap:14px;position:relative;padding-bottom:14px}
+.ti:last-of-type{padding-bottom:0}
+.tl{position:relative;width:20px;flex-shrink:0;display:flex;flex-direction:column;align-items:center}
+.tl::before{content:'';position:absolute;top:12px;bottom:0;width:1.5px;background:var(--brd)}
+.ti:last-of-type .tl::before{display:none}
+.tc{width:20px;height:20px;border:2px solid #d6d3d1;border-radius:6px;background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;z-index:1;flex-shrink:0}
+.tc:hover{border-color:#a8a29e}.tc:active{transform:scale(.9)}
+.tc.on{background:var(--d);border-color:var(--d)}
+.tc.on::after{content:'';width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.ti-c{flex:1;min-width:0;padding-top:1px}
+.ti-t{font-size:12px;font-weight:700;color:var(--tx);margin-bottom:2px}
+.ti-d{font-size:14px;color:var(--tx2);line-height:1.5}
+.ti.ck .ti-d{text-decoration:line-through;opacity:.4}
 
-.topnav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;height:56px;gap:8px}
-.topnav-brand{font-family:var(--f-serif);font-weight:700;font-size:18px;margin-right:auto;white-space:nowrap}
-.topnav-brand span{opacity:.4;font-weight:400}
+.rc{display:flex;gap:12px;background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:12px 14px;margin:8px 0 4px}
+.rc .ri{font-size:20px;flex-shrink:0}.rc .rn{font-weight:700;font-size:13px}.rc .rd{font-size:12px;color:var(--tx2);margin-top:2px;line-height:1.4}
 
-.tnav-btn{padding:8px 16px;border-radius:10px;font-size:13px;font-weight:600;color:var(--txt2);
-transition:all .2s;white-space:nowrap}
-.tnav-btn:hover{background:rgba(0,0,0,.04)}
-.tnav-btn.on{color:var(--txt);background:rgba(0,0,0,.06)}
+.wn{display:flex;gap:10px;background:#f0f9ff;border:1px solid #e0f2fe;border-radius:12px;padding:12px 14px;margin-top:16px;font-size:13px;color:#0c4a6e;line-height:1.5}
+.wn span:first-child{flex-shrink:0;font-size:16px}
 
-.tnav-progress{display:flex;align-items:center;gap:8px;margin-left:12px}
-.tnav-pct{font-size:13px;font-weight:700;color:var(--d)}
-.tnav-bar{width:80px;height:4px;background:var(--brd);border-radius:2px;overflow:hidden}
-.tnav-fill{height:100%;border-radius:2px;background:var(--d);transition:width .5s}
+.sn{display:flex;gap:10px;background:#fdf4ff;border:1px solid #f5d0fe;border-radius:12px;padding:12px 14px;margin-top:8px;font-size:13px;color:#86198f;line-height:1.5}
+.sn span:first-child{flex-shrink:0;font-size:16px}
 
-@media(max-width:768px){
-  .tnav-btn{padding:6px 10px;font-size:12px}
-  .tnav-progress{display:none}
-  .topnav-inner{gap:2px}
-}
+.mg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:24px}
+.mc{background:var(--card);border:1px solid var(--brd);border-radius:var(--r);padding:20px;box-shadow:var(--sh)}
+.mc h3{font-family:var(--fs);font-size:20px;font-weight:700;margin-bottom:16px}
+.mi{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #f5f5f4}.mi:last-child{border-bottom:none}
+.mi .me{font-size:20px;flex-shrink:0;width:28px;text-align:center}
+.mi .mn{font-weight:700;font-size:13px}.mi .md{font-size:12px;color:var(--tx2)}
+.pht{width:100%;border-collapse:collapse;font-size:13px}
+.pht th{text-align:left;padding:8px 4px;font-size:11px;color:var(--tx3);border-bottom:2px solid var(--brd);font-weight:700}
+.pht td{padding:8px 4px;border-bottom:1px solid #f5f5f4}.pht td:last-child{color:var(--tx2);font-style:italic}
 
-/* === SECTION === */
-.sec{display:none;max-width:900px;margin:0 auto;padding:32px 20px 80px}
-.sec.on{display:block}
+.ft{text-align:center;padding:48px 24px;border-top:1px solid var(--brd);color:var(--tx3);font-size:13px}
+.ft .ff{font-size:32px;margin-bottom:8px;display:block}
 
-/* === CITY INTRO === */
-.city-intro{margin-bottom:32px;padding:40px 0 32px;border-bottom:1px solid var(--brd)}
-.city-intro .ci-label{font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
-.city-intro .ci-label.zadar{color:var(--z)}.ci-label.split{color:var(--s)}.ci-label.brela{color:var(--b)}.ci-label.dubrovnik{color:var(--d)}
-.city-intro h2{font-family:var(--f-serif);font-size:clamp(28px,5vw,44px);font-weight:800;line-height:1.15;letter-spacing:-1px;margin-bottom:6px}
-.city-intro .ci-meta{font-size:15px;color:var(--txt2)}
-
-/* === DAY CARD === */
-.day-card{position:relative;margin-bottom:16px;background:var(--card);border:1px solid var(--brd);
-border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;transition:all .25s}
-.day-card:hover{box-shadow:0 2px 6px rgba(0,0,0,.06),0 12px 32px rgba(0,0,0,.08)}
-.day-card.done{border-color:rgba(16,185,129,.25);background:linear-gradient(135deg,#f0fdf4,#ecfdf5)}
-
-/* day header */
-.day-hdr{display:flex;align-items:center;gap:14px;padding:18px 20px;cursor:pointer;-webkit-user-select:none}
-.day-dot{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;
-font-family:var(--f-serif);font-weight:800;font-size:16px;color:#fff;flex-shrink:0}
-.day-dot.zadar{background:var(--z)}.day-dot.split{background:var(--s)}.day-dot.brela{background:var(--b)}.day-dot.dubrovnik{background:var(--d)}
-.day-card.done .day-dot{background:var(--d)}
-
-.day-hdr-info{flex:1;min-width:0}
-.day-hdr-date{font-size:12px;color:var(--txt3);font-weight:600;margin-bottom:2px}
-.day-hdr-title{font-size:16px;font-weight:700;line-height:1.3}
-.day-hdr-sub{font-size:13px;color:var(--txt2);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-
-.day-hdr-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
-.day-hdr-pct{font-size:11px;font-weight:700;padding:4px 10px;border-radius:8px;background:#f5f5f4;color:var(--txt3)}
-.day-card.done .day-hdr-pct{background:rgba(16,185,129,.1);color:var(--d)}
-.day-hdr-arrow{font-size:20px;color:var(--txt3);transition:transform .3s}
-.day-card.open .day-hdr-arrow{transform:rotate(90deg)}
-
-/* day body */
-.day-body{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.4,0,.2,1)}
-.day-card.open .day-body{max-height:5000px}
-
-.day-inner{padding:0 20px 24px}
-.day-divider{height:1px;background:var(--brd);margin-bottom:20px}
-
-/* === TIMELINE ITEMS === */
-.tl-item{display:flex;gap:14px;position:relative;padding-bottom:16px}
-.tl-item:last-of-type{padding-bottom:0}
-
-/* vertical line */
-.tl-line{position:relative;width:20px;flex-shrink:0;display:flex;flex-direction:column;align-items:center}
-.tl-line::before{content:'';position:absolute;top:12px;bottom:0;width:1.5px;background:var(--brd)}
-.tl-item:last-of-type .tl-line::before{display:none}
-
-.tl-check{width:20px;height:20px;border:2px solid #d6d3d1;border-radius:6px;background:#fff;
-cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;z-index:1;flex-shrink:0}
-.tl-check:hover{border-color:#a8a29e}
-.tl-check:active{transform:scale(.9)}
-.tl-check.on{background:var(--d);border-color:var(--d)}
-.tl-check.on::after{content:'';width:6px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
-
-.tl-content{flex:1;min-width:0;padding-top:1px}
-.tl-time{font-size:12px;font-weight:700;color:var(--txt);margin-bottom:2px}
-.tl-desc{font-size:14px;color:var(--txt2);line-height:1.5}
-.tl-item.checked .tl-desc{text-decoration:line-through;opacity:.4}
-
-/* === RESTAURANT CARD === */
-.resto-card{display:flex;gap:12px;background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;
-padding:12px 14px;margin:8px 0 4px}
-.resto-card .rc-icon{font-size:22px;flex-shrink:0}
-.resto-card .rc-name{font-weight:700;font-size:14px;color:var(--txt)}
-.resto-card .rc-desc{font-size:12px;color:var(--txt2);margin-top:2px;line-height:1.4}
-
-/* === WEATHER === */
-.weather-note{display:flex;gap:10px;background:#f0f9ff;border:1px solid #e0f2fe;border-radius:12px;
-padding:12px 14px;margin-top:16px;font-size:13px;color:#0c4a6e;line-height:1.5}
-.weather-note span:first-child{flex-shrink:0;font-size:16px}
-
-/* === MORE SECTION === */
-.more-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:24px}
-.more-card{background:var(--card);border:1px solid var(--brd);border-radius:var(--r);padding:20px;box-shadow:var(--sh)}
-.more-card h3{font-family:var(--f-serif);font-size:20px;font-weight:700;margin-bottom:16px}
-.more-item{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #f5f5f4}
-.more-item:last-child{border-bottom:none}
-.more-item .mi-emoji{font-size:20px;flex-shrink:0;width:28px;text-align:center}
-.more-item .mi-name{font-weight:700;font-size:13px}
-.more-item .mi-desc{font-size:12px;color:var(--txt2)}
-
-.phrase-tbl{width:100%;border-collapse:collapse;font-size:13px}
-.phrase-tbl th{text-align:left;padding:8px 4px;font-size:11px;color:var(--txt3);border-bottom:2px solid var(--brd);font-weight:700}
-.phrase-tbl td{padding:8px 4px;border-bottom:1px solid #f5f5f4}
-.phrase-tbl td:last-child{color:var(--txt2);font-style:italic}
-
-/* === FOOTER === */
-.footer{text-align:center;padding:48px 24px;border-top:1px solid var(--brd);color:var(--txt3);font-size:13px}
-.footer .ft-flag{font-size:32px;margin-bottom:8px;display:block}
-.footer b{color:var(--txt)}
-
-/* === RESPONSIVE === */
-@media(max-width:640px){
-  .hero-stats{gap:20px}
-  .hero-route{font-size:13px;gap:8px}
-  .city-intro{padding:24px 0 20px}
-  .day-hdr{padding:14px 16px;gap:10px}
-  .day-inner{padding:0 16px 20px}
-  .more-grid{grid-template-columns:1fr}
-}
+@media(max-width:640px){.ci{padding:24px 0 20px}.dh{padding:14px 16px;gap:10px}.db-in{padding:0 16px 20px}.mg{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
-<!-- ===== HERO ===== -->
-<section class="hero" id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <span class="hero-flag">🇭🇷</span>
-    <h1>Chorwacja 2027</h1>
-    <p class="subtitle">Adriatycka przygoda zaplanowana co do godziny</p>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="val">17</span><span class="label">Dni</span></div>
-      <div class="hero-stat"><span class="val">4</span><span class="label">Miasta</span></div>
-      <div class="hero-stat"><span class="val">16</span><span class="label">Nocy</span></div>
-      <div class="hero-stat"><span class="val" id="heroPct">0%</span><span class="label">Gotowe</span></div>
-    </div>
-    <div class="hero-route">
-      <span>Zadar</span><span class="arrow">→</span>
-      <span>Split</span><span class="arrow">→</span>
-      <span>Brela</span><span class="arrow">→</span>
-      <span>Dubrownik</span>
-    </div>
-  </div>
-  <div class="hero-scroll">↓ Przewijaj</div>
+<section class="hero">
+<div class="hero-bg"></div><div class="hero-ov"></div>
+<div class="hero-c">
+<span class="flag">🇭🇷</span>
+<h1>Chorwacja 2027</h1>
+<p class="sub">Adriatycka przygoda zaplanowana co do godziny</p>
+<div class="hero-st">
+<div><span class="v">17</span><span class="l">Dni</span></div>
+<div><span class="v">4</span><span class="l">Miasta</span></div>
+<div><span class="v">16</span><span class="l">Nocy</span></div>
+<div><span class="v" id="hp">0%</span><span class="l">Gotowe</span></div>
+</div>
+<div class="hero-rt"><span>Zadar</span><span class="a">&rarr;</span><span>Split</span><span class="a">&rarr;</span><span>Brela</span><span class="a">&rarr;</span><span>Dubrownik</span></div>
+</div>
+<div class="hero-sc">&darr; Przewijaj</div>
 </section>
 
-<!-- ===== TOP NAV ===== -->
-<nav class="topnav" id="topnav">
-  <div class="topnav-inner">
-    <div class="topnav-brand">CRO <span>'27</span></div>
-    <button class="tnav-btn on" onclick="go('zadar')">Zadar</button>
-    <button class="tnav-btn" onclick="go('split')">Split</button>
-    <button class="tnav-btn" onclick="go('brela')">Brela</button>
-    <button class="tnav-btn" onclick="go('dubrovnik')">Dubrownik</button>
-    <button class="tnav-btn" onclick="go('more')">Wiecej</button>
-    <div class="tnav-progress">
-      <div class="tnav-bar"><div class="tnav-fill" id="navFill" style="width:0"></div></div>
-      <span class="tnav-pct" id="navPct">0%</span>
-    </div>
-  </div>
-</nav>
+<nav class="tn" id="tn"><div class="tn-in">
+<div class="tn-br">CRO <span>'27</span></div>
+<button class="tb on" data-c="zadar" onclick="go(this)">Zadar</button>
+<button class="tb" data-c="split" onclick="go(this)">Split</button>
+<button class="tb" data-c="brela" onclick="go(this)">Brela</button>
+<button class="tb" data-c="dubrovnik" onclick="go(this)">Dubrownik</button>
+<button class="tb" data-c="more" onclick="go(this)">Wiecej</button>
+<div class="tn-pg"><div class="tn-bar"><div class="tn-fl" id="nf"></div></div><span class="tn-pc" id="np">0%</span></div>
+</div></nav>
 
-<!-- ===== SECTIONS ===== -->
 <div class="sec on" id="s-zadar"></div>
 <div class="sec" id="s-split"></div>
 <div class="sec" id="s-brela"></div>
 <div class="sec" id="s-dubrovnik"></div>
 <div class="sec" id="s-more"></div>
 
-<footer class="footer">
-  <span class="ft-flag">🇭🇷</span>
-  <p><b>Zivjeli!</b> — Chorwacja 2027</p>
-  <p style="margin-top:4px">Zadar → Split → Brela → Dubrownik</p>
-  <p style="margin-top:12px;font-size:11px;opacity:.6">iPhone: Share → Add to Home Screen</p>
-</footer>
+<footer class="ft"><span class="ff">🇭🇷</span><p><b>Zivjeli!</b> &mdash; Chorwacja 2027</p><p style="margin-top:4px">Zadar &rarr; Split &rarr; Brela &rarr; Dubrownik</p><p style="margin-top:12px;font-size:11px;opacity:.6">iPhone: Share &rarr; Add to Home Screen</p></footer>
 
 <script>
 const D=[
+// ===== ZADAR =====
 {id:1,c:'zadar',dt:'Sroda, 2 czerwca',t:'Przylot i pierwszy zachod',s:'Forum, Organy Morskie, Pozdrav Suncu',i:[
-{t:'05:30 - 10:00',d:'Lotnisko Poznan, odprawa, lot do Zadaru'},
-{t:'10:00 - 12:00',d:'Bagaz, transfer do centrum, zostawienie walizki'},
-{t:'12:00 - 13:30',d:'Lunch w okolicy noclegu'},
-{t:'13:30 - 17:30',d:'Zameldowanie, prysznic, odpoczynek'},
-{t:'17:30 - 18:45',d:'Kolacja w Jadera — pasticada z gnocchi',r:{n:'Restaurant Jadera',d:'Pasticada 19 EUR | 4.5 na Google | zamkniete w niedziele'}},
-{t:'18:45 - 19:30',d:'Forum, kosciol sw. Donata — z zewnatrz'},
-{t:'19:30 - 21:15',d:'Organy Morskie i Pozdrav Suncu — zachod slonca'},
-{t:'21:15 - 21:45',d:'Powrot do noclegu'}],w:'Deszcz: Muzeum Szkla Antycznego 60-90 min.'},
+{t:'05:30–10:00',d:'Lotnisko Poznan — odprawa, nadanie walizki 20 kg, lot do Zadaru (roboczo FR7246, 08:00–09:45)'},
+{t:'10:00–12:00',d:'Odbior bagazu, autobus lotniskowy do centrum lub taxi, zostawienie walizki w noclegu'},
+{t:'12:00–13:30',d:'Lunch blisko noclegu lub na starowce',r:{n:'4 Kantuna',d:'Pizza / makaron z truflami | Varoska 1 | 20–40 EUR/os | 4.6 | 7876 ocen'}},
+{t:'13:30–17:30',d:'Zameldowanie, prysznic, odpoczynek — nie planuj nic wiecej po locie'},
+{t:'17:30–18:45',d:'Kolacja przed zachodem, nie po — nie wracacie z Organow glodni',r:{n:'Restaurant Jadera',d:'Pasticada z gnocchi 19 EUR | risotto cielece 17 EUR | 4.5 | zamkniete w niedziele | Brne Karnarutica 4'}},
+{t:'18:45–19:30',d:'Forum — bryly sw. Donata i kamienne pozostalosci placu. Tylko z zewnatrz, wnetrza czekaja na jutro'},
+{t:'19:30–21:15',d:'Promenada nad morzem do Organow Morskich — usiadz i sluchaj fal. Pozdrav Suncu najlepszy po sciemnieniu'},
+{t:'21:15–21:45',d:'Najkrotszy powrot do noclegu'}],
+w:'Deszcz: Muzeum Szkla Antycznego 60–90 min (7 EUR, letnie 09–21), potem nabrzeze po ustaniu opadow.',
+sp:'Tylko Organy i Pozdrav Suncu wieczorem, bez Forum. Kolacja przy hotelu.'},
 
-{id:2,c:'zadar',dt:'Czwartek, 3 czerwca',t:'Zadar od targu do Fosy',s:'Starowka pieszo albo kajaki na Zrmanji',i:[
-{t:'08:00 - 09:00',d:'Sniadanie w Pjaceta Bar',r:{n:'Pjaceta Bar',d:'Tost/jogurt + kawa | 10-15 EUR/os | 4.6'}},
-{t:'09:00 - 10:00',d:'Katedra sw. Anastazji + dzwonnica'},
-{t:'10:00 - 10:45',d:'Sw. Donat i Forum'},
-{t:'10:45 - 11:30',d:'Kalelarga, Narodni trg — kawa'},
-{t:'11:30 - 12:30',d:'Lunch w 4 Kantuna',r:{n:'4 Kantuna',d:'Makaron z truflami / pizza | 20-40 EUR/os | 4.6 | 7876 ocen'}},
-{t:'12:30 - 13:15',d:'Plac Pieciu Studni, park, Brama Ladowa, Fosa'},
-{t:'13:15 - 16:00',d:'Odpoczynek w noclegu'},
-{t:'16:00 - 18:00',d:'Plaza Kolovare'},
-{t:'18:00 - 19:30',d:'Kolacja — Bistro Pjat (crni rizot) lub 4 Kantuna'},
-{t:'19:30 - 20:30',d:'Prowiant na Plitvice | opcja: Brlog craft beer',r:{n:'Brlog Cooperative Brewery',d:'Najciekawszy craft browar Chorwacji | poza starowka | 4.9'}}],w:'Muzeum Szkla lub Muzeum Iluzji, lunch w 4 Kantuna.'},
+{id:2,c:'zadar',dt:'Czwartek, 3 czerwca',t:'Zadar od targu do Fosy + Kolovare',s:'Cala starowka pieszo albo kajaki na Zrmanji',i:[
+{t:'08:00–09:00',d:'Sniadanie przy targu — obejrzyj stragany, kup owoce na jutro',r:{n:'Pjaceta Bar',d:'Tost z awokado / jogurt z owocami + kawa | Pod bedem 1A | 10–15 EUR/os | 4.6'}},
+{t:'09:00–10:00',d:'Katedra sw. Anastazji — wnetrze wg godzin, opcjonalna dzwonnica (30–45 min, dodatkowe schody)'},
+{t:'10:00–10:45',d:'Sw. Donat i Forum — jeden zespol do obejrzenia na miejscu, bez powrotow'},
+{t:'10:45–11:30',d:'Kalelarga na poludniowy-wschod do Narodni trg — kawa i plac'},
+{t:'11:30–12:30',d:'Lunch — makarony lub pizza',r:{n:'4 Kantuna',d:'Makaron z wolowina i truflami | pizza | Varoska 1 | 20–40 EUR/os | 4.6'}},
+{t:'12:30–13:15',d:'Plac Pieciu Studni — park krolowej Jeleny (cien!) — Brama Ladowa — Fosa (zdjecie murow przez wode)'},
+{t:'13:15–16:00',d:'Odpoczynek w noclegu'},
+{t:'16:00–18:00',d:'Plaza Kolovare — kapiel i odpoczynek. Dojscie od poludniowej starowki ok. 15–25 min'},
+{t:'18:00–19:30',d:'Kolacja',r:{n:'Bistro Pjat',d:'Crni rizot (czarne risotto z matwa) | Stomorica 10 | 15–35 EUR/os | 4.4'}},
+{t:'19:30–20:30',d:'Przygotuj prowiant i wode na Plitvice. Opcja wieczorna:',r:{n:'Brlog Craft Brewery',d:'Najciekawszy browar Chorwacji — APA, IPA | Andrije Hebranga 6 (poza starowka) | 4.9 | albo Deja Brew na starowce'}}],
+w:'Muzeum Szkla lub Muzeum Iluzji (30–45 min), potem lunch.',
+sp:'Forum z zewnatrz, jedno wnetrze, lunch w 4 Kantuna, Fosa lub Kolovare — nie oba.'},
 
-{id:3,c:'zadar',dt:'Piatek, 4 czerwca',t:'Plitvice — pelny dzien',s:'Kladki, wodospady i jeziora',i:[
-{t:'06:15 - 07:15',d:'Sniadanie — prowiant z wczoraj'},
-{t:'07:30 - 09:30',d:'Dojazd z grupa do parku'},
-{t:'09:30 - 10:00',d:'Wejscie, organizacja'},
-{t:'10:00 - 12:30',d:'Kladki i jeziora — pierwsza czesc'},
-{t:'12:30 - 13:00',d:'Piknik z plecaka'},
-{t:'13:00 - 15:30',d:'Dalsze jeziora i transport parkowy'},
-{t:'15:30 - 18:00',d:'Powrot do Zadaru'},
-{t:'19:30 - 20:30',d:'Kolacja — 4 Kantuna lub Jadera'}],w:'Burza: lokalny dzien w Zadarze.'},
+{id:3,c:'zadar',dt:'Piatek, 4 czerwca',t:'Plitvice — pelny dzien wsrod jezior',s:'Kladki, wodospady, gorne i dolne jeziora z wycieczka',i:[
+{t:'06:15–07:15',d:'Sniadanie w noclegu — prowiant przygotowany wczoraj. Kawiarnia nie jest pewna o tej porze'},
+{t:'07:30–09:30',d:'Dojazd z grupa do parku (ok. 2h jazdy). Walizka zostaje w Zadarze, bierzecie male plecaki'},
+{t:'09:30–10:00',d:'Wejscie, toaleta, ustalenie miejsca powrotu z przewodnikiem'},
+{t:'10:00–12:30',d:'Pierwsza czesc trasy — kladki i jeziora. Kolejnosc gornych/dolnych ustala program'},
+{t:'12:30–13:00',d:'Kanapki i owoce z plecaka w wyznaczonym miejscu. Nie czekaj na restauracje parkowa'},
+{t:'13:00–15:30',d:'Dalsze jeziora i parkowy transport wg trasy. Zdjecia na poszerzeniach kladek'},
+{t:'15:30–18:00',d:'Zbiorka i powrot do Zadaru'},
+{t:'18:00–19:30',d:'Odpoczynek i prysznic'},
+{t:'19:30–20:30',d:'Kolacja — 4 Kantuna (makaron/pizza) lub Jadera (jesli nie udala sie dnia 1)'},
+{t:'20:30–21:15',d:'Przygotowanie na rejs i sen. Nie planuj pubowego wieczoru po calym dniu chodzenia'}],
+w:'Burza: lokalny dzien w Zadarze (Muzeum Szkla + Kolovare). Lekki deszcz — park moze dzialac, decyduje operator.',
+sp:'Zamiast Plitvic: sniadanie w Pjacecie, Muzeum Szkla, lunch, Kolovare, kolacja.'},
 
-{id:4,c:'zadar',dt:'Sobota, 5 czerwca',t:'Kornati i Telascica — rejs',s:'Archipelag, klify i jezioro Mir',i:[
-{t:'06:30 - 07:15',d:'Sniadanie + plecak: woda, krem, recznik'},
-{t:'07:15 - 08:00',d:'Dojscie na nabrzeze'},
-{t:'08:00 - 11:00',d:'Rejs widokowy'},
-{t:'11:00 - 15:30',d:'Jezioro Mir, klify, kapiel, obiad na statku'},
-{t:'15:30 - 18:00',d:'Powrot do Zadaru'},
-{t:'19:30 - 20:30',d:'Kolacja blisko noclegu'},
-{t:'20:30 - 21:30',d:'Pakowanie — jutro Split!'}],w:'Wiatr: rejs odwolany. Muzeum Szkla + Kolovare.'},
+{id:4,c:'zadar',dt:'Sobota, 5 czerwca',t:'Kornati i Telascica — rejs',s:'Archipelag, klify i slone jezioro Mir',i:[
+{t:'06:30–07:15',d:'Male sniadanie w noclegu. Nawet przy sniadaniu w cenie — nie wychodz glodny. Plecak: woda, krem SPF, recznik, stroj'},
+{t:'07:15–08:00',d:'Dojscie na wlasciwe nabrzeze (Liburnska obala, nie port Gazenica!) i wejscie na statek'},
+{t:'08:00–11:00',d:'Rejs widokowy przez archipelag. Wybierz cien i spokojne miejsce. Czesc dnia to sama zegluga'},
+{t:'11:00–15:30',d:'Postoje wg programu: jezioro Mir (spacer), klify (widok), kapiel, obiad na statku. Zamow miesny wariant przy rezerwacji'},
+{t:'15:30–18:00',d:'Powrot do Zadaru'},
+{t:'18:00–19:30',d:'Odpoczynek w hotelu'},
+{t:'19:30–20:30',d:'Kolacja blisko noclegu. Jadera lub 4 Kantuna — w zaleznosci od trasy powrotnej'},
+{t:'20:30–21:30',d:'Spakuj walizke, potwierdz autobus i dojazd na dworzec. Jutro zmiana bazy!'}],
+w:'Wiatr: rejs odwolany. Muzeum Szkla + lunch + Kolovare + pakowanie.',
+sp:'Zamiast rejsu: Kolovare, kapiel, lunch, Fosa, pakowanie.'},
 
-{id:5,c:'split',dt:'Niedziela, 6 czerwca',t:'Zadar do Splitu — wieczorny palac',s:'Transfer autobusem i Perystyl po zmroku',i:[
-{t:'08:00 - 09:00',d:'Sniadanie, wymeldowanie'},
-{t:'09:00 - 13:30',d:'Autobus Zadar do Splitu (3-4.5h)'},
-{t:'13:30 - 14:30',d:'Lunch',r:{n:'Bakra',d:'Pizza / cevapi przy porcie | 15-35 EUR/os | 4.5'}},
-{t:'14:30 - 17:00',d:'Zameldowanie i odpoczynek'},
-{t:'17:00 - 18:00',d:'Brama Brazowa, Perystyl, Vestibul'},
-{t:'18:00 - 18:45',d:'Uliczki palacu, Zlota Brama, Grzegorz z Ninu'},
-{t:'18:45 - 19:45',d:'Cevapi w Kantun Paulina',r:{n:'Kantun Paulina',d:'Street food | cevapi w lepinji | 5-10 EUR/os | 4.6'}},
-{t:'19:45 - 21:00',d:'Prokurative, zachodnia Riva — kawa nad woda'}],w:'Podziemia 60-90 min. Wnetrza maja osobny dzien.'},
+// ===== SPLIT =====
+{id:5,c:'split',dt:'Niedziela, 6 czerwca',t:'Zadar → Split i wieczorny palac',s:'Transfer autobusem, Perystyl i Riva po zmroku',i:[
+{t:'08:00–09:00',d:'Sniadanie, wymeldowanie, kontrola biletow. Zarezerwuj czas na zejscie z walizka i dojazd na dworzec'},
+{t:'09:00–10:00',d:'Dojscie na dworzec w Zadarze i zapas przed kursem'},
+{t:'10:00–13:30',d:'Autobus Zadar → Split (zwykle 2–3h jazdy, od drzwi do drzwi 3–4,5h). Arriva: arriva.com.hr'},
+{t:'13:30–14:30',d:'Zostaw walizke w noclegu i lunch',r:{n:'Bakra – Steak & Pizza Bar',d:'Pizza Lucac / cevapi | Majstora Radovana 2 | 15–35 EUR/os | 4.5 | 5287 ocen'}},
+{t:'14:30–17:00',d:'Zameldowanie i odpoczynek. Sug zamkniety w niedziele (sprawdzono 25.09.2026)'},
+{t:'17:00–18:00',d:'Wschodnia Riva → Brama Brazowa → podziemia (centralne przejscie) → Perystyl. Platne sale podziemi zostaja na dzien 7'},
+{t:'18:00–18:45',d:'Vestibul → uliczki palacu → Zlota Brama → posag Grzegorza z Ninu → parkowa zielen'},
+{t:'18:45–19:45',d:'Pjaca → cevapi na kolacje',r:{n:'Kantun Paulina',d:'Cevapi w lepinji z cebula | Matosica 1 | 5–10 EUR/os | 4.6 | 4503 ocen | mala kolejka'}},
+{t:'19:45–21:00',d:'Prokurative → zachodnia Riva — kawa lub siedzenie nad woda. Opcja: Marvlvs Library Jazz Bar (Papaliceva 4) na piwo w klimacie palacu'}],
+w:'Podziemia 60–90 min na deszcz. Wnetrza maja osobny dzien.',
+sp:'Transfer, lunch, odpoczynek. Wieczorem tylko Riva + Perystyl bez polnocnej petli.'},
 
-{id:6,c:'split',dt:'Poniedzialek, 7 czerwca',t:'Omis albo Park Narodowy Krka',s:'Mirabela i Cetina lub wodospady',i:[
-{t:'07:30 - 08:15',d:'Sniadanie, plecak, buty z przyczepnoscia'},
-{t:'08:15 - 10:00',d:'Autobus do Omisa (linia 60, 60-90 min)'},
-{t:'10:00 - 11:15',d:'Starowka, kosciol sw. Michala, Mirabela'},
-{t:'12:00 - 13:00',d:'Obiad',r:{n:'Restaurant Libero',d:'Soparnik (UNESCO!) | 15-30 EUR/os | 4.5'}},
-{t:'13:00 - 15:00',d:'Nabrzeze Cetiny — rejs lub widok + Velika plaza'},
-{t:'16:00 - 18:00',d:'Powrot do Splitu'},
-{t:'19:30 - 20:30',d:'Kolacja',r:{n:'Sug Restaurant',d:'Wedzone risotto | zamkn. niedziela | rez. stolik | 4.7'}}],w:'Deszcz: podziemia, katedra + Bacvice.'},
+{id:6,c:'split',dt:'Poniedzialek, 7 czerwca',t:'Omis, Mirabela i Cetina albo Krka',s:'Twierdza nad kanionie lub wodospady Skradinskiego buka',i:[
+{t:'07:30–08:15',d:'Sniadanie w hotelu/piekarni. Plecak: woda, nakrycie glowy, buty z przyczepnoscia'},
+{t:'08:15–10:00',d:'Autobus linia 60 do Omisa (60–90 min). Sprawdz przystanek wg hotelu, nie jedz na koniec linii'},
+{t:'10:00–11:15',d:'Starowka → kosciol sw. Michala → Mirabela. Z gory: dachy, ujscie Cetiny, morze. Strome schody, waskie wejscie'},
+{t:'11:15–12:00',d:'Spacer uliczkami, kawa. Dom Szczesliwego Czlowieka — fasada po drodze, nie osobna trasa'},
+{t:'12:00–13:00',d:'Obiad w Omisu',r:{n:'Restaurant Libero',d:'Soparnik (UNESCO! placek z mangoldem) | rastika z boczkiem | Knezova Kacica 29 | 15–30 EUR/os | 4.5'}},
+{t:'13:00–15:00',d:'Nabrzeze Cetiny — spokojny rejs tylko z ustalona godzina i powrotem. Albo Velika plaza na odpoczynek'},
+{t:'16:00–18:00',d:'Powrot do Splitu autobusem (zapisz 2 mozliwe kursy powrotne!)'},
+{t:'18:00–19:30',d:'Odpoczynek i prysznic'},
+{t:'19:30–20:30',d:'Kolacja — to jedyny wieczor na Sug (zamkniety w niedziele!)',r:{n:'Sug Restaurant',d:'Wedzone risotto | Tolstojeva 1a | rezerwuj stolik! | 4.7 | 3156 ocen | moze przekroczyc 25 EUR'}}],
+w:'Deszcz: podziemia / katedra rano + Bacvice / Ovcice popoludniu.',
+sp:'Plaża w Splicie: Bacvice → Ovcice → Bakra (pizza) → odpoczynek. Bez wyjazdu.',
+alt:'ALT: Park Narodowy Krka — Skradinski buk, mlyny, lodz do Skradina, lunch (skradinski rizot). Ok. 130–150 EUR/2 os. z biletem. Zamiast Omisa.'},
 
-{id:7,c:'split',dt:'Wtorek, 8 czerwca',t:'Palac, Varos i Vidilica',s:'Katedra rano, panorama Splitu wieczorem',i:[
-{t:'08:00 - 08:45',d:'Targ Pazar — czeresnie, figi, prsut, paski sir!'},
-{t:'09:00 - 10:15',d:'Katedra sw. Dujma — drzwi, wnetrze'},
-{t:'10:15 - 10:45',d:'Swiatynia Jowisza — kasetonowe sklepienie'},
-{t:'10:45 - 11:45',d:'Vestibul, podziemia palacu, Riva'},
-{t:'12:15 - 13:15',d:'Lunch',r:{n:'Villa Spiza',d:'Kuchnia dnia | cielecina / watrobka | 20-40 EUR/os | 4.7'}},
-{t:'13:15 - 17:00',d:'Prokurative, potem odpoczynek'},
-{t:'17:00 - 18:30',d:'Varos, Senjska, Vidilica — panorama!'},
-{t:'19:15 - 20:15',d:'Kolacja — Konoba Varos lub Kantun Paulina'},
-{t:'20:15 - 21:00',d:'Pakowanie — jutro Brela'}],w:'Katedra i podziemia na deszcz.'},
+{id:7,c:'split',dt:'Wtorek, 8 czerwca',t:'Palac rano, Varos i Vidilica wieczorem',s:'Katedra, podziemia, zachodnia starowka i panorama Splitu',i:[
+{t:'08:00–08:45',d:'Sniadanie + targ Pazar! W czerwcu: czeresnie, figi, prsut dalmatinski na wage, paski sir, oliwki, oliwa z oliwek'},
+{t:'09:00–10:15',d:'Katedra sw. Dujma — drewniane drzwi, wnetrze, zderzenie antycznej bryly z pozniejsza architektura. Dzwonnica opcjonalna (dodatkowe schody)'},
+{t:'10:15–10:45',d:'Swiatynia Jowisza / baptysterium — kasetonowe sklepienie. Bilet czesto w pakiecie z katedra'},
+{t:'10:45–11:45',d:'Vestibul (kupola) → platne podziemia palacu (45–60 min, konstrukcja Dioklecjana) → wyjscie na Rive'},
+{t:'11:45–12:15',d:'Riva na zachod → Vocni trg (zegar z 24-godzinna tarcza przy Bramie Zelaznej) → Pjaca'},
+{t:'12:15–13:15',d:'Lunch — kuchnia dnia, zmienna karta',r:{n:'Villa Spiza',d:'Cielecina / watrobka cieleca z dnia | makaron | Petra Kruzica 3 | 20–40 EUR/os | 4.7 | 2247 ocen | kolejki mozliwe'}},
+{t:'13:15–13:45',d:'Marmontova → Prokurative — zachodni odcinek starowki, prowadzacy ku Varosowi'},
+{t:'13:45–17:00',d:'Odpoczynek w noclegu'},
+{t:'17:00–18:30',d:'Dolny Varos → ulica Senjska → schody na Vidilice — panorama starowki, dzwonnicy i portu w poznym swietle'},
+{t:'18:30–19:15',d:'Zejscie do Varosu ta sama droga'},
+{t:'19:15–20:15',d:'Kolacja',r:{n:'Konoba Varos',d:'Cielecina z ziemniakami / gulasz z gnocchi (marenda do 17:00) | ban Mladenova 7 | 20–40 EUR/os | 4.2 | albo Kantun Paulina'}},
+{t:'20:15–21:00',d:'Prowiant, pakowanie, sprawdzenie autobusu i przystanku w Breli. Jutro zmiana bazy!'}],
+w:'Katedra i podziemia na deszcz — rano pod dachem, reszta po poprawie.',
+sp:'Perystyl + katedra, lunch, odpoczynek, Vidilica wieczorem. Bez dzwonnicy, baptysterium i dalszego Marjanu.'},
 
-{id:8,c:'brela',dt:'Sroda, 9 czerwca',t:'Split do Breli — Soline',s:'Transfer i pierwsza plaza wieczorem',i:[
-{t:'08:00 - 09:00',d:'Sniadanie i pakowanie'},
-{t:'09:00 - 13:00',d:'Autobus do Breli (przystanek D8!)'},
-{t:'13:00 - 14:00',d:'Obiad',r:{n:'Konoba Feral',d:'Kalmary / osmiornica z grilla | port Breli | 20-45 EUR/os | 4.7'}},
-{t:'14:00 - 17:00',d:'Zameldowanie, odpoczynek'},
-{t:'17:00 - 18:30',d:'Plaza Soline — kapiel + panorama Biokova'},
-{t:'18:30 - 19:30',d:'Kolacja — Berulia lub Palma'}],w:'Transfer + obiad + odpoczynek.'},
+// ===== BRELA =====
+{id:8,c:'brela',dt:'Sroda, 9 czerwca',t:'Split → Brela — pierwsza plaza',s:'Transfer i Soline wieczorem',i:[
+{t:'08:00–09:00',d:'Sniadanie i pakowanie. Sprawdz bilet, przystanek wysiadania i kontakt do gospodarza'},
+{t:'09:00–13:00',d:'Wymeldowanie, dworzec, autobus do Breli. Przystanek przy D8 — popros nocleg o odbior albo zamow taxi z walizka!'},
+{t:'13:00–14:00',d:'Obiad po zostawieniu bagazu',r:{n:'Konoba Feral',d:'Kalmary / osmiornica z grilla | Obala Kneza Domagoja 30 | port Breli | 20–45 EUR/os | 4.7 | 1873 ocen'}},
+{t:'14:00–17:00',d:'Zameldowanie i odpoczynek. Zakupy wody i sniadania na jutro przy jednym krotkim wyjsciu'},
+{t:'17:00–18:30',d:'Plaza Soline — pierwsza kapiel! Szeroka, wygodna plaza w centralnej czesci Breli. Panorama Biokova z plazy'},
+{t:'18:30–19:30',d:'Kolacja przy porcie — Konoba Berulia (mieso/dania dnia) lub Palma (pizza/grill)'},
+{t:'19:30–20:30',d:'Promenada przy porcie — lodzie, maszty i Biokovo w jednym kadrze. Powrot'}],
+w:'Transfer + obiad + odpoczynek. Spacer dopiero w przerwie opadow.',
+sp:'Transfer, obiad, zameldowanie. Bez obowiazkowej plazy — port wieczorem jesli energia.'},
 
-{id:9,c:'brela',dt:'Czwartek, 10 czerwca',t:'Punta Rata, Kamen, Podrace',s:'Najpiekniejsze plaze Chorwacji — lokalne!',i:[
-{t:'08:00 - 09:00',d:'Sniadanie, plecak: woda, krem, recznik'},
-{t:'09:00 - 09:30',d:'Spacer promenada do Punta Rata'},
-{t:'09:30 - 11:30',d:'Punta Rata — cypel z sosnami, turkus'},
-{t:'11:30 - 12:15',d:'Kamen Brela — skalka z sosna'},
-{t:'12:15 - 13:00',d:'Podrace — spokojna zatoczka'},
-{t:'13:00 - 14:00',d:'Powrot + obiad w Feralu',r:{n:'Konoba Feral',d:'Port Breli | kalmary z grilla | 4.7'}},
-{t:'15:00 - 18:00',d:'Odpoczynek'},
-{t:'18:30 - 19:30',d:'Kolacja — Berulia lub Palma'}],w:'Deszcz: przeniesc na dzien 12 lub 13.'},
+{id:9,c:'brela',dt:'Czwartek, 10 czerwca',t:'Punta Rata, Kamen Brela, Podrace',s:'Najpiekniejsze plaze Chorwacji — wszystkie lokalne!',i:[
+{t:'08:00–09:00',d:'Sniadanie w noclegu lub kawiarni. Plecak: woda, krem SPF 30+, recznik, przekaska'},
+{t:'09:00–09:30',d:'Spacer promenada na polnocny-zachod w strone Punta Rata. Przy porcie miniesz lodzie — nie zatrzymuj sie na kawe, plaza czeka'},
+{t:'09:30–11:30',d:'Punta Rata — najslynniejsza plaza Riwiery Makarskiej. Cypel z sosnami i turkusowa woda. Wybierz jedno miejsce na kapiel i cien'},
+{t:'11:30–12:15',d:'Kamen Brela — charakterystyczna skalka z sosna. Obejrzyj z promenady. Jeden z najbardziej rozpoznawalnych kadrow Chorwacji'},
+{t:'12:15–13:00',d:'Podrace — spokojna zatoczka, najdalszy punkt dzisiejszej trasy'},
+{t:'13:00–14:00',d:'Powrot promenada do portu i obiad',r:{n:'Konoba Feral',d:'Kalmary z grilla / osmiornica | port Breli | 4.7 | sprawdz cene — moze przekroczyc budzet'}},
+{t:'14:00–15:00',d:'Spacer do noclegu'},
+{t:'15:00–18:00',d:'Odpoczynek w noclegu'},
+{t:'18:30–19:30',d:'Kolacja — Konoba Berulia (mieso z karty) lub Palma (pizza)'},
+{t:'19:30–20:30',d:'Wolny wieczor'}],
+w:'Deszcz: przenies na dzien 12 lub 13. Najpierw skresl Podrace, potem Kamen — zostaw Punta Rata.',
+sp:'Tylko Punta Rata rano (taxi lub pieszo), obiad, odpoczynek. Kamen i Podrace na inny dzien.'},
 
-{id:10,c:'brela',dt:'Piatek, 11 czerwca',t:'Makarska — starowka',s:'Sveti Petar, port i Kalalarga',i:[
-{t:'08:00 - 09:00',d:'Sniadanie + sprawdz autobus'},
-{t:'09:00 - 10:00',d:'Dojazd do Makarskiej (bus / taxi 15-25 EUR)'},
-{t:'10:00 - 11:00',d:'Sveti Petar — petla i panorama'},
-{t:'11:00 - 11:40',d:'Port, Riva, klasztor'},
-{t:'12:20 - 13:00',d:'Plac Kacica, kosciol, Kalalarga'},
-{t:'13:00 - 14:00',d:'Obiad — Gastro Diva lub Papar Grill'},
-{t:'14:00 - 16:30',d:'Powrot + odpoczynek'},
-{t:'19:00 - 20:30',d:'Kolacja w Breli, przygotowanie na Mostar'}],w:'Lokalna plaza w Breli.'},
+{id:10,c:'brela',dt:'Piatek, 11 czerwca',t:'Makarska — starowka i Sveti Petar',s:'Polwysep, port, plac Kacica i Kalalarga',i:[
+{t:'08:00–09:00',d:'Sniadanie. Dzien wczesniej sprawdz kursy w obie strony (Arriva) i bilety dla 2 osob'},
+{t:'09:00–10:00',d:'Dojazd do Makarskiej — autobus lub taxi (ok. 15–25 EUR, 12 km). Nie zakladaj ze kazdy autobus obsługuje ten krotki odcinek'},
+{t:'10:00–11:00',d:'Sveti Petar — krotka petla dostepna sciezka, panorama portu pod Biokovem, latarnia z zewnatrz'},
+{t:'11:00–11:40',d:'Port i Riva w strone Marineta i klasztoru franciszkanow. Zdjecie lodzi i krotka kawa'},
+{t:'11:40–12:20',d:'Opcjonalne muzeum muszli — tylko jesli potwierdzone otwarcie'},
+{t:'12:20–13:00',d:'Plac Kacica, fasada kosciola sw. Marka, uliczki w kierunku Kalalargi'},
+{t:'13:00–14:00',d:'Obiad — Gastro Diva (pasticada) lub Papar Grill (cevapi / pljeskavica)'},
+{t:'14:00–16:30',d:'Powrot do Breli + odpoczynek'},
+{t:'19:00–20:00',d:'Kolacja w Breli — Berulia lub Feral'},
+{t:'20:00–20:30',d:'Jesli Mostar potwierdzony na jutro: przygotuj dokumenty, odbior, wode i sniadanie'}],
+w:'Deszcz: lokalna plaza w Breli zamiast wyjazdu. Ten dzien ma zostawic energie na jutro.',
+sp:'Bez wyjazdu. Soline lub Punta Rata rano, obiad, odpoczynek, kolacja.'},
 
-{id:11,c:'brela',dt:'Sobota, 12 czerwca',t:'Mostar — Stari Most',s:'Wycieczka calodniowa z granica',i:[
-{t:'07:00 - 08:00',d:'Sniadanie + odbior. Dokument podrozy!'},
-{t:'08:00 - 11:00',d:'Przejazd z granica (~3h)'},
-{t:'11:00 - 11:40',d:'Meczet Koski Mehmed-paszy'},
-{t:'11:40 - 12:30',d:'Kujundziluk (bazar), Stari Most (UNESCO)'},
-{t:'12:30 - 13:30',d:'Obiad',r:{n:'Tima-Irma',d:'Cevapi / pljeskavica | 15-30 KM (nie EUR!) | 4.8'}},
-{t:'13:30 - 14:15',d:'Kriva Cuprija i kawa'},
-{t:'14:15 - 15:00',d:'Zbiorka (min. 20-30 min zapasu!)'},
-{t:'15:00 - 19:00',d:'Powrot z granica'},
-{t:'19:00 - 20:00',d:'Prysznic i kolacja'}],w:'Brak wycieczki: spokojny dzien w Breli.'},
+{id:11,c:'brela',dt:'Sobota, 12 czerwca',t:'Mostar — Stari Most i stare miasto',s:'Opcjonalna wycieczka calodniowa z granica (10–12h)',i:[
+{t:'07:00–08:00',d:'Sniadanie i odbior (godzina wg wycieczki). Zabierz fizyczny dokument podrozy (paszport/dowod, nie zdjecie!), wode, czapke, buty'},
+{t:'08:00–11:00',d:'Przejazd z granica — orientacyjny zapas, nie gwarancja 3h. Kolejka graniczna moze byc dluzsza'},
+{t:'11:00–11:40',d:'Okolice meczetu Koski Mehmed-paszy — zabudowa od ulicy. Minaret tylko wg dostepnosci, nie uzalezniaj spaceru'},
+{t:'11:40–12:30',d:'Kujundziluk (bazarowa uliczka) → Stari Most (UNESCO) — przejdz na zachodni brzeg. Nie wracaj kilka razy na obie strony'},
+{t:'12:30–13:30',d:'Obiad po zachodniej stronie mostu',r:{n:'Tima-Irma',d:'Cevapi / pljeskavica | Onescukova bb | 15–30 KM (nie euro!) | 4.8 | 3774 ocen | ALT: Sadrvan (National Plate) 4.5'}},
+{t:'13:30–14:15',d:'Kriva Cuprija (maly most) i kawa — spokojny koncowy fragment po zachodniej stronie rzeki'},
+{t:'14:15–15:00',d:'Ostatni kadr i powrot na zbiorke. Min. 20–30 min zapasu na dojscie!'},
+{t:'15:00–19:00',d:'Przejazd powrotny z granica. Bez sztywnej rezerwacji na wczesny wieczor'},
+{t:'19:00–20:00',d:'Prysznic i prosta kolacja blisko noclegu'}],
+w:'Niekorzystna pogoda: przenies wyjazd (uzgodnij z operatorem). Spokojny dzien w Breli.',
+sp:'Bez Mostaru: Soline lub Podluka rano, obiad, dlugi odpoczynek, kawa przy promenadzie, kolacja.',
+note:'Przed granica: pobierz mape offline, sprawdz taryfe roamingowa (BiH to nie UE!). Waznosc dokumentu min. 3 miesiace po pobycie.'},
 
-{id:12,c:'brela',dt:'Niedziela, 13 czerwca',t:'Baska Voda spacerem',s:'Promenada wzdluz wybrzeza',i:[
-{t:'08:30 - 09:30',d:'Sniadanie + prowiant (niedziela!)'},
-{t:'09:30 - 10:30',d:'Spacer: Stomarica, Ikovac'},
-{t:'10:30 - 11:30',d:'Podluka, Baska Voda'},
-{t:'11:30 - 12:30',d:'Port, Nikolina — kapiel'},
-{t:'12:30 - 13:30',d:'Obiad w Basce — Palac lub Dalmatino'},
-{t:'13:30 - 15:00',d:'Powrot (taxi jesli zmeczeni)'},
-{t:'15:00 - 18:00',d:'Odpoczynek'},
-{t:'18:00 - 19:00',d:'Kolacja w Breli'}],w:'Odpoczynek + spacer po przerwie w opadach.'},
+{id:12,c:'brela',dt:'Niedziela, 13 czerwca',t:'Baska Voda wzdluz wybrzeza',s:'Promenada, Ikovac, port i Nikolina',i:[
+{t:'08:30–09:30',d:'Sniadanie i prowiant. Sprawdz energie po Mostarze. Na niedziele kup wode i przekaski wczesniej'},
+{t:'09:30–10:30',d:'Spacer promenada na pd-wsch: Stomarica → Ikovac. Zatrzymaj sie przy plazy ktora Ci sie spodoba'},
+{t:'10:30–11:30',d:'Podluka (granica Breli/Baski) → dalej do Baski Vody'},
+{t:'11:30–12:30',d:'Baska Voda — port i Nikolina. Lodzie, panorama Biokova. Kapiel na Nikolinie'},
+{t:'12:30–13:30',d:'Obiad w Basce Vodzie',r:{n:'Restaurant Palac',d:'Cevapi | Obala Sv. Nikole 27 | 15–30 EUR/os | 4.6 | ALT: Dalmatino — pizza / grill | 4.6 | 1986 ocen'}},
+{t:'13:30–15:00',d:'Powrot promenada do Breli. Jesli zmeczeni — taxi z przystanku przy D8'},
+{t:'15:00–18:00',d:'Odpoczynek — po krotszym wariancie mozna zaczac go wczesniej'},
+{t:'18:00–19:00',d:'Kolacja w Breli — Feral lub Berulia'}],
+w:'Deszcz: odpoczynek + spacer po przerwie. Baska Voda pierwsza do skreslenia.',
+sp:'Bez wyjscia do Baski. Stomarica lub Soline, obiad, odpoczynek.'},
 
-{id:13,c:'brela',dt:'Poniedzialek, 14 czerwca',t:'Ulubiona plaza i odpoczynek',s:'Ostatni dzien w Breli — pakowanie',i:[
-{t:'09:00 - 10:00',d:'Spokojne sniadanie'},
-{t:'10:00 - 12:30',d:'Ulubiona plaza'},
-{t:'12:30 - 13:30',d:'Obiad — Feral, Berulia lub Palma'},
-{t:'13:30 - 17:00',d:'Wolne popoludnie — ksiazka, drzemka'},
-{t:'17:00 - 18:00',d:'Pakowanie + sprawdz autobus na jutro'},
-{t:'18:00 - 19:00',d:'Ostatnia kolacja'},
-{t:'19:00 - 20:00',d:'Promenada i powrot'}],w:'Kawa, obiad, pakowanie, kolacja.'},
+{id:13,c:'brela',dt:'Poniedzialek, 14 czerwca',t:'Ulubiona plaza i wolne popoludnie',s:'Ostatni dzien w Breli — odpoczynek i pakowanie',i:[
+{t:'09:00–10:00',d:'Spokojne sniadanie. Wybierz jedna plaze: Punta Rata / Soline / Stomarica'},
+{t:'10:00–12:30',d:'Kapiel i odpoczynek. Bez dodatkowego celu po drodze'},
+{t:'12:30–13:30',d:'Obiad — Feral (port), Berulia (centrum) lub Palma (pizza). Wybierz lokal na drodze do noclegu'},
+{t:'13:30–17:00',d:'Naprawde wolne popoludnie. Prysznic, ksiazka, drzemka. Zadnej atrakcji w tym bloku'},
+{t:'17:00–18:00',d:'Pakowanie i sprawdzenie jutrzejszego przejazdu. Potwierdz wymeldowanie, odbior z walizka na przystanek i zapas do autobusu'},
+{t:'18:00–19:00',d:'Ostatnia kolacja. Powtorz sprawdzony lokal. Taverna Modric na lepsza kolacje (sprawdz cene i stolik)'},
+{t:'19:00–20:00',d:'Krotka promenada — ostatni kadr z portu przy innym swietle. Powrot'}],
+w:'Kawa, obiad, pakowanie, kolacja. Odpuszczamy plaze.',
+sp:'Bez plazy: pakowanie, obiad, odpoczynek, kolacja.'},
 
-{id:14,c:'dubrovnik',dt:'Wtorek, 15 czerwca',t:'Brela do Dubrownika — Stradun',s:'Transfer i wieczorna starowka',i:[
-{t:'08:00 - 09:00',d:'Sniadanie, wymeldowanie'},
-{t:'09:00 - 10:00',d:'Przystanek D8 (odbior z walizka!)'},
-{t:'10:00 - 14:30',d:'Autobus (4.5-6.5h)'},
-{t:'14:30 - 17:30',d:'Hotel, odpoczynek'},
-{t:'17:30 - 18:15',d:'Dojazd do Pile'},
-{t:'18:15 - 19:15',d:'Onofrio, Stradun, Luza, stary port'},
-{t:'19:40 - 20:45',d:'Kolacja',r:{n:'Republic Burger House',d:'Burger wolowy | 15-20 EUR/os | 4.8'}},
-{t:'20:45 - 21:30',d:'Pile, powrot do hotelu'}],w:'Stradun po poprawie pogody.'},
+// ===== DUBROWNIK =====
+{id:14,c:'dubrovnik',dt:'Wtorek, 15 czerwca',t:'Brela → Dubrownik — wieczorna starowka',s:'Transfer, Stradun i port po zachodzie slonca',i:[
+{t:'08:00–09:00',d:'Sniadanie i wymeldowanie. Prowiant na droge'},
+{t:'09:00–10:00',d:'Dojazd na przystanek przy D8 — uzgodnij odbior z walizka do przystanku. Kurs bezposredni lub przesiadka w Makarskiej z zapasem'},
+{t:'10:00–14:30',d:'Autobus do Dubrownika (4,5–6,5h od drzwi do drzwi). Arriva / FlixBus'},
+{t:'14:30–15:30',d:'Z dworca Gruz do hotelu (Lapad/Gruz/Babin Kuk). Zameldowanie bez zwiedzania z bagažem'},
+{t:'15:30–17:30',d:'Prysznic, posilek i odpoczynek. Zamagna na pizze jesli hotel przy Lapadzie',r:{n:'Zamagna Pizza and Bar',d:'Pizza z prsut i burrata 22 EUR | Lapadska obala 8 | poza starowka | 4.6'}},
+{t:'17:30–18:15',d:'Jeden dojazd do Pile. Nie ustalaj sztywnej rezerwacji na godzine, ktorej przejazd moze nie dotrzymac'},
+{t:'18:15–19:15',d:'Fontanna Onufrego → Stradun → Luza (Sponza, wieza zegarowa, sw. Blazej z zewnatrz) → stary port'},
+{t:'19:15–19:40',d:'Port i katedra z zewnatrz. Od portu wracaj zachodem przez Od Puca — kolacja lezy na drodze do Pile'},
+{t:'19:40–20:45',d:'Kolacja',r:{n:'Republic Burger House',d:'Burger wolowy Smokehouse / Republic | Siroka 4 | 15–20 EUR/os | 4.8 | 3197 ocen | sprawdz doplate za obsluge'}},
+{t:'20:45–21:30',d:'Pile → powrot do hotelu. Ostatnie zdjecie oswietlonego Stradunu po drodze'}],
+w:'Port i Stradun po poprawie pogody. Nie zastepuj go mokrymi schodami na Lovrijenac.',
+sp:'Transfer, posilek, odpoczynek. Wieczorem tylko Riva przy Pile → Stradun → Luza → Pile. Ok. 1–1,5 km.'},
 
-{id:15,c:'dubrovnik',dt:'Sroda, 16 czerwca',t:'Mury miejskie — 1940 m',s:'Poranny obchod i zachodnie zatoki',i:[
-{t:'06:30 - 07:00',d:'Sniadanie, woda, czapka, buty!'},
-{t:'07:00 - 07:45',d:'Dojazd do Pile'},
-{t:'08:00 - 10:30',d:'Pelna petla murow'},
-{t:'10:30 - 12:00',d:'Brunch po murach',r:{n:'Dubravka 1836',d:'Widok na Lovrijenac | lasagne / kurczak | 4.6 | 9078 ocen'}},
-{t:'12:00 - 14:00',d:'Zachodnia zatoka, Gradac lub Sulic'},
-{t:'14:00 - 18:00',d:'Powrot + odpoczynek'},
-{t:'18:00 - 19:30',d:'Kolacja przy hotelu'}],w:'Przeloz na dzien 16. Palac Rektorow zamiast murow.'},
+{id:15,c:'dubrovnik',dt:'Sroda, 16 czerwca',t:'Mury miejskie — 1940 m',s:'Poranny obchod, Dubravka i zachodnie zatoki',i:[
+{t:'06:30–07:00',d:'Sniadanie, woda (duzo!), nakrycie glowy, krem SPF, wygodne buty. Jesli hotel nie podaje tak wczesnie — pakiet z poprzedniego dnia'},
+{t:'07:00–07:45',d:'Dojazd do Pile. Z dalszego hotelu ruszaj wczesniej'},
+{t:'07:45–08:00',d:'Bilet / Dubrovnik Pass i oczekiwanie. Badz 15–20 min przed otwarciem. Lovrijenac w cenie biletu murow'},
+{t:'08:00–10:30',d:'Pelna petla murow — kierunek przeciwnie do zegara: Bokar → morze → sw. Jan → port → Minceta. Jeden obchod, bez ponownego wejscia!'},
+{t:'10:30–12:00',d:'Dluga przerwa i brunch po murach',r:{n:'Dubravka 1836',d:'Widok na Lovrijenac | lasagne / kurczak z gnocchi / jajka z boczkiem | Brsalje 1 | 15–45 EUR/os | 4.6 | 9078 ocen'}},
+{t:'12:00–12:30',d:'Brsalje i zachodnia zatoka — widok murow z dolu. Lovrijenac opcjonalnie (45–60 min, kolejne schody) — po murach mozna pominac'},
+{t:'12:30–14:00',d:'Gradac (park, cien, odpoczynek) albo Sulic (mala plaza, schody) — wybierz jedno'},
+{t:'14:00–15:00',d:'Powrot przez Pile do hotelu'},
+{t:'15:00–18:00',d:'Pelny odpoczynek — bez drugiego wyjazdu na starowke tego wieczoru'},
+{t:'18:00–19:30',d:'Kolacja przy noclegu. Zamagna przy Lapadzie/Gruzu'}],
+w:'Deszcz: przeloz mury na dzien 16. Palac Rektorow (Muzea Dubrownika) zamiast murow.',
+sp:'Bez murow: Pile → Brsalje → zachodnia zatoka → Gradac lub Sulic → Dubravka → hotel. Ok. 2–3 km.'},
 
-{id:16,c:'dubrovnik',dt:'Czwartek, 17 czerwca',t:'Lokrum i pozegnalne wino',s:'Wyspa, ogrody, Mrtvo More, rozata',i:[
-{t:'07:15 - 09:00',d:'Sniadanie, plecak, Pile do starego portu'},
-{t:'09:00 - 10:00',d:'Rejs na Lokrum'},
-{t:'10:00 - 11:15',d:'Ogrod botaniczny, klasztor'},
-{t:'11:15 - 12:15',d:'Mrtvo More — kapiel'},
-{t:'12:15 - 13:30',d:'Prowiant w cieniu'},
-{t:'13:30 - 15:00',d:'Rejs powrotny'},
-{t:'15:00 - 15:45',d:'Katedra, schody jezuickie'},
-{t:'15:45 - 17:00',d:'Kolacja + ROZATA!',r:{n:'Taj Mahal Old Town',d:'Cevapi + kawa bosniacka + rozata! | 4.5'}},
-{t:'19:00 - 20:00',d:'Degustacja win',r:{n:'D\'vino Wine Bar',d:'Dingac + Posip + deska serow | rezerwuj! | 4.6'}},
-{t:'20:00 - 21:00',d:'Pakowanie + transfer jutro'}],w:'Brak rejsow: Palac Rektorow + apteka franciszkanow.'},
+{id:16,c:'dubrovnik',dt:'Czwartek, 17 czerwca',t:'Lokrum i pozegnalne wino',s:'Wyspa, ogrody botaniczne, Mrtvo More, rozata i degustacja win',i:[
+{t:'07:15–08:00',d:'Sniadanie + plecak: woda, prowiant na obiad, recznik, stroj, suche ubranie na pozniejszy posilek'},
+{t:'08:00–09:00',d:'Dojazd do Pile → przejscie bez zwiedzania prosto do starego portu'},
+{t:'09:00–10:00',d:'Bilet (30 EUR/os = rejs + wejscie) i rejs wg rozkładu. Ustal powrot ok. 14–15 i pozniejszy zapasowy'},
+{t:'10:00–11:15',d:'Portoc → ogrod botaniczny → klasztor i ogrody — zwarty poludniowy fragment wyspy. Nie zaczynaj od wspinania sie na Fort Royal'},
+{t:'11:15–12:15',d:'Mrtvo More — slony zbiornik polaczony z morzem, kapiel jesli warunki pozwalaja'},
+{t:'12:15–13:30',d:'Prowiant z plecaka w cieniu. Dluzsza przerwa, nie obiad w restauracji na wyspie'},
+{t:'13:30–15:00',d:'Powrot do Portoc, rejs powrotny. Nie zostawiaj powrotu na ostatnia lodz!'},
+{t:'15:00–15:45',d:'Katedra (wnetrze poza nabozenstwem) → Gundulicev poljana → schody jezuickie (widok od dolu). Klasztor franciszkanow przy Pile — trzecia najstarsza apteka Europy (od 1317)'},
+{t:'15:45–17:00',d:'Pozny obiad / wczesna kolacja — i ROZATA na deser!',r:{n:'Taj Mahal Old Town',d:'Cevapi w lepinji + kawa po bosniacku + ROZATA | Nikole Gucetica 2 | 4.5 | 5732 ocen | ALT: Republic dalej na zachod'}},
+{t:'17:00–18:00',d:'Od Puca → Pile → hotel, bez ponownego dojazdu do starego miasta'},
+{t:'18:00–19:00',d:'Prysznic i odpoczynek'},
+{t:'19:00–20:00',d:'Degustacja chorwackich win — najlepsze doswiadczenie winiarskie calej podrozy',r:{n:'D\'vino Wine Bar',d:'Dingac + Posip + Grk + deska serow | Palmoticeva 4a | 10–35 EUR/os | 4.6 | 833 ocen | REZERWUJ stolik!'}},
+{t:'20:00–21:00',d:'Pakowanie, dokumenty, sprawdzenie transferu lotniskowego na jutro'}],
+w:'Brak rejsow: Palac Rektorow (Muzea Dubrownika) + apteka franciszkanow przy Pile. Banje plaza jesli spokojne morze.',
+sp:'Bez Lokrum: Stradun → port → katedra → schody → lunch → Pile. D\'vino wieczorem. Ok. 2–3 km.'},
 
 {id:17,c:'dubrovnik',dt:'Piatek, 18 czerwca',t:'Powrot do Poznania',s:'Lotnisko DBV i lot do domu',i:[
-{t:'T-5h',d:'Sniadanie, dokumenty, walizka, status lotu'},
-{t:'T-4.5h',d:'Wyjazd z hotelu'},
-{t:'T-3h',d:'Przyjazd DBV, nadanie walizki'},
-{t:'T-2h',d:'Posilek i oczekiwanie'},
-{t:'T-1h',d:'Bramka'},
+{t:'T−5h',d:'Sniadanie, dokumenty, zamkniecie walizki, kontrola statusu lotu. Przy poznym wylocie odbierz bagaz z przechowania'},
+{t:'T−4,5h',d:'Wyjazd z hotelu. Autobus lotniskowy Platanus: Gruz → Grawe → Cable Car → DBV (10 EUR/os). Pile NIE jest przystankiem!'},
+{t:'T−3h',d:'Przyjazd na DBV, nadanie wspolnej walizki 20 kg, kontrola bezpieczenstwa'},
+{t:'T−2h',d:'Posilek, toaleta, spokojne oczekiwanie. Obserwuj tablice'},
+{t:'T−1h',d:'Sprawdzenie bramki i podejscie wg terminu linii'},
 {t:'T',d:'Lot do Poznania'},
-{t:'Ladowanie',d:'Walizka i powrot do domu'}],w:'Wiekszy zapas przy korku.'},
+{t:'Po przylocie',d:'Odbior walizki i powrot do domu'}],
+w:'Ten sam plan niezaleznie od pogody. Wiekszy zapas na droge przy korku.',
+sp:'Identyczny plan — bez zwiedzania.'},
 ];
 
-const META={
-zadar:{name:'Zadar',sub:'Zachody slonca, starowka i wyspy',dates:'2-6 czerwca | 4 noce | dni 1-4'},
-split:{name:'Split',sub:'Palac Dioklecjana i dalmatynskie zycie',dates:'6-9 czerwca | 3 noce | dni 5-7'},
-brela:{name:'Brela',sub:'Najpiekniejsze plaze Riwiery Makarskiej',dates:'9-15 czerwca | 6 nocy | dni 8-13'},
-dubrovnik:{name:'Dubrownik',sub:'Mury, Lokrum i pozegnanie z Adriatykiem',dates:'15-18 czerwca | 3 noce | dni 14-17'},
+const M={
+zadar:{n:'Zadar',sub:'Zachody slonca, starowka i wyspy',dt:'2–6 czerwca | 4 noce | dni 1–4'},
+split:{n:'Split',sub:'Palac Dioklecjana i dalmatynskie zycie',dt:'6–9 czerwca | 3 noce | dni 5–7'},
+brela:{n:'Brela',sub:'Najpiekniejsze plaze Riwiery Makarskiej',dt:'9–15 czerwca | 6 nocy | dni 8–13'},
+dubrovnik:{n:'Dubrownik',sub:'Mury, Lokrum i pozegnanie z Adriatykiem',dt:'15–18 czerwca | 3 noce | dni 14–17'},
 };
 
+// === STATE ===
 function gc(id){const r=localStorage.getItem('cro_'+id);if(!r)return new Array(D.find(d=>d.id===id).i.length).fill(false);return JSON.parse(r)}
 
+// === RENDER (only once on load) ===
 function render(){
-  for(const[c,m]of Object.entries(META)){
+  for(const[c,m]of Object.entries(M)){
     const sec=document.getElementById('s-'+c),days=D.filter(d=>d.c===c);
-    let h=`<div class="city-intro"><div class="ci-label ${c}">${m.name}</div><h2>${m.sub}</h2><p class="ci-meta">${m.dates}</p></div>`;
+    let h=`<div class="ci"><div class="cl ${c}">${m.n}</div><h2>${m.sub}</h2><p class="cm">${m.dt}</p></div>`;
     for(const day of days){
       const ch=gc(day.id),dn=ch.filter(Boolean).length,tot=day.i.length,ok=dn===tot&&tot>0;
-      h+=`<div class="day-card${ok?' done':''}" id="d${day.id}">`;
-      h+=`<div class="day-hdr" onclick="td(${day.id})"><div class="day-dot ${c}">${day.id}</div>`;
-      h+=`<div class="day-hdr-info"><div class="day-hdr-date">${day.dt}</div><div class="day-hdr-title">${day.t}</div><div class="day-hdr-sub">${day.s}</div></div>`;
-      h+=`<div class="day-hdr-right"><span class="day-hdr-pct">${dn}/${tot}</span><span class="day-hdr-arrow">›</span></div></div>`;
-      h+=`<div class="day-body"><div class="day-inner"><div class="day-divider"></div>`;
+      h+=`<div class="dc${ok?' dn':''}" id="d${day.id}">`;
+      h+=`<div class="dh" onclick="td(${day.id})"><div class="dd ${c}">${day.id}</div>`;
+      h+=`<div class="dh-i"><div class="dh-dt">${day.dt}</div><div class="dh-t">${day.t}</div><div class="dh-s">${day.s}</div></div>`;
+      h+=`<div class="dh-r"><span class="dh-p" id="p${day.id}">${dn}/${tot}</span><span class="dh-a">›</span></div></div>`;
+      h+=`<div class="db"><div class="db-in"><div class="db-dv"></div>`;
       for(let i=0;i<day.i.length;i++){
         const it=day.i[i],on=ch[i];
-        h+=`<div class="tl-item${on?' checked':''}"><div class="tl-line"><div class="tl-check${on?' on':''}" onclick="tc(${day.id},${i},event)"></div></div>`;
-        h+=`<div class="tl-content"><div class="tl-time">${it.t}</div><div class="tl-desc">${it.d}</div>`;
-        if(it.r)h+=`<div class="resto-card"><span class="rc-icon">🍽</span><div><div class="rc-name">${it.r.n}</div><div class="rc-desc">${it.r.d}</div></div></div>`;
+        h+=`<div class="ti${on?' ck':''}" id="ti${day.id}_${i}"><div class="tl"><div class="tc${on?' on':''}" onclick="tc(${day.id},${i},event)"></div></div>`;
+        h+=`<div class="ti-c"><div class="ti-t">${it.t}</div><div class="ti-d">${it.d}</div>`;
+        if(it.r)h+=`<div class="rc"><span class="ri">🍽</span><div><div class="rn">${it.r.n}</div><div class="rd">${it.r.d}</div></div></div>`;
         h+=`</div></div>`;
       }
-      if(day.w)h+=`<div class="weather-note"><span>🌧</span><span>${day.w}</span></div>`;
+      if(day.w)h+=`<div class="wn"><span>🌧</span><span>${day.w}</span></div>`;
+      if(day.sp)h+=`<div class="sn"><span>😌</span><span><b>Spokojniej:</b> ${day.sp}</span></div>`;
+      if(day.alt)h+=`<div class="sn"><span>🔄</span><span>${day.alt}</span></div>`;
+      if(day.note)h+=`<div class="wn"><span>⚠️</span><span>${day.note}</span></div>`;
       h+=`</div></div></div>`;
     }
     sec.innerHTML=h;
@@ -447,71 +431,111 @@ function render(){
   renderMore();up();
 }
 
-function renderMore(){
-  document.getElementById('s-more').innerHTML=`
-<div class="city-intro"><div class="ci-label" style="color:var(--txt3)">BONUS</div><h2>Jedzenie, trunki i rozmowki</h2><p class="ci-meta">Regionalne specjaly i przydatne zwroty</p></div>
-<div class="more-grid">
-<div class="more-card"><h3>Dania do sprobowania</h3>
-<div class="more-item"><span class="mi-emoji">🥩</span><div><div class="mi-name">Pasticada</div><div class="mi-desc">Duszona wolowina z gnocchi — ikona Dalmacji</div></div></div>
-<div class="more-item"><span class="mi-emoji">🐙</span><div><div class="mi-name">Peka</div><div class="mi-desc">Pod zeliwnym kloszem — zamow dzien wczesniej!</div></div></div>
-<div class="more-item"><span class="mi-emoji">🦑</span><div><div class="mi-name">Crni rizot</div><div class="mi-desc">Czarne risotto z matwa</div></div></div>
-<div class="more-item"><span class="mi-emoji">🐟</span><div><div class="mi-name">Brudet</div><div class="mi-desc">Gulasz rybny z polenta</div></div></div>
-<div class="more-item"><span class="mi-emoji">🥙</span><div><div class="mi-name">Soparnik</div><div class="mi-desc">Placek z mangoldem — UNESCO</div></div></div>
-<div class="more-item"><span class="mi-emoji">🍮</span><div><div class="mi-name">Rozata</div><div class="mi-desc">Dubrowniczki creme caramel</div></div></div>
-</div>
-<div class="more-card"><h3>Lokalne trunki</h3>
-<div class="more-item"><span class="mi-emoji">🍒</span><div><div class="mi-name">Maraschino</div><div class="mi-desc">Likier wisniowy z Zadaru — kup tam!</div></div></div>
-<div class="more-item"><span class="mi-emoji">🍷</span><div><div class="mi-name">Dingac</div><div class="mi-desc">Najlepsze chorwackie czerwone wino</div></div></div>
-<div class="more-item"><span class="mi-emoji">🥂</span><div><div class="mi-name">Posip</div><div class="mi-desc">Biale z Korčuli — idealne do ryb</div></div></div>
-<div class="more-item"><span class="mi-emoji">🍺</span><div><div class="mi-name">Brlog APA</div><div class="mi-desc">Craft piwo — taproom w Zadarze</div></div></div>
-<div class="more-item"><span class="mi-emoji">🫒</span><div><div class="mi-name">Travarica</div><div class="mi-desc">Rakija ziolowa — digestif</div></div></div>
-</div>
-</div>
-<div class="more-card" style="max-width:600px"><h3>Podstawowe zwroty</h3>
-<table class="phrase-tbl">
-<tr><th>PL</th><th>HR</th><th>Wymowa</th></tr>
-<tr><td>Czesc</td><td>Bok</td><td>bok</td></tr>
-<tr><td>Dzien dobry</td><td>Dobar dan</td><td>dobar dan</td></tr>
-<tr><td>Dziekuje</td><td>Hvala</td><td>chwala</td></tr>
-<tr><td>Prosze</td><td>Molim</td><td>molim</td></tr>
-<tr><td>Ile kosztuje?</td><td>Koliko kosta?</td><td>koliko koszta?</td></tr>
-<tr><td>Rachunek</td><td>Racun, molim</td><td>raczun molim</td></tr>
-<tr><td>Piwo</td><td>Jedno pivo</td><td>jedno piwo</td></tr>
-<tr><td>Kawa</td><td>Kava</td><td>kawa</td></tr>
-<tr><td>Na zdrowie!</td><td>Zivjeli!</td><td>ziwjeli!</td></tr>
-<tr><td>Smacznego!</td><td>Dobar tek!</td><td>dobar tek</td></tr>
-<tr><td>Pyszne!</td><td>Izvrsno!</td><td>izwrsno</td></tr>
-<tr><td>Gdzie jest?</td><td>Gdje je?</td><td>gdje je?</td></tr>
-<tr><td>Plaza</td><td>Plaza</td><td>plaza</td></tr>
-<tr><td>Karta?</td><td>Karticom?</td><td>karticom?</td></tr>
-<tr><td>Pomocy!</td><td>Upomoc!</td><td>upomocz!</td></tr>
-<tr><td>Alarmowy</td><td colspan="2">112</td></tr>
-</table></div>`;
+// === CHECKBOX TOGGLE — no re-render, no closing! ===
+function tc(dayId,idx,e){
+  e.stopPropagation();
+  const ch=gc(dayId);
+  ch[idx]=!ch[idx];
+  localStorage.setItem('cro_'+dayId,JSON.stringify(ch));
+
+  // Update just this item
+  const item=document.getElementById('ti'+dayId+'_'+idx);
+  const box=item.querySelector('.tc');
+  if(ch[idx]){box.classList.add('on');item.classList.add('ck')}
+  else{box.classList.remove('on');item.classList.remove('ck')}
+
+  // Update counter
+  const dn=ch.filter(Boolean).length,tot=ch.length,ok=dn===tot;
+  const pEl=document.getElementById('p'+dayId);
+  pEl.textContent=dn+'/'+tot;
+
+  // Update card done state
+  const card=document.getElementById('d'+dayId);
+  if(ok){card.classList.add('dn');pEl.closest('.dh-r')&&pEl.classList.add('ok')}
+  else{card.classList.remove('dn')}
+
+  up();
 }
 
-function tc(id,i,e){e.stopPropagation();const ch=gc(id);ch[i]=!ch[i];localStorage.setItem('cro_'+id,JSON.stringify(ch));render()}
-function td(id){const el=document.getElementById('d'+id),w=el.classList.contains('open');el.closest('.sec').querySelectorAll('.day-card.open').forEach(d=>d.classList.remove('open'));if(!w){el.classList.add('open');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'nearest'}),100)}}
+function td(id){const el=document.getElementById('d'+id),w=el.classList.contains('op');
+  el.closest('.sec').querySelectorAll('.dc.op').forEach(d=>d.classList.remove('op'));
+  if(!w){el.classList.add('op');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'nearest'}),100)}}
 
-function go(c){
+function go(btn){
+  const c=btn.dataset.c;
   document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
   document.getElementById('s-'+c).classList.add('on');
-  document.querySelectorAll('.tnav-btn').forEach(b=>b.classList.remove('on'));
-  event.target.classList.add('on');
-  window.scrollTo({top:document.getElementById('topnav').offsetTop,behavior:'smooth'});
+  document.querySelectorAll('.tb').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  window.scrollTo({top:document.getElementById('tn').offsetTop,behavior:'smooth'});
 }
 
 function up(){
   let t=0,d=0;
   for(const day of D){const ch=gc(day.id);t+=ch.length;d+=ch.filter(Boolean).length}
   const p=t?Math.round(d/t*100):0;
-  document.getElementById('navPct').textContent=p+'%';
-  document.getElementById('navFill').style.width=p+'%';
-  document.getElementById('heroPct').textContent=p+'%';
+  document.getElementById('np').textContent=p+'%';
+  document.getElementById('nf').style.width=p+'%';
+  document.getElementById('hp').textContent=p+'%';
 }
 
-// sticky nav shadow
-const nav=document.getElementById('topnav');
-window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>10)});
+function renderMore(){
+  document.getElementById('s-more').innerHTML=`
+<div class="ci"><div class="cl" style="color:var(--tx3)">BONUS</div><h2>Jedzenie, trunki i rozmowki</h2><p class="cm">Regionalne specjaly i przydatne zwroty chorwackie</p></div>
+<div class="mg">
+<div class="mc"><h3>Dania do sprobowania</h3>
+<div class="mi"><span class="me">🥩</span><div><div class="mn">Pasticada</div><div class="md">Duszona wolowina w sosie sliwkowym z gnocchi — ikona Dalmacji</div></div></div>
+<div class="mi"><span class="me">🐙</span><div><div class="mn">Peka</div><div class="md">Mieso lub osmiornica pod zeliwnym kloszem — zamow dzien wczesniej!</div></div></div>
+<div class="mi"><span class="me">🦑</span><div><div class="mn">Crni rizot</div><div class="md">Czarne risotto z matwa — jedno z najbardziej rozpoznawalnych dan</div></div></div>
+<div class="mi"><span class="me">🐟</span><div><div class="mn">Brudet</div><div class="md">Gulasz z kilku gatunkow ryb z pomidorami i polenta</div></div></div>
+<div class="mi"><span class="me">🥙</span><div><div class="mn">Soparnik</div><div class="md">Placek z mangoldem — UNESCO niematerialne dziedzictwo od 2022</div></div></div>
+<div class="mi"><span class="me">🍮</span><div><div class="mn">Rozata</div><div class="md">Dubrowniczki creme caramel z likierem rozanym — nie wyjedz bez!</div></div></div>
+<div class="mi"><span class="me">🍩</span><div><div class="mn">Fritule</div><div class="md">Male paczki z rodzynkami i skorka pomaraczowa</div></div></div>
+<div class="mi"><span class="me">🥩</span><div><div class="mn">Cevapi w lepinji</div><div class="md">Mielone mieso z grilla w plaskim chlebie — proste, sycace</div></div></div>
+</div>
+<div class="mc"><h3>Lokalne trunki</h3>
+<div class="mi"><span class="me">🍒</span><div><div class="mn">Maraschino</div><div class="md">Likier z wisni maraski, produkowany w Zadarze od XVI w. — kup tam, nie na lotnisku!</div></div></div>
+<div class="mi"><span class="me">🍷</span><div><div class="mn">Dingac</div><div class="md">Najslynniejsze chorwackie czerwone wino — strome winnice Peljesca</div></div></div>
+<div class="mi"><span class="me">🥂</span><div><div class="mn">Posip</div><div class="md">Biale z Korculi — suche, kwiatowe, idealne do ryb i owocow morza</div></div></div>
+<div class="mi"><span class="me">🍺</span><div><div class="mn">Brlog APA</div><div class="md">Craft piwo ze spoldzielczego browaru w Zadarze — taproom poza starowka</div></div></div>
+<div class="mi"><span class="me">🫒</span><div><div class="mn">Travarica</div><div class="md">Rakija ziolowa z rozmarynem i szalwia — popularny digestif</div></div></div>
+<div class="mi"><span class="me">🍷</span><div><div class="mn">Prosek</div><div class="md">Slodkie wino deserowe z suszonych winogron — NIE mylić z Prosecco!</div></div></div>
+</div>
+</div>
+<div class="mc" style="max-width:600px"><h3>Podstawowe zwroty</h3>
+<table class="pht"><tr><th>PL</th><th>HR</th><th>Wymowa</th></tr>
+<tr><td>Czesc</td><td>Bok</td><td>bok</td></tr>
+<tr><td>Dzien dobry</td><td>Dobar dan</td><td>dobar dan</td></tr>
+<tr><td>Dziekuje</td><td>Hvala</td><td>chwala</td></tr>
+<tr><td>Prosze</td><td>Molim</td><td>molim</td></tr>
+<tr><td>Przepraszam</td><td>Oprostite</td><td>oprostite</td></tr>
+<tr><td>Ile kosztuje?</td><td>Koliko kosta?</td><td>koliko koszta?</td></tr>
+<tr><td>Rachunek</td><td>Racun, molim</td><td>raczun molim</td></tr>
+<tr><td>Jedno piwo</td><td>Jedno pivo, molim</td><td>jedno piwo molim</td></tr>
+<tr><td>Kawa</td><td>Kava</td><td>kawa</td></tr>
+<tr><td>Wino czerwone</td><td>Crno vino</td><td>crno wino</td></tr>
+<tr><td>Na zdrowie!</td><td>Zivjeli!</td><td>ziwjeli!</td></tr>
+<tr><td>Smacznego!</td><td>Dobar tek!</td><td>dobar tek</td></tr>
+<tr><td>Bylo pyszne!</td><td>Bilo je izvrsno!</td><td>bilo je izwrsno</td></tr>
+<tr><td>Gdzie jest?</td><td>Gdje je?</td><td>gdzie je?</td></tr>
+<tr><td>Plaza</td><td>Plaza</td><td>plaza</td></tr>
+<tr><td>Stolik dla 2</td><td>Stol za dvoje</td><td>stol za dwoje</td></tr>
+<tr><td>Karta?</td><td>Karticom?</td><td>karticom?</td></tr>
+<tr><td>Pomocy!</td><td>Upomoc!</td><td>upomocz!</td></tr>
+<tr><td>Alarmowy</td><td colspan="2">📞 112</td></tr>
+</table></div>
+<div class="mc"><h3>Pamiatki do kupienia</h3>
+<div class="mi"><span class="me">🍒</span><div><div class="mn">Maraschino Maraska</div><div class="md">Kup w Zadarze — tu najtaniej. Butelka do walizki rejestrowanej</div></div></div>
+<div class="mi"><span class="me">🫒</span><div><div class="mn">Oliwa z oliwek</div><div class="md">Lokalna, pierwszego tloczenia — mala butelka jako upominek</div></div></div>
+<div class="mi"><span class="me">🧀</span><div><div class="mn">Paski sir</div><div class="md">Owczy ser z Pagu — kup na targu Pazar w Splicie</div></div></div>
+<div class="mi"><span class="me">🌿</span><div><div class="mn">Lavenda</div><div class="md">Saszetki, olejek, mydlo — stoiska na promenadach Riwiery</div></div></div>
+<div class="mi"><span class="me">🍷</span><div><div class="mn">Dingac / Posip</div><div class="md">Butelka wina — kup w sklepie w Dubrowniku, nie w restauracji</div></div></div>
+<div class="mi"><span class="me">🍯</span><div><div class="mn">Miod lawendowy</div><div class="md">Regionalny specjal Riwiery Makarskiej</div></div></div>
+</div>`;
+}
+
+// Sticky nav shadow
+window.addEventListener('scroll',()=>{document.getElementById('tn').classList.toggle('sc',window.scrollY>10)});
 
 render();
 </script>
