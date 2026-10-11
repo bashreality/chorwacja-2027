@@ -117,6 +117,26 @@ position:relative;overflow:hidden;background:#0c1220;color:#fff;text-align:cente
 .ft{text-align:center;padding:48px 24px;border-top:1px solid var(--brd);color:var(--tx3);font-size:13px}
 .ft .ff{font-size:32px;margin-bottom:8px;display:block}
 
+/* === PHOTOS === */
+.ti-wrap{display:flex;gap:12px;align-items:flex-start}
+.ti-c{flex:1;min-width:0}
+.ti-ph{width:80px;height:60px;border-radius:10px;object-fit:cover;flex-shrink:0;cursor:pointer;
+background:#e7e5e4;display:none;transition:transform .2s;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.ti-ph:hover{transform:scale(1.05)}
+@media(min-width:640px){.ti-ph{width:100px;height:72px}}
+
+/* === LIGHTBOX === */
+.lb{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.92);display:flex;align-items:center;
+justify-content:center;flex-direction:column;gap:12px;padding:20px;cursor:pointer;
+opacity:0;pointer-events:none;transition:opacity .25s;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.lb.show{opacity:1;pointer-events:auto}
+.lb img{max-width:100%;max-height:75vh;border-radius:14px;object-fit:contain;box-shadow:0 8px 40px rgba(0,0,0,.4)}
+.lb-cap{color:rgba(255,255,255,.7);font-size:14px;text-align:center;max-width:500px}
+.lb-close{position:absolute;top:20px;right:20px;color:#fff;font-size:28px;opacity:.5;cursor:pointer;
+width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+background:rgba(255,255,255,.1);transition:opacity .2s}
+.lb-close:hover{opacity:1}
+
 @media(max-width:640px){.ci{padding:24px 0 20px}.dh{padding:14px 16px;gap:10px}.db-in{padding:0 16px 20px}.mg{grid-template-columns:1fr}}
 </style>
 </head>
@@ -155,6 +175,7 @@ position:relative;overflow:hidden;background:#0c1220;color:#fff;text-align:cente
 <div class="sec" id="s-dubrovnik"></div>
 <div class="sec" id="s-more"></div>
 
+<div class="lb" id="lb" onclick="closeLb()"><div class="lb-close">&times;</div><img id="lb-img"><div class="lb-cap" id="lb-cap"></div></div>
 <footer class="ft"><span class="ff">🇭🇷</span><p><b>Zivjeli!</b> &mdash; Chorwacja 2027</p><p style="margin-top:4px">Zadar &rarr; Split &rarr; Brela &rarr; Dubrownik</p><p style="margin-top:12px;font-size:11px;opacity:.6">iPhone: Share &rarr; Add to Home Screen</p></footer>
 
 <script>
@@ -398,6 +419,51 @@ brela:{n:'Brela',sub:'Najpiekniejsze plaze Riwiery Makarskiej',dt:'9–15 czerwc
 dubrovnik:{n:'Dubrownik',sub:'Mury, Lokrum i pozegnanie z Adriatykiem',dt:'15–18 czerwca | 3 noce | dni 14–17'},
 };
 
+// === PHOTO MAP: keyword in item description → Wikipedia article ===
+const PHOTOS={
+'Forum':'Church_of_St._Donatus',
+'Organy':'Sea_Organ',
+'Katedra sw. Anastazji':'Zadar_Cathedral',
+'Kalelarga':'Zadar',
+'Fosa':'Zadar',
+'Kolovare':'Zadar',
+'Punta Rata':'Punta_Rata',
+'Kamen Brela':'Brela_(town)',
+'Podrace':'Brela_(town)',
+'Soline':'Brela_(town)',
+'Plitvice':'Plitvice_Lakes_National_Park',
+'kladki':'Plitvice_Lakes_National_Park',
+'Kornati':'Kornati',
+'Mir':'Telašćica',
+'Perystyl':'Peristyle_(Split)',
+'Vestibul':'Diocletian%27s_Palace',
+'Zlota Brama':'Golden_Gate_(Split)',
+'Kantun Paulina':'Diocletian%27s_Palace',
+'Prokurative':'Prokurative',
+'Katedra sw. Dujma':'Cathedral_of_Saint_Domnius',
+'Jowisza':'Diocletian%27s_Palace',
+'podziemia':'Diocletian%27s_Palace',
+'Vidilica':'Marjan',
+'Omis':'Omiš',
+'Mirabela':'Omiš',
+'Cetiny':'Cetina',
+'Makarska':'Makarska',
+'Sveti Petar':'Makarska',
+'Stari Most':'Stari_Most',
+'Kujundziluk':'Mostar',
+'Baska Voda':'Baška_Voda',
+'Nikolina':'Baška_Voda',
+'Stradun':'Stradun_(Dubrovnik)',
+'Onufrego':'Stradun_(Dubrovnik)',
+'murow':'Walls_of_Dubrovnik',
+'Dubravka':'Walls_of_Dubrovnik',
+'Lovrijenac':'Lovrijenac',
+'Lokrum':'Lokrum',
+'Mrtvo More':'Lokrum',
+'jezuickie':'Jesuit_Church_of_St._Ignatius,_Dubrovnik',
+'Krka':'Krka_National_Park',
+};
+
 // === STATE ===
 function gc(id){const r=localStorage.getItem('cro_'+id);if(!r)return new Array(D.find(d=>d.id===id).i.length).fill(false);return JSON.parse(r)}
 
@@ -416,8 +482,14 @@ function render(){
       for(let i=0;i<day.i.length;i++){
         const it=day.i[i],on=ch[i];
         h+=`<div class="ti${on?' ck':''}" id="ti${day.id}_${i}"><div class="tl"><div class="tc${on?' on':''}" onclick="tc(${day.id},${i},event)"></div></div>`;
+        // find photo match
+        let wiki='';
+        for(const[kw,wt]of Object.entries(PHOTOS)){if(it.d.includes(kw)||it.t.includes(kw)){wiki=wt;break}}
+        h+=`<div class="ti-wrap">`;
         h+=`<div class="ti-c"><div class="ti-t">${it.t}</div><div class="ti-d">${it.d}</div>`;
         if(it.r)h+=`<div class="rc"><span class="ri">🍽</span><div><div class="rn">${it.r.n}</div><div class="rd">${it.r.d}</div></div></div>`;
+        h+=`</div>`;
+        if(wiki)h+=`<img class="ti-ph" data-wiki="${wiki}" alt="" onclick="openLb(this,event)" loading="lazy">`;
         h+=`</div></div>`;
       }
       if(day.w)h+=`<div class="wn"><span>🌧</span><span>${day.w}</span></div>`;
@@ -537,7 +609,50 @@ function renderMore(){
 // Sticky nav shadow
 window.addEventListener('scroll',()=>{document.getElementById('tn').classList.toggle('sc',window.scrollY>10)});
 
+// === LIGHTBOX ===
+function openLb(img,e){
+  e.stopPropagation();
+  const lb=document.getElementById('lb');
+  document.getElementById('lb-img').src=img.src.replace(/\/\d+px-/,'/800px-');
+  document.getElementById('lb-cap').textContent=img.alt||'';
+  lb.classList.add('show');
+}
+function closeLb(){document.getElementById('lb').classList.remove('show')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
+
+// === LOAD PHOTOS FROM WIKIPEDIA ===
+async function loadPhotos(){
+  let cache={};
+  try{cache=JSON.parse(localStorage.getItem('cro_ph')||'{}');}catch(e){}
+
+  const els=document.querySelectorAll('[data-wiki]');
+  const titles=[...new Set([...els].map(e=>e.dataset.wiki))];
+
+  // apply cached first
+  for(const el of els){
+    const url=cache[el.dataset.wiki];
+    if(url){el.src=url;el.style.display='block';el.alt=el.dataset.wiki.replace(/_/g,' ').replace(/%27/g,"'")}
+  }
+
+  // fetch missing
+  const missing=titles.filter(t=>!cache[t]);
+  for(const title of missing){
+    try{
+      const r=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+title);
+      const j=await r.json();
+      if(j.thumbnail&&j.thumbnail.source){
+        const url=j.thumbnail.source.replace(/\/\d+px-/,'/400px-');
+        cache[title]=url;
+        document.querySelectorAll(`[data-wiki="${title}"]`).forEach(el=>{
+          el.src=url;el.style.display='block';el.alt=j.displaytitle||title.replace(/_/g,' ')});
+      }
+    }catch(e){}
+  }
+  try{localStorage.setItem('cro_ph',JSON.stringify(cache))}catch(e){}
+}
+
 render();
+loadPhotos();
 </script>
 </body>
 </html>
