@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="50%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <!-- wave -->
+  <path d="M0,125 Q30,115 60,125 T120,125 T180,125 L180,180 L0,180Z" fill="rgba(255,255,255,0.12)"/>
+  <path d="M0,135 Q25,125 50,135 T100,135 T150,135 T180,132 L180,180 L0,180Z" fill="rgba(255,255,255,0.08)"/>
+  <!-- text -->
+  <text x="90" y="68" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="36" fill="white" letter-spacing="-1">CRO</text>
+  <text x="90" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="24" fill="rgba(255,255,255,0.7)">'27</text>
+  <!-- flag dots -->
+  <circle cx="70" cy="148" r="5" fill="#ef4444"/>
+  <circle cx="90" cy="148" r="5" fill="white"/>
+  <circle cx="110" cy="148" r="5" fill="#3b82f6"/>
+</svg>
