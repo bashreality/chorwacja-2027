@@ -112,6 +112,7 @@ position:relative;overflow:hidden;background:#0c1220;color:#fff;text-align:cente
 .mi{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #f5f5f4}.mi:last-child{border-bottom:none}
 .mi .me{font-size:20px;flex-shrink:0;width:28px;text-align:center}
 .mi .mn{font-weight:700;font-size:13px}.mi .md{font-size:12px;color:var(--tx2)}
+.noc{margin-top:20px}.noc .md a{color:var(--d);font-weight:600;text-decoration:none}.noc .nt{font-size:12px;color:var(--tx3);margin-top:10px;line-height:1.5}
 .pht{width:100%;border-collapse:collapse;font-size:13px}
 .pht th{text-align:left;padding:8px 4px;font-size:11px;color:var(--tx3);border-bottom:2px solid var(--brd);font-weight:700}
 .pht td{padding:8px 4px;border-bottom:1px solid #f5f5f4}.pht td:last-child{color:var(--tx2);font-style:italic}
@@ -422,6 +423,21 @@ brela:{n:'Brela',sub:'Najpiekniejsze plaze Riwiery Makarskiej',dt:'9–15 czerwc
 dubrovnik:{n:'Dubrownik',sub:'Mury, Lokrum i pozegnanie z Adriatykiem',dt:'15–18 czerwca | 3 noce | dni 14–17'},
 };
 
+// === NOCLEGI: kandydaci (ceny czerwcowe orientacyjne, sprawdz na Bookingu) ===
+const NOC={
+dubrovnik:{h:'Noclegi — kandydaci (15–18 czerwca, 2 os.)',
+note:'Ceny za noc orientacyjne — strony podaja tylko ceny „od” bez dat. Z Lapadu na starowke autobus 4/5/6 ok. 15–20 min, pieszo ok. 45 min.',
+l:[
+{e:'⭐',n:'Heritage Hotel Zagreb (3★) — faworyt',d:'Na samym deptaku, Šetalište kralja Zvonimira 5 | 9.4/10 (747 ocen) | czystosc 9/10 | brak wzmianek o insektach | bez windy | ok. 150–220 EUR',u:'https://www.kayak.co.uk/Dubrovnik-Hotels-Hotel-Zagreb.80677.ksp'},
+{e:'💶',n:'Hotel Komodor (3★, Maistra) — najtaniej',d:'2 min do plazy w zatoce Lapad | 7.8/10 (ok. 2400 ocen) | czystosc 8.1 | ok. 120–170 EUR',u:'https://www.momondo.com/hotels/dubrovnik/Hotel-Komodor.mhd97376.ksp'},
+{e:'🏖',n:'Hotel Splendid (3★, Maistra)',d:'Nad zatoka Lapad, autobus spod drzwi | 8.1/10 (ok. 3900 ocen) | slabsze lazienki | ok. 130–190 EUR',u:'https://www.trivago.com/en-US/oar/hotel-splendid-dubrovnik?search=100-88006'},
+{e:'✨',n:'Hotel Uvala (4★, Maistra)',d:'Przy deptaku i plazy Lapad | wyraznie lepszy standard | ok. 200–280 EUR',u:'https://tripexpert.com/dubrovnik/hotels/hotel-lero-vs-hotel-uvala'},
+{e:'🏛',n:'Hotel Lero (4★)',d:'Ok. 15 min pieszo do starowki | przy ruchliwej ulicy, bez klimatu deptaka | ok. 150–200 EUR',u:'https://tripexpert.com/dubrovnik/hotels/hotel-lero-vs-hotel-uvala'},
+{e:'🏠',n:'Hotel Ivka (3★) — tani, ale odpada',d:'Mieszkalna okolica, 10–15 min do deptaka | ok. 45 USD „od”'},
+{e:'⛔',n:'Hotel Vis — odradzam',d:'3.2/5 na Tripadvisorze | plesn w lazience, mrowki w pokoju',u:'https://www.tripadvisor.com/Hotel_Review-g295371-d304338-Reviews-Hotel_Vis-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html'},
+]},
+};
+
 // === PHOTO MAP: keyword in item description → Wikipedia article ===
 const PHOTOS={
 'Forum':'Church_of_St._Donatus',
@@ -500,6 +516,13 @@ function render(){
       if(day.alt)h+=`<div class="sn"><span>🔄</span><span>${day.alt}</span></div>`;
       if(day.note)h+=`<div class="wn"><span>⚠️</span><span>${day.note}</span></div>`;
       h+=`</div></div></div>`;
+    }
+    const nc=NOC[c];
+    if(nc){
+      h+=`<div class="mc noc"><h3>🛏 ${nc.h}</h3>`;
+      for(const x of nc.l)h+=`<div class="mi"><span class="me">${x.e}</span><div><div class="mn">${x.n}</div><div class="md">${x.d}${x.u?` | <a href="${x.u}" target="_blank" rel="noopener">link</a>`:''}</div></div></div>`;
+      if(nc.note)h+=`<div class="nt">${nc.note}</div>`;
+      h+=`</div>`;
     }
     sec.innerHTML=h;
   }
