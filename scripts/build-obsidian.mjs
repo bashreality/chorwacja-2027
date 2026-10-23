@@ -14,14 +14,17 @@ const start = html.indexOf('const D=[');
 const end = html.indexOf('const PHOTOS=');
 if (start < 0 || end < 0) throw new Error('Nie znaleziono danych D / PHOTOS w index.html');
 const ctx = {};
-vm.runInNewContext(html.slice(start, end) + '\n;globalThis.__=({D,M,PRZ,NOC,WYC:typeof WYC!=="undefined"?WYC:{}});', ctx);
-const { D, M, PRZ, NOC, WYC } = ctx.__;
+vm.runInNewContext(html.slice(start, end) + '\n;globalThis.__=({D,M,PRZ,NOC,' +
+  ['WYC', 'JED', 'PLAN'].map(k => `${k}:typeof ${k}!=="undefined"?${k}:{}`).join(',') + ',INFO:typeof INFO!=="undefined"?INFO:[]});', ctx);
+const { D, M, PRZ, NOC, WYC, JED, PLAN, INFO } = ctx.__;
 
 // --- sekcja "Wiecej" (statyczny HTML w renderMore) ---
 const moreMatch = html.match(/getElementById\('s-more'\)\.innerHTML=`([\s\S]*?)`;/);
 const moreHtml = moreMatch ? moreMatch[1] : '';
 
-const strip = (s = '') => String(s).replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '')
+const strip = (s = '') => String(s)
+  .replace(/<a\s[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (_, u, t) => `[${t.replace(/<[^>]+>/g, '')}](${u})`)
+  .replace(/<b>([\s\S]*?)<\/b>/gi, '**$1**').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '')
   .replace(/&mdash;/g, '—').replace(/&rarr;/g, '→').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
 const esc = (s = '') => strip(s).replace(/\s*\|\s*/g, ' · ');
 const dayHead = (day) => `Dzien ${day.id} · ${strip(day.t).replace(/[#|^[\]]/g, '')}`;
@@ -30,7 +33,9 @@ function listBlock(icon, block) {
   if (!block) return '';
   let o = `## ${icon} ${strip(block.h)}\n\n`;
   if (block.note) o += `> ${strip(block.note)}\n\n`;
+  let k = null;
   for (const x of block.l || []) {
+    if (x.k && x.k !== k) { k = x.k; o += `\n**${strip(k)}**\n\n`; }
     const name = strip(x.n);
     const title = x.u ? `[${name}](${x.u})` : name;
     o += `- ${x.e || ''} **${title}**${x.d ? ` — ${esc(x.d)}` : ''}\n`;
@@ -61,9 +66,11 @@ for (const [c, m] of cities) {
     if (day.alt) o += `> [!note] 🔄 Alternatywa\n> ${strip(day.alt)}\n\n`;
     if (day.note) o += `> [!caution] ⚠️ Uwaga\n> ${strip(day.note)}\n\n`;
   }
+  o += listBlock('🗺', PLAN[c]);
   o += listBlock('🚌', PRZ[c]);
   o += listBlock('🛏', NOC[c]);
-  o += listBlock('⛵', WYC[c]);
+  o += listBlock('🍽', JED[c]);
+  o += listBlock(WYC[c]?.e || '⛵', WYC[c]);
   files[`${m.n}.md`] = o.trimEnd() + '\n';
 }
 
@@ -92,6 +99,14 @@ if (moreHtml) {
   files['Jedzenie i rozmowki.md'] = o.trimEnd() + '\n';
 }
 
+// Informacje ogolne (INFO)
+if (INFO.length) {
+  let o = header('Informacje ogolne');
+  o += `← [[Chorwacja 2027]]\n\n`;
+  for (const b of INFO) o += listBlock(b.e || '📌', b);
+  files['Informacje ogolne.md'] = o.trimEnd() + '\n';
+}
+
 // Notatka glowna
 {
   let o = header('Chorwacja 2027');
@@ -101,6 +116,7 @@ if (moreHtml) {
   o += `\n## Wszystkie dni\n\n`;
   for (const [c, m] of cities) for (const day of D.filter(d => d.c === c))
     o += `- [[${m.n}#${dayHead(day)}|Dzien ${day.id}]] — ${strip(day.dt)} — ${strip(day.t)}\n`;
+  if (files['Informacje ogolne.md']) o += `\nPrzed wyjazdem: [[Informacje ogolne]]\n`;
   if (files['Jedzenie i rozmowki.md']) o += `\nBonus: [[Jedzenie i rozmowki]]\n`;
   files['Chorwacja 2027.md'] = o;
 }
