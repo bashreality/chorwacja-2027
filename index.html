@@ -360,10 +360,10 @@ sp:'Bez plazy: pakowanie, obiad, odpoczynek, kolacja.'},
 
 // ===== DUBROWNIK =====
 {id:14,c:'dubrovnik',dt:'Wtorek, 15 czerwca',t:'Brela → Dubrownik — wieczorna starowka',s:'Transfer, Stradun i port po zachodzie slonca',i:[
-{t:'08:00–09:00',d:'Sniadanie i wymeldowanie. Prowiant na droge'},
-{t:'09:00–10:00',d:'Dojazd na przystanek przy D8 — uzgodnij odbior z walizka do przystanku. Kurs bezposredni lub przesiadka w Makarskiej z zapasem'},
-{t:'10:00–14:30',d:'Autobus do Dubrownika (4,5–6,5h od drzwi do drzwi). Arriva / FlixBus'},
-{t:'14:30–15:30',d:'Z dworca Gruz do hotelu (Lapad/Gruz/Babin Kuk). Zameldowanie bez zwiedzania z bagažem'},
+{t:'07:30–08:15',d:'Sniadanie i wymeldowanie. Prowiant na droge'},
+{t:'08:15–08:45',d:'Dojazd na przystanek przy D8 (Brela Gornja / Dubci) — uzgodnij odbior z walizka do przystanku. Badz 15 min przed kursem'},
+{t:'08:45–12:30',d:'Autobus bezposredni do Dubrownika ok. 3–3,5h (Nomago ok. 8:45, Promet Makarska ok. 8:57). Zapas: FlixBus ok. 14:55 lub Arriva ok. 18:10. Bilety — patrz karta Przejazdy ponizej'},
+{t:'12:30–15:30',d:'Z dworca Gruz do hotelu (Lapad/Gruz/Babin Kuk). Zostaw walizke, lunch, zameldowanie bez zwiedzania z bagazem'},
 {t:'15:30–17:30',d:'Prysznic, posilek i odpoczynek. Zamagna na pizze jesli hotel przy Lapadzie',r:{n:'Zamagna Pizza and Bar',d:'Pizza z prsut i burrata 22 EUR | Lapadska obala 8 | poza starowka | 4.6'}},
 {t:'17:30–18:15',d:'Jeden dojazd do Pile. Nie ustalaj sztywnej rezerwacji na godzine, ktorej przejazd moze nie dotrzymac'},
 {t:'18:15–19:15',d:'Fontanna Onufrego → Stradun → Luza (Sponza, wieza zegarowa, sw. Blazej z zewnatrz) → stary port'},
@@ -421,6 +421,37 @@ zadar:{n:'Zadar',sub:'Zachody slonca, starowka i wyspy',dt:'2–6 czerwca | 4 no
 split:{n:'Split',sub:'Palac Dioklecjana i dalmatynskie zycie',dt:'6–9 czerwca | 3 noce | dni 5–7'},
 brela:{n:'Brela',sub:'Najpiekniejsze plaze Riwiery Makarskiej',dt:'9–15 czerwca | 6 nocy | dni 8–13'},
 dubrovnik:{n:'Dubrownik',sub:'Mury, Lokrum i pozegnanie z Adriatykiem',dt:'15–18 czerwca | 3 noce | dni 14–17'},
+};
+
+// === PRZEJAZDY: sprawdzone polaczenia (rozklady z X.2026 — czerwcowe rozklady 2027 pojawia sie wiosna, potwierdz przed zakupem) ===
+const PRZ={
+zadar:{h:'Przejazd — lotnisko Zadar → centrum (2 czerwca)',
+note:'🚆 Pociagi sie nie oplacaja: do Breli i Dubrownika nie ma torow, a Zadar–Split to bus HZPP do Knina + pociag, razem 4–5h. Wszystkie przejazdy robimy autobusem. Z lotniska tylko autobus lub taxi (ok. 25–30 EUR, 15 min).',
+l:[
+{e:'🚌',n:'Autobus lotniskowy (Liburnija) — 5 EUR/os',d:'Odjazd spod hali przylotow po kazdym locie | ok. 20 min | przystanki: port Gazenica → dworzec autobusowy → starowka (Liburnska obala) | bilet u kierowcy (gotowka lub karta), wazny 90 min takze na autobus miejski | rozklad',u:'https://zadar-airport.hr/en/how-to-get-here/'},
+]},
+split:{h:'Przejazd — Zadar → Split (niedziela 6 czerwca)',
+note:'Pociag odpada: z Zadaru nie ma torow do Splitu — HZPP wozi autobusem do Knina i dalej pociagiem, razem 4–5h i rzadko. Autobus jest szybszy i tanszy. W czerwcu kup bilet online kilka dni wczesniej; bagaz w lukach zwykle 1–2 EUR/szt. (gotowka dla kierowcy). Dworzec w Zadarze: Ante Starcevica 1 (1 km od starowki), w Splicie: obok portu, 5–10 min pieszo do palacu.',
+l:[
+{e:'⭐',n:'Autobus bezposredni — ok. 10–20 kursow dziennie',d:'2–3h jazdy | ok. 10–25 EUR/os | FlixBus, Arriva (Nomago Intercity), Antonio Tours, Brioni | wybierz kurs ok. 10:00 (zgodnie z planem dnia 5) | porownanie i zakup',u:'https://www.omio.co.uk/coaches/zadar/split'},
+{e:'🟢',n:'FlixBus — zwykle najtaniej przy wczesnym zakupie',d:'od ok. 4–10 EUR/os | bagaz w cenie | bilet w aplikacji FlixBus',u:'https://global.flixbus.com/bus-routes/bus-zadar-split'},
+{e:'🎫',n:'GetByBus — wszyscy chorwaccy przewoznicy w jednym miejscu',d:'Arriva, Antonio Tours i inni | e-bilet na telefonie',u:'https://getbybus.com/en/'},
+]},
+brela:{h:'Przejazd — Split → Brela (sroda 9 czerwca)',
+note:'Pociag do Breli nie dojezdza (brak torow na Riwierze Makarskiej). Wysiadka: przystanek przy D8 (Brela Gornja / Dubci) — stamtad do plazy stromo w dol, dlatego popros gospodarza o odbior albo zamow taxi. Bilet mozna tez kupic na dworcu w Splicie tuz przed odjazdem — kursy co ok. 30 min.',
+l:[
+{e:'⭐',n:'Autobus — ok. 30–50 kursow dziennie, 8:00–21:00',d:'ok. 50–60 min | ok. 9–15 EUR/os | Promet Makarska, Nomago, Arriva (linie Split–Makarska–Dubrownik) | porownanie rozkladow',u:'https://www.checkmybus.com/split/brela'},
+{e:'🎫',n:'GetByBus — zakup online',d:'e-bilet, wybierz przystanek Brela',u:'https://getbybus.com/en/'},
+{e:'🕑',n:'Rozklad odjazdow z dworca Split (bez sprzedazy)',d:'sprawdz peron i godzine w dniu wyjazdu',u:'https://www.ak-split.hr/en/departures-from-split/'},
+]},
+dubrovnik:{h:'Przejazdy — Brela → Dubrownik (wtorek 15 czerwca) i lotnisko DBV (18 czerwca)',
+note:'Do Dubrownika nie jezdza pociagi — tylko autobus. Trasa idzie mostem Peljesac, ale czesc kursow wciaz przejezdza przez Neum (Bosnia) — miej dowod osobisty lub paszport pod reka. Przyjazd na dworzec Gruz; do Lapadu ok. 2 km — autobus miejski Libertas lub kilka minut taxi.',
+l:[
+{e:'⭐',n:'Autobus bezposredni Brela → Dubrownik — ok. 7 kursow dziennie',d:'Rano: Nomago ok. 8:45, Promet Makarska ok. 8:57, FlixBus ok. 8:55 (wybrane dni) | popoludnie: FlixBus ok. 14:55, Arriva ok. 18:10 | ok. 3–3,5h | ok. 14–35 EUR/os | odjazd z przystankow Brela Gornja (D8) lub Dubci | uwaga: unikaj kursow z przesiadka (do 7h)! | porownanie i zakup',u:'https://www.checkmybus.com/brela/dubrovnik'},
+{e:'🟢',n:'FlixBus Brela Gornja → Dubrownik',d:'ok. 3,5h | bilet w aplikacji',u:'https://global.flixbus.com/bus-routes/bus-brela-gornja-dubrovnik'},
+{e:'🎫',n:'GetByBus — Nomago, Promet Makarska, Arriva',d:'e-bilet na telefonie',u:'https://getbybus.com/en/'},
+{e:'✈',n:'Platanus — autobus lotniskowy na DBV (18 czerwca)',d:'ok. 10 EUR/os (powrotny 14 EUR) | ok. 30–40 min | odjazdy dopasowane do lotow | bilet online, w kiosku lub u kierowcy (gotowka) | rozklad i bilety',u:'https://platanus.hr/shuttle-bus/'},
+]},
 };
 
 // === NOCLEGI: kandydaci (ceny czerwcowe orientacyjne, sprawdz na Bookingu) ===
@@ -531,6 +562,13 @@ function render(){
       if(day.alt)h+=`<div class="sn"><span>🔄</span><span>${day.alt}</span></div>`;
       if(day.note)h+=`<div class="wn"><span>⚠️</span><span>${day.note}</span></div>`;
       h+=`</div></div></div>`;
+    }
+    const pz=PRZ[c];
+    if(pz){
+      h+=`<div class="mc noc"><h3>🚌 ${pz.h}</h3>`;
+      for(const x of pz.l)h+=`<div class="mi"><span class="me">${x.e}</span><div><div class="mn">${x.n}</div><div class="md">${x.d}${x.u?` | <a href="${x.u}" target="_blank" rel="noopener">link</a>`:''}</div></div></div>`;
+      if(pz.note)h+=`<div class="nt">${pz.note}</div>`;
+      h+=`</div>`;
     }
     const nc=NOC[c];
     if(nc){
