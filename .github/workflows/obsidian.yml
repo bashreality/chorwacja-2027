@@ -3,11 +3,10 @@ name: Notatki Obsidian
 # Po kazdej zmianie planera na main generuje notatki Markdown w folderze obsidian/
 on:
   push:
-    branches: [main, claude/project-thread-1o2li6]
+    branches: [main]
     paths:
       - index.html
       - scripts/build-obsidian.mjs
-      - .github/workflows/obsidian.yml
   workflow_dispatch:
 
 permissions:
