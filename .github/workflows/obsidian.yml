@@ -1,0 +1,40 @@
+name: Notatki Obsidian
+
+# Po kazdej zmianie planera na main generuje notatki Markdown w folderze obsidian/
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - scripts/build-obsidian.mjs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: obsidian-notes
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generuj notatki
+        run: node scripts/build-obsidian.mjs
+      - name: Commit, jesli cos sie zmienilo
+        run: |
+          git add obsidian/
+          if git diff --cached --quiet; then
+            echo "Notatki aktualne."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Obsidian: odswiez notatki z planera"
+          git pull --rebase origin main
+          git push origin HEAD:main
