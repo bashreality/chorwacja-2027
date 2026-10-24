@@ -5,15 +5,15 @@ zrodlo: index.html
 
 > [!info] Plik generowany automatycznie z planera po kazdym pushu do main. Nie edytuj — zmiany zostana nadpisane. Wlasne notatki trzymaj w osobnych plikach.
 
-# Dubrownik — Mury, Lokrum i pozegnanie z Adriatykiem
+# Dubrownik — Mury, Lokrum, wyspa Lopud i pozegnanie z Adriatykiem
 
-**15–18 czerwca | 3 noce | dni 14–17**
+**30 czerwca – 4 lipca | 4 noce | 30.06–04.07**
 
 ← [[Chorwacja 2027]]
 
-## Dzien 14 · Brela → Dubrownik — przyjazd i pierwsza petla po starowce
+## 30 czerwca · Brela → Dubrownik — przyjazd i pierwsza petla po starowce
 
-*Wtorek, 15 czerwca* · Noc 1/3 w Dubrowniku | przejazd ok. 4,5–6,5 h od drzwi do drzwi, potem 2–3 km pieszo, latwo, bez murow i wysokich podejsc
+*Sroda, 30 czerwca* · Noc 1/4 w Dubrowniku | przejazd ok. 4,5–6,5 h od drzwi do drzwi, potem 2–3 km pieszo, latwo, bez murow i wysokich podejsc
 
 | Godzina | Plan |
 |---|---|
@@ -32,17 +32,17 @@ zrodlo: index.html
 > Zostawcie wieczor elastyczny, spacerujcie tylko po poprawie pogody. Nie zastepujcie go mokrymi schodami na Lovrijenac. **Ston odpuszczamy w zwyklym autobusie** — postoj wymaga wczesniej umowionego prywatnego transferu, zabezpieczenia bagazu i dodatkowego czasu kosztem tego wieczoru.
 
 > [!tip] 😌 Spokojniej
-> Trasa: Brela → Gruz → hotel → Pile → Dubravka → Stradun → Luza → Pile → hotel; wieczorem ok. 1–1,5 km, bez schodow na mury i bez obowiazkowego portu (okna transferu wg tego samego kursu co w planie glownym). 08:00–09:00 sniadanie, prowiant, wymeldowanie | 09:00–15:30 przystanek, autobus, dojazd z Gruzu i zameldowanie (przy pozniejszym kursie skroccie wieczor) | 15:30–17:30 posilek przy hotelu, prysznic, odpoczynek | 17:30–18:15 dojazd do Pile, jedno wyjscie do centrum | 18:15–19:15 spokojna kolacja w Dubravce przy Pile, wg biezacej karty i budzetu | 19:15–20:00 fontanna Onufrego → Stradun → Luza → Pile, tylko glowna os | 20:00–21:00 powrot do hotelu z zapasem na autobus | 21:00–22:00 odpoczynek, woda, sprawdzenie pogody na dwa pelne dni.
+> Trasa: Brela → Gruz → hotel → Pile → Dubravka → Stradun → Luza → Pile → hotel; wieczorem ok. 1–1,5 km, bez schodow na mury i bez obowiazkowego portu (okna transferu wg tego samego kursu co w planie glownym). 08:00–09:00 sniadanie, prowiant, wymeldowanie | 09:00–15:30 przystanek, autobus, dojazd z Gruzu i zameldowanie (przy pozniejszym kursie skroccie wieczor) | 15:30–17:30 posilek przy hotelu, prysznic, odpoczynek | 17:30–18:15 dojazd do Pile, jedno wyjscie do centrum | 18:15–19:15 spokojna kolacja w Dubravce przy Pile, wg biezacej karty i budzetu | 19:15–20:00 fontanna Onufrego → Stradun → Luza → Pile, tylko glowna os | 20:00–21:00 powrot do hotelu z zapasem na autobus | 21:00–22:00 odpoczynek, woda, sprawdzenie pogody na trzy pelne dni.
 
 > [!note] 🔄 Alternatywa
-> 🟨 **Maly dodatek:** przy spokojnym morzu przed kolacja podejdzcie na **Porporele** za twierdza sw. Jana — ok. 15–20 min dodatkowo, krotki powrot tym samym nabrzezem; widok portu i murow blisko glownej trasy ([Mapa Porporeli](https://www.google.com/maps/search/?api=1&query=Porporela%20Dubrovnik)). **✂️ Wersja krotka:** Pile → Stradun → Luza → Pile, ok. 1–1,5 km; kolacja w Dubravce przy Pile albo przy hotelu. Jesli zmeczyl Was przejazd, sam posilek i odpoczynek wystarcza — port zostaje na dzien 16.
+> 🟨 **Maly dodatek:** przy spokojnym morzu przed kolacja podejdzcie na **Porporele** za twierdza sw. Jana — ok. 15–20 min dodatkowo, krotki powrot tym samym nabrzezem; widok portu i murow blisko glownej trasy ([Mapa Porporeli](https://www.google.com/maps/search/?api=1&query=Porporela%20Dubrovnik)). **✂️ Wersja krotka:** Pile → Stradun → Luza → Pile, ok. 1–1,5 km; kolacja w Dubravce przy Pile albo przy hotelu. Jesli zmeczyl Was przejazd, sam posilek i odpoczynek wystarcza — port zostaje na dzien 02.07.
 
 > [!caution] ⚠️ Uwaga
 > Godziny orientacyjne, daty robocze — brak rezerwacji; wybierzcie plan glowny albo spokojny. Pozny przyjazd = krotszy wieczor (petla Pile–Pile z posilkiem ok. 2,5–3 h). Na Neum dokumenty przy sobie. Zrodla sprawdzone 25.09.2026, oceny Google 24.09.2026 — sezon 2027 do potwierdzenia.
 
-## Dzien 15 · Mury miejskie — 1940 m
+## 1 lipca · Mury miejskie — 1940 m
 
-*Sroda, 16 czerwca* · Poranna petla murow, Dubravka i zachodnia zatoka | ok. 4–5 km (z Lovrijenacem 5–6 km), srednio, w upale ciezko | noc 2/3, zamiennie z dniem 16
+*Czwartek, 1 lipca* · Poranna petla murow, Dubravka i zachodnia zatoka | ok. 4–5 km (z Lovrijenacem 5–6 km), srednio, w upale ciezko | noc 2/4, zamiennie z dniem 02.07
 
 | Godzina | Plan |
 |---|---|
@@ -59,7 +59,7 @@ zrodlo: index.html
 | 19:30–21:00 | Spokojny wieczor i przygotowanie plecakow na Lokrum; bez drugiego dojazdu do centrum |
 
 > [!warning] 🌧 Deszcz
-> Deszcz lub burza: mury przelozcie na dzien 16, a Lokrum na dzis tylko przy dobrej pogodzie na wyspie i potwierdzonych rejsach. Przy deszczu lepszy Palac Rektorow (wariant pogodowy dnia 16). Najpierw odpuszczamy: dodatkowa twierdze, Srd i kolejne muzea — odpoczynek po murach zostaje.
+> Deszcz lub burza: mury przelozcie na dzien 02.07, a Lokrum na dzis tylko przy dobrej pogodzie na wyspie i potwierdzonych rejsach. Przy deszczu lepszy Palac Rektorow (wariant pogodowy dnia 02.07). Najpierw odpuszczamy: dodatkowa twierdze, Srd i kolejne muzea — odpoczynek po murach zostaje.
 
 > [!tip] 😌 Spokojniej
 > Bez murow, ok. 2–3 km + hotel (do parku/plazy nadal schody): 08:00–09:00 sniadanie w hotelu | 09:00–10:00 dojazd do Pile i dojscie na Brsalje | 10:00–11:00 Brsalje → zachodnia zatoka, widoki murow i twierdzy z dolu | 11:00–12:30 Gradac (cien) albo Sulic (krotka kapiel) — jedno | 12:30–14:00 spokojny posilek w Dubravce przy powrocie do Pile | 14:00–15:00 powrot do hotelu | 15:00–18:00 prysznic i odpoczynek | 18:00–19:30 kolacja przy noclegu i sprawdzenie rejsow na Lokrum. Wybor tego wariantu = pominiecie murow dzis; przelozenie wymaga zamiany z Lokrum.
@@ -70,9 +70,9 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > Mury: 2–2,5 h na pelna petle, wielokrotne schody, malo cienia. **Brak ponownego wejscia na tym samym bilecie** — wczesniej mozna wyjsc tylko przy dostepnym wyjsciu wskazanym przez obsluge ([regulamin](https://citywallsdubrovnik.hr/faq/)). Nawigacja Google nie zastepuje przebiegu platnej trasy. Godziny orientacyjne, brak rezerwacji; zrodla sprawdzone 25.09.2026, sezon 2027 do potwierdzenia.
 
-## Dzien 16 · Lokrum i ostatni spokojny spacer
+## 2 lipca · Lokrum i spokojny spacer po starowce
 
-*Czwartek, 17 czerwca* · Wyspa: ogrod botaniczny, klasztor, Mrtvo more | powrot przez katedre i schody jezuickie | noc 3/3, zamiennie z dniem 15
+*Piatek, 2 lipca* · Wyspa: ogrod botaniczny, klasztor, Mrtvo more | powrot przez katedre i schody jezuickie | noc 3/4, zamiennie z dniem 01.07
 
 | Godzina | Plan |
 |---|---|
@@ -87,13 +87,13 @@ zrodlo: index.html
 | 15:45–17:00 | 🍽️ Pozny obiad / wczesna kolacja w oddziale Old Town. Jesli menu lub kolejka nie pasuja — dalej w strone Pile do Republic<br>🍽 **Taj Mahal Old Town** — Nikole Gucetica 2 · cevapi w lepinji + ewentualnie kawa po bosniacku · danie z dodatkami do 25 EUR — cena niepotwierdzona · Google 4,5/5 (5732 ocen) · ALT: Republic |
 | 17:00–18:00 | Od Puca → Pile → hotel, bez ponownego dojazdu do starego miasta |
 | 18:00–19:00 | Prysznic i odpoczynek; ewentualnie lekki posilek przy hotelu, jesli jestescie glodni po wczesnej kolacji |
-| 19:00–20:00 | Pakowanie, dokumenty i sprawdzenie transferu lotniskowego. Potem odpoczynek przed podroza |
+| 19:00–20:00 | Spokojny wieczor; kupcie bilety Jadrolinii na jutrzejszy rejs na Lopud (linia 807 z Gruzu, bilet na konkretny kurs) |
 
 > [!warning] 🌧 Deszcz
-> **Nieczynne rejsy przy suchym dniu:** ok. 09:30 dojazd do Pile → Stradun → Palac Rektorow **albo** spokojny spacer przez port i Ploce do Banje (tylko przy warunkach do kapieli — brak deszczu nie oznacza spokojnego morza; [Mapa Banje](https://www.google.com/maps/search/?api=1&query=Banje%20Beach%20Dubrovnik)). Posilek w centrum w drodze powrotnej, hotel ok. 15:00–16:00. **Deszcz:** ok. 10:00–11:30 Palac Rektorow (kontekst dawnej republiki, wnetrza), potem katedra jesli dostepna, 12:00–13:30 posilek i powrot do hotelu. Otwarcie i cene sprawdz w [Muzeach Dubrownika](https://www.dumus.hr/en/cultural-history-museum/). Przy ulewie ogranicz dojscia; mury, Srd i skalne brzegi odpadaja. Franciszkanie przy Pile moga zastapic palac, gdy ich godziny bardziej pasuja — wybierz jedno glowne wnetrze. **Jesli rejsy nie dzialaja przez oba pelne dni, odpuszczamy Lokrum** — dzien lotu nie jest terminem zapasowym.
+> **Nieczynne rejsy przy suchym dniu:** ok. 09:30 dojazd do Pile → Stradun → Palac Rektorow **albo** spokojny spacer przez port i Ploce do Banje (tylko przy warunkach do kapieli — brak deszczu nie oznacza spokojnego morza; [Mapa Banje](https://www.google.com/maps/search/?api=1&query=Banje%20Beach%20Dubrovnik)). Posilek w centrum w drodze powrotnej, hotel ok. 15:00–16:00. **Deszcz:** ok. 10:00–11:30 Palac Rektorow (kontekst dawnej republiki, wnetrza), potem katedra jesli dostepna, 12:00–13:30 posilek i powrot do hotelu. Otwarcie i cene sprawdz w [Muzeach Dubrownika](https://www.dumus.hr/en/cultural-history-museum/). Przy ulewie ogranicz dojscia; mury, Srd i skalne brzegi odpadaja. Franciszkanie przy Pile moga zastapic palac, gdy ich godziny bardziej pasuja — wybierz jedno glowne wnetrze. **Jesli rejsy nie dzialaja przez trzy pelne dni, odpuszczamy Lokrum** — dzien lotu nie jest terminem zapasowym.
 
 > [!tip] 😌 Spokojniej
-> Zastepuje Lokrum (bez rejsu i bez obowiazkowych schodow jezuickich): hotel → Pile → Stradun → Luza → stary port → katedra z zewnatrz → Od Puca → posilek → Pile → hotel. Ok. 2–3 km plus hotel, latwo. 09:00–10:00 sniadanie i spokojny poranek | 10:00–11:00 dojazd do Pile | 11:00–12:30 Stradun → Luza → port → okolice katedry, przerwy po drodze, wnetrze katedry tylko przy checi i poza nabozenstwem | 12:30–14:00 lunch: Taj Mahal Old Town (po sprawdzeniu ceny) albo Republic dalej na zachod — jeden posilek w drodze ku Pile | 14:00–15:00 Od Puca → Pile → hotel | 15:00–18:00 odpoczynek, prysznic | 18:00–19:00 kolacja przy noclegu, bez drugiego wyjazdu na starowke | 19:00–20:00 pakowanie, potwierdzenie punktu odbioru, godziny wyjazdu i dokumentow na jutro.
+> Zastepuje Lokrum (bez rejsu i bez obowiazkowych schodow jezuickich): hotel → Pile → Stradun → Luza → stary port → katedra z zewnatrz → Od Puca → posilek → Pile → hotel. Ok. 2–3 km plus hotel, latwo. 09:00–10:00 sniadanie i spokojny poranek | 10:00–11:00 dojazd do Pile | 11:00–12:30 Stradun → Luza → port → okolice katedry, przerwy po drodze, wnetrze katedry tylko przy checi i poza nabozenstwem | 12:30–14:00 lunch: Taj Mahal Old Town (po sprawdzeniu ceny) albo Republic dalej na zachod — jeden posilek w drodze ku Pile | 14:00–15:00 Od Puca → Pile → hotel | 15:00–18:00 odpoczynek, prysznic | 18:00–19:00 kolacja przy noclegu, bez drugiego wyjazdu na starowke | 19:00–20:00 odpoczynek i bilety na jutrzejszy Lopud.
 
 > [!note] 🔄 Alternatywa
 > **Fort Royal na Lokrum** — tylko zamiast kapieli i czesci poludniowego spaceru: +1–1,5 km i 45–60 min (podejscie, widok, zejscie), bardziej strome i kamieniste; w upale wybierzcie ogrody. Nie laczcie Fort Royal i Srd w jednym dniu wyspiarskim | [Mapa Fort Royal](https://www.google.com/maps/search/?api=1&query=Fort%20Royal%20Lokrum). **✂️ Wersja krotka:** ogrod → klasztor → odpoczynek → wczesniejsza lodz, potem posilek i hotel. Jesli wazniejszy jest prysznic zaraz po kapieli: po powrocie Stradunem do Pile, bez schodow, restauracji na starowce i wina; kolacja przy hotelu.
@@ -101,9 +101,38 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > Obciazenie: ok. 2–3 km na wyspie + 1,5–2,5 km w miescie = **3,5–5,5 km**, latwo do srednio; kamieniste sciezki i zejscia do wody — dobre buty. Na wyspie ok. 4–5 h z dluga przerwa, nie kazda sciezka. Godziny orientacyjne, brak rezerwacji, rozklad rejsow na 2027 do potwierdzenia (zrodla sprawdzone 25.09.2026). 🟨 **Maly dodatek po kolacji:** D’vino, Palmoticeva 4a — kieliszek chorwackiego wina, przy zachodniej czesci starowki blisko drogi do Pile; +45–60 min, sprawdz dostepnosc stolika | Google 4,6/5 (833 ocen) | [Mapa D’vino](https://www.google.com/maps/search/?api=1&query=D%E2%80%99vino%20Wine%20Bar%20Palmoti%C4%87eva%204a%20Dubrovnik).
 
-## Dzien 17 · Powrot do Poznania
+## 3 lipca · Lopud i piaszczysta plaza Sunj
 
-*Piatek, 18 czerwca* · Wymeldowanie, lotnisko DBV i lot do domu — bez zwiedzania
+*Sobota, 3 lipca* · Statek Jadrolinii z Gruzu na wyspe bez aut, kapiel na piasku | noc 4/4 | rejs ok. 45–50 min, na wyspie 3–4 km, latwo
+
+| Godzina | Plan |
+|---|---|
+| 08:30–09:15 | Sniadanie; plecak: woda, krem, recznik, stroj, buty do wody, gotowka. **Trasa:** hotel → port Gruz → statek Jadrolinii (linia 807) → Lopud, port → sciezka przez wyspe → plaza Sunj → port → Gruz → hotel |
+| 09:15–09:45 | Dojazd do portu Gruz (z Berkeley/Porto kilka minut, z Lapadu autobus) · [📍 Port Gruz (Jadrolinija)](https://www.google.com/maps/search/?api=1&query=Jadrolinija%20Dubrovnik%20Gru%C5%BE) |
+| 10:00–10:50 | Rejs na Lopud (po drodze Kolocep). Bilet linii 807 jest na **konkretny kurs** — kupcie dzien wczesniej · lato 2026: ok. 5,40 EUR/os. w jedna strone · [rozklad i opis](https://www.dubrovnik-online.net/dubrovnik-ferry-kolocep-lopud-sipan) |
+| 10:50–11:20 | Z portu sciezka przez wyspe na **Sunj** (ok. 25 min, krotkie podejscie) albo meleks ok. 3 EUR · [📍 Plaza Sunj](https://www.google.com/maps/search/?api=1&query=Sunj%20beach%20Lopud) |
+| 11:20–14:00 | 🏖️ **Plaza Sunj** — piasek, plytkie wejscie do morza, kapiel i cien pod parasolem lub drzewami |
+| 14:00–15:00 | 🍽️ Lunch w beach barze na Sunju albo w porcie Lopudu (grill, pizza) — ceny sprawdz na miejscu<br>🍽 **Beach bar Sunj / port Lopud** — grill, pizza · ceny na miejscu · gotowka |
+| 15:00–16:30 | Jeszcze kapiel albo spacer nabrzezem w porcie (koscioly i ogrody z zewnatrz) |
+| 16:30–18:40 | Powrot do portu z zapasem i statek do Gruzu (kurs wg biletu; w 2026 m.in. ok. 14:50 i 18:40) |
+| 19:00–20:00 | Prysznic i pakowanie, dokumenty, sprawdzenie transferu lotniskowego na jutro |
+| 20:00–21:30 | Pozegnalna kolacja przy hotelu albo w Lapadzie (Zamagna), bez drugiego wyjazdu na starowke |
+
+> [!warning] 🌧 Deszcz
+> Przy wietrze lub odwolanych rejsach: plan spokojny albo dzien zapasowy na mury lub Lokrum, jesli cos wczesniej odpadlo. Odpusc najpierw spacer po porcie w Lopudzie — plaza i powrot z zapasem zostaja.
+
+> [!tip] 😌 Spokojniej
+> Bez rejsu, ok. 2–3 km: 09:00–10:00 sniadanie | 10:00–13:00 plaza w zatoce Lapad przy deptaku | 13:00–14:00 lunch na deptaku Lapad | 14:00–17:30 odpoczynek | 17:30–19:00 pakowanie, dokumenty, transfer na jutro | 19:00–20:30 pozegnalna kolacja przy hotelu.
+
+> [!note] 🔄 Alternatywa
+> **🟨 Cavtat zamiast Lopudu:** lodz ze starego portu (Adriana, Vivado, Sea Line) ok. 45 min, ok. 15 EUR w jedna strone / 20 EUR w obie strony za osobe, kursy mniej wiecej co godzine 9:30–22:00; tanszy autobus nr 10 ok. 30 min. Mala starowka, promenada i kapiel przy cyplu Rat | [Kompas — lodz do Cavtatu](https://kompas.hr/cavtat/getting-around/cavtat-dubrovnik-ferry)
+
+> [!caution] ⚠️ Uwaga
+> Ostatni pelny dzien: morze zamiast kolejnych schodow. Rozklad i ceny Jadrolinii z lata 2026 (odczyt 24.10.2026) — sprawdz na 2027. Bilety tam i z powrotem: ok. 22 EUR za 2 os.
+
+## 4 lipca · Powrot do Poznania
+
+*Niedziela, 4 lipca* · Wymeldowanie, lotnisko DBV i lot do domu — bez zwiedzania
 
 | Godzina | Plan |
 |---|---|
@@ -112,7 +141,7 @@ zrodlo: index.html
 | ok. T−3h | Planowany przyjazd na DBV, nadanie wspolnej walizki i kontrola bezpieczenstwa wedlug otwarcia odprawy · [Lotnisko DBV](https://www.google.com/maps/search/?api=1&query=Dubrovnik%20Airport) |
 | T−2h | Posilek, toaleta i spokojne oczekiwanie po kontroli; obserwujcie tablice |
 | T−1h | Sprawdzenie bramki i podejscie zgodnie z terminem podanym przez linie. Nie odkladajcie tego do ostatniej chwili |
-| T | Potwierdzony lot do domu (godzina i numer polaczenia jeszcze nieznane) · status: [Lotnisko Dubrownik](https://www.airport-dubrovnik.hr/) i aplikacja przewoznika |
+| T | Potwierdzony lot do domu w niedziele 04.07 (Ryanair DBV → POZ latal w niedziele; godzina i numer jeszcze nieznane) · status: [Lotnisko Dubrownik](https://www.airport-dubrovnik.hr/) i aplikacja przewoznika |
 | Po przylocie | Odbior walizki i powrot do domu |
 
 > [!warning] 🌧 Deszcz
@@ -125,14 +154,14 @@ zrodlo: index.html
 > Przy bardzo wczesnym locie lub braku odpowiedniego kursu Platanus — transfer bezposredni z hotelu.
 
 > [!caution] ⚠️ Uwaga
-> **Data i lot robocze — brak rezerwacji.** T = rzeczywista godzina wylotu; po zakupie lotu przeliczcie punkty na godziny zegarowe, wymogi przewoznika (odprawa, bramka) maja pierwszenstwo. Taryfe, limit bagazu, punkt odbioru i kurs Platanus na 18.06.2027 potwierdzcie przed wyjazdem (zrodla sprawdzone 25.09.2026). Nie jedzcie z walizka pod kolejke tylko dlatego, ze poprzednie dni zaczynaly sie przy starowce.
+> **Data i lot robocze — brak rezerwacji.** T = rzeczywista godzina wylotu; po zakupie lotu przeliczcie punkty na godziny zegarowe, wymogi przewoznika (odprawa, bramka) maja pierwszenstwo. Taryfe, limit bagazu, punkt odbioru i kurs Platanus na 04.07.2027 potwierdzcie przed wyjazdem (zrodla sprawdzone 25.09.2026). Nie jedzcie z walizka pod kolejke tylko dlatego, ze poprzednie dni zaczynaly sie przy starowce.
 
 ## 🗺 Plan pobytu — mury, zielone Lokrum i spokojny final
 
-> Jeden wyjazd do centrum i jeden powrot dziennie (hotel w Lapadzie/Gruzu/Boninovie). Po przyjezdzie sprawdzcie pogode: Lokrum na dzien z dzialajacymi rejsami, mury na drugi suchy poranek — dni 15 i 16 sa zamienne, wiec bilety kupujcie z mozliwoscia zmiany daty.
+> 4 noce (30.06–04.07). Jeden wyjazd do centrum i jeden powrot dziennie (hotel w Lapadzie/Gruzu/Boninovie). Po przyjezdzie sprawdzcie pogode: Lokrum na dzien z dzialajacymi rejsami, mury na suchy poranek, Lopud na spokojne morze — dni 01.07, 02.07 i 3.07 sa zamienne, wiec bilety kupujcie z mozliwoscia zmiany daty.
 
-- 🧭 **Najlepszy uklad pobytu — dni 15 i 16 zamienne** — Dzien 14: pierwszy wieczor na starowce · dzien 15: suchy poranek na murach · dzien 16: Lokrum · dzien 17: powrot · dni 15 i 16 mozna zamienic wedlug morza i pogody · Palac Rektorow = plan na deszcz · Srd = opcja zastepujaca czesc dnia 15 · daty robocze, brak rezerwacji · zrodla sprawdzone 25.09.2026, godziny w dniach to okna do planowania, nie potwierdzony rozklad 2027
-- 🌦 **Kolejnosc wedlug pogody — decyzja po przyjezdzie** — Sprawdzcie oba pelne dni · pierwszenstwo na Lokrum ma dzien z dzialajacymi rejsami i dobrymi warunkami · mury na drugi suchy poranek · kupujac bilety na date, uzgodnijcie mozliwosc zamiany przed oplaceniem · woda, cien i odpoczynek takze po zmianie kolejnosci
+- 🧭 **Najlepszy uklad pobytu — mury, Lokrum i Lopud zamienne** — 30.06: pierwszy wieczor na starowce · 01.07: suchy poranek na murach · 02.07: Lokrum · 03.07: Lopud i plaza Sunj · 04.07: powrot · trzy pelne dni mozna zamieniac wedlug morza i pogody · Palac Rektorow = plan na deszcz · Srd = opcja zastepujaca czesc dnia 01.07 · daty robocze, brak rezerwacji · zrodla sprawdzone 25.09.2026, godziny w dniach to okna do planowania, nie potwierdzony rozklad 2027
+- 🌦 **Kolejnosc wedlug pogody — decyzja po przyjezdzie** — Sprawdzcie trzy pelne dni · pierwszenstwo na Lokrum ma dzien z dzialajacymi rejsami i dobrymi warunkami · mury na drugi suchy poranek · kupujac bilety na date, uzgodnijcie mozliwosc zamiany przed oplaceniem · woda, cien i odpoczynek takze po zmianie kolejnosci
 - 🏨 **Okolica noclegu — jeden wyjazd do centrum i jeden powrot dziennie** — Tansze dobre hotele sa w Lapadzie, Gruzu i na Boninovie · przy starowce hotele 300–450 EUR za noc · dlatego posilek na siedzaco i wczesniejszy koniec dnia zamiast sjesty w pokoju · noclegi: tylko hotele (18.10.2026)
 - 🚶 **Lero / Boninovo — do Pile 20–25 min pieszo** — Albo 5–10 min autobusem 4/6 · najblizej z tanszych · sjesta mozliwa
 - 🚌 **Ivka / Lapad — autobus 6 ok. 15 min do Pile** — Najlepsza ocena w cenie · jeden blok w centrum dziennie
@@ -144,41 +173,42 @@ zrodlo: index.html
 - 🎟 **[Do decyzji: mury czy Dubrovnik Pass](https://www.dubrovnikpass.com/)** — Porownajcie sam bilet z najkrotszym pasujacym Passem, zwlaszcza przy dojazdach autobusem · sprawdzic: cena i zawartosc 2027, waznosc od aktywacji, zasady komunikacji, ewentualna rezerwacja wejscia
 - 🏰 **[Mury — oficjalny sklep biletow](https://shop.citywallsdubrovnik.hr/en)** — Bilet wg regulaminu = jeden obchod, bez ponownego wejscia · ceny, godziny i ewentualny system rezerwacji sprawdzic w aktualnym koszyku, nie z dawnych opisow · cena i wymogi wejscia na czerwiec 2027 niepotwierdzone
 - 📄 **[Mury — FAQ i regulamin (Lovrijenac)](https://citywallsdubrovnik.hr/faq/)** — Oficjalne FAQ potwierdza Lovrijenac w bilecie murow, ale zawiera tez starsze informacje · Lovrijenac to opcja po murach, nie obowiazek · potwierdzcie okres waznosci i otwarcie — nie kupujcie drugiego biletu bez sprawdzenia
-- 🏝 **[Lokrum — bilety rezerwatu](https://www.lokrum.hr/en/)** — Oficjalny rejs ze starego portu, elastyczna data: dzien 15 lub 16 · 25.09.2026: 30 EUR/doroslego = wejscie + rejs w obie strony (dla Was 60 EUR) — punkt odniesienia, nie cena gwarantowana na 2027 · wodna taksowka nie musi zawierac wejscia, Pass nie musi go pokrywac · rejsy moga nie dzialac przy zlej pogodzie · sprawdzic: dzialanie lodzi, kurs powrotny, warunki zmiany daty
+- 🏝 **[Lokrum — bilety rezerwatu](https://www.lokrum.hr/en/)** — Oficjalny rejs ze starego portu, elastyczna data: 01.07, 02.07 albo 03.07 · 25.09.2026: 30 EUR/doroslego = wejscie + rejs w obie strony (dla Was 60 EUR) — punkt odniesienia, nie cena gwarantowana na 2027 · wodna taksowka nie musi zawierac wejscia, Pass nie musi go pokrywac · rejsy moga nie dzialac przy zlej pogodzie · sprawdzic: dzialanie lodzi, kurs powrotny, warunki zmiany daty
 - 🕒 **[Lokrum — opublikowany rozklad 2026 (PDF)](https://www.lokrum.hr/storage/useful-links/08-2026%20Lokrum%20-%20Plovidbeni%20red.pdf)** — Dotyczy 25.08.2026 — godzin nie przepisujemy do czerwca 2027, sprawdzic aktualny rozklad
 - 🍷 **Do sprawdzenia: kolacja i lotnisko** — Ewentualnie Taj Mahal / D’vino — godziny kuchni, cena dania, adres oddzialu · transfer na lotnisko po zakupie lotu — rzeczywisty kurs i bagaz na DBV
-- 📸 **[Dodatek: War Photo Limited — ok. 1h](https://www.warphotoltd.com/)** — Muzeum fotografii wojennej na starowce — poruszajace i wartosciowe · pasuje do dnia 16 (zamiast czesci spaceru po Lokrum) lub jako zamiennik na deszcz
+- 📸 **[Dodatek: War Photo Limited — ok. 1h](https://www.warphotoltd.com/)** — Muzeum fotografii wojennej na starowce — poruszajace i wartosciowe · pasuje do 02.07 (zamiast czesci spaceru po Lokrum) lub jako zamiennik na deszcz
 - 💊 **[Dodatek: apteka klasztoru Franciszkanow — ok. 30 min](https://www.google.com/maps/search/?api=1&query=Franciscan%20Monastery%20Dubrovnik)** — Trzecia najstarsza apteka w Europie (od 1317), w klasztorze przy Pile · krotki przystanek przy wchodzeniu/wychodzeniu ze starowki
 - 🍹 **[Dodatek: Buza (Cafe Buza) — ok. 45 min](https://www.google.com/maps/search/?api=1&query=Buza%20Bar%20Dubrovnik)** — Bar na klifach z widokiem na otwarte morze — schody przez dziure w murach · popularny, ale wart jednego napoju · nie mylic z Bard / Mala Buza
-- ⛔ **Swiadomie poza planem** — Cavtat, Mljet, Korcula i Kotor zabralyby jedyny dzien na mury albo Lokrum · Ston tylko jako wczesniej wyceniony postoj prywatnego transferu · zachodnie przedmurze, kolejne muzea, Bard/Mala Buza i Banje = dodatki do wyboru, nie lista do odhaczenia
+- ⛔ **Swiadomie poza planem** — Mljet, Korcula i Kotor to dlugie wyjazdy kosztem odpoczynku · Cavtat = zamiennik Lopudu 3.07 · Ston tylko jako wczesniej wyceniony postoj prywatnego transferu · zachodnie przedmurze, kolejne muzea, Bard/Mala Buza i Banje = dodatki do wyboru, nie lista do odhaczenia
 
-## 🚌 Przejazdy — Brela → Dubrownik (wtorek 15 czerwca) i lotnisko DBV (18 czerwca)
+## 🚌 Przejazdy — Brela → Dubrownik (sroda 30 czerwca) i lotnisko DBV (niedziela 4 lipca)
 
 > Do Dubrownika nie jezdza pociagi — tylko autobus. Trasa idzie mostem Peljesac, ale czesc kursow wciaz przejezdza przez Neum (Bosnia) — miej dowod osobisty lub paszport pod reka. Przyjazd na dworzec Gruz; do Lapadu ok. 2 km — autobus miejski Libertas lub kilka minut taxi. Platanus na DBV: przystanki Gruz, Grawe, Cable Car | 10 EUR/os, 2 os. 20 EUR | ok. 30–45 min | rozklad: https://platanus.hr/dubrovnik-to-airport-shuttle-bus/
 
 - ⭐ **[Autobus bezposredni Brela → Dubrownik — ok. 7 kursow dziennie](https://www.checkmybus.com/brela/dubrovnik)** — Rano: Nomago ok. 8:45, Promet Makarska ok. 8:57, FlixBus ok. 8:55 (wybrane dni) · popoludnie: FlixBus ok. 14:55, Arriva ok. 18:10 · ok. 3–3,5h · ok. 14–35 EUR/os · odjazd z przystankow Brela Gornja (D8) lub Dubci · uwaga: unikaj kursow z przesiadka (do 7h)! · porownanie i zakup
 - 🟢 **[FlixBus Brela Gornja → Dubrownik](https://global.flixbus.com/bus-routes/bus-brela-gornja-dubrovnik)** — ok. 3,5h · bilet w aplikacji
 - 🎫 **[GetByBus — Nomago, Promet Makarska, Arriva](https://getbybus.com/en/)** — e-bilet na telefonie
-- ✈ **[Platanus — autobus lotniskowy na DBV (18 czerwca)](https://platanus.hr/shuttle-bus/)** — ok. 10 EUR/os (powrotny 14 EUR) · ok. 30–40 min · odjazdy dopasowane do lotow · bilet online, w kiosku lub u kierowcy (gotowka) · rozklad i bilety
+- ✈ **[Platanus — autobus lotniskowy na DBV (4 lipca)](https://platanus.hr/shuttle-bus/)** — ok. 10 EUR/os (powrotny 14 EUR) · ok. 30–40 min · odjazdy dopasowane do lotow · bilet online, w kiosku lub u kierowcy (gotowka) · rozklad i bilety
 - 🚌 **[Arriva — Brela → Dubrownik](https://www.arriva.com.hr/)** — kurs bezposredni lub przesiadka w Makarskiej · wg notatki 4–5 h · ok. 20–30 EUR/os · 2 os. ok. 40–60 EUR · dokument przy sobie (Neum)
 - 🚌 **[Dworzec Gruz → hotel — Libertas albo taxi](https://libertasdubrovnik.hr/)** — 5–15 min · autobus ok. 2–3 EUR/os, taxi ok. 10–15 EUR · 2 os. ok. 5–15 EUR
 - 🚌 **[Hotel ↔ Pile codziennie — Libertas (albo w Dubrovnik Pass)](https://libertasdubrovnik.hr/)** — 5–15 min · ok. 2–3 EUR za przejazd · 2 os. na 2 dni ok. 25–35 EUR
+- ⛴️ **[Gruz → Lopud — statek Jadrolinii, linia 807 (3 lipca)](https://www.dubrovnik-online.net/dubrovnik-ferry-kolocep-lopud-sipan)** — ok. 45–50 min · lato 2026: ok. 5,40 EUR/os. w jedna strone, 2 os. tam i z powrotem ok. 22 EUR · bilet na konkretny kurs — kup dzien wczesniej · z Dubrownika pn.–sob. m.in. 10:00, 14:00, 16:30; powroty m.in. ok. 14:50 i 18:40 (rozklad 2026)
 - ✈️ **[Dubrownik → Poznan — Ryanair (+ walizka)](https://www.ryanair.com/pl/pl)** — ok. 2 h · ok. 250–400 zl/os + walizka ok. 150–250 zl · 2 os. ok. 650–1 050 zl
 
-## 🛏 Noclegi — kandydaci (15–18 czerwca, 3 noce, 2 os.)
+## 🛏 Noclegi — kandydaci (30 czerwca – 4 lipca, 4 noce, 2 os.)
 
-> Tylko hotele. Ceny w zl to szacunki na czerwiec z 18.10.2026 (Booking blokuje odczyt); Dubrovnik Palace, Royal Ariston i Valamar Tirena — odczyt na 1–4 lipca (szczyt). Hotele przy samej starowce kosztuja 300–450 EUR/noc. Hotele ze zgloszeniami karaluchow (np. Bellevue) odpadaja. Z Lapadu na starowke autobus 4/5/6 ok. 15–20 min, pieszo ok. 45 min.
+> Tylko hotele. Ceny w zl to szacunki na czerwiec z 18.10.2026 (Booking blokuje odczyt); Dubrovnik Palace, Royal Ariston i Valamar Tirena — odczyt na 1–4 lipca (szczyt) — to prawie Wasz termin. Hotele przy samej starowce kosztuja 300–450 EUR/noc. Hotele ze zgloszeniami karaluchow (np. Bellevue) odpadaja. Z Lapadu na starowke autobus 4/5/6 ok. 15–20 min, pieszo ok. 45 min.
 
-- ⭐ **[Berkeley Hotel & Spa (4★) — faworyt](https://www.booking.com/hotel/hr/berkeley.html)** — Autobus 10–15 min do starowki, dworzec Gruz obok — najlatwiej z walizka · 9.1/10 (1247 opinii) · ok. 760–1190 zl/noc, 3 noce ok. 2280–3570 zl · raz zgloszony zapach kanalizacji (08.2026) · strona: https://www.berkeleyhotel.hr/
-- 🏰 **[Hotel Dubrovnik Palace (5★) — najdrozej](https://www.booking.com/hotel/hr/dubrovnikpalace.html)** — Ok. 5 km od centrum, autobus 4 · 9.1/10 (2873 opinie) · ok. 2227 zl/noc, 3 noce ok. 6680 zl (odczyt na lipiec, szczyt) · strona: https://www.adriaticluxuryhotels.com/hotel-dubrovnik-palace
-- 👑 **[Royal Ariston Hotel (5★)](https://www.booking.com/searchresults.pl.html?ss=Royal+Ariston+Hotel+Dubrownik)** — Ok. 5–6 km od centrum, autobus 6 · 9.1/10 (1941 opinii) · ok. 1658 zl/noc, 3 noce ok. 4970 zl (odczyt na lipiec, szczyt)
-- 🏛 **[Heritage Villa Nobile (4★) — najblizej starowki](https://www.booking.com/hotel/hr/villa-west-gate.html)** — 2–3 min od bramy Pile · 9.7/10 (ok. 250 opinii — malo) · ok. 1280–1910 zl/noc, 3 noce ok. 3840–5730 zl · owady przez okno (opinia 10.2025)
-- 🧭 **[Hotel Kompas (4★)](https://www.booking.com/hotel/hr/hotelkompasdubrovnik.en-gb.html)** — Autobus 4/6 15–20 min do starowki · 9.2–9.4/10 (ok. 2000 opinii) · ok. 1280–1910 zl/noc, 3 noce ok. 3840–5730 zl
-- 🌊 **[Valamar Tirena Hotel (4★)](https://www.booking.com/searchresults.pl.html?ss=Valamar+Tirena+Hotel+Dubrownik)** — Ok. 5–6 km od centrum, autobus 6 · 9.0/10 (1096 opinii) · ok. 1242 zl/noc, 3 noce ok. 3730 zl (odczyt na lipiec, szczyt) · strona: https://www.valamar.com/en/hotels-dubrovnik/tirena-hotel
-- ⚓ **[Boutique Hotel Porto (4★) — najnowszy](https://www.booking.com/hotel/hr/porto-dubrovnik.html)** — Autobus do starowki <10 min, przy shuttle na lotnisko · 9.0–9.1/10 (ok. 1850 opinii) · ok. 850–1230 zl/noc, 3 noce ok. 2550–3690 zl · otwarty 2021, rabat early booker · strona: https://www.hotelporto.hr/
-- 🏨 **[Hotel Lero (4★)](https://www.booking.com/hotel/hr/lero.html)** — Ok. 15–25 min pieszo do starowki, przy ruchliwej ulicy, bez klimatu deptaka · 8.9–9.0/10 (ok. 3900 opinii) · ok. 850–1190 zl/noc (ok. 150–200 EUR), 3 noce ok. 2550–3570 zl · stare zgloszenia pluskiew (2013) i plesni (2017), stechlizna (08.2026) · strona: https://www.hotel-lero.hr/
-- 🌴 **[Hotel Lapad (4★)](https://www.booking.com/hotel/hr/lapad.en-gb.html)** — Autobus 10–20 min do starowki · 8.7/10 (ok. 1800 opinii) · ok. 850–1190 zl/noc, 3 noce ok. 2550–3570 zl · strona: https://www.hotel-lapad.hr/
-- 🏖 **[Hotel Perla (3★)](https://www.booking.com/searchresults.pl.html?ss=Hotel+Perla+Dubrownik)** — Autobus 15–20 min, przy plazy · 8.3–8.6/10 Kayak (ok. 620 opinii) — nizsza ocena · ok. 640–680 zl/noc, 3 noce ok. 1920–2040 zl · sniadanie ok. 15 EUR/os. extra
+- ⭐ **[Berkeley Hotel & Spa (4★) — faworyt](https://www.booking.com/hotel/hr/berkeley.html)** — Autobus 10–15 min do starowki, dworzec Gruz obok — najlatwiej z walizka · 9.1/10 (1247 opinii) · ok. 760–1190 zl/noc, 4 noce ok. 3 040–4 760 zl · raz zgloszony zapach kanalizacji (08.2026) · strona: https://www.berkeleyhotel.hr/
+- 🏰 **[Hotel Dubrovnik Palace (5★) — najdrozej](https://www.booking.com/hotel/hr/dubrovnikpalace.html)** — Ok. 5 km od centrum, autobus 4 · 9.1/10 (2873 opinie) · ok. 2227 zl/noc, 4 noce ok. 8 910 zl (odczyt na lipiec, szczyt) · strona: https://www.adriaticluxuryhotels.com/hotel-dubrovnik-palace
+- 👑 **[Royal Ariston Hotel (5★)](https://www.booking.com/searchresults.pl.html?ss=Royal+Ariston+Hotel+Dubrownik)** — Ok. 5–6 km od centrum, autobus 6 · 9.1/10 (1941 opinii) · ok. 1658 zl/noc, 4 noce ok. 6 630 zl (odczyt na lipiec, szczyt)
+- 🏛 **[Heritage Villa Nobile (4★) — najblizej starowki](https://www.booking.com/hotel/hr/villa-west-gate.html)** — 2–3 min od bramy Pile · 9.7/10 (ok. 250 opinii — malo) · ok. 1280–1910 zl/noc, 4 noce ok. 5 120–7 640 zl · owady przez okno (opinia 10.2025)
+- 🧭 **[Hotel Kompas (4★)](https://www.booking.com/hotel/hr/hotelkompasdubrovnik.en-gb.html)** — Autobus 4/6 15–20 min do starowki · 9.2–9.4/10 (ok. 2000 opinii) · ok. 1280–1910 zl/noc, 4 noce ok. 5 120–7 640 zl
+- 🌊 **[Valamar Tirena Hotel (4★)](https://www.booking.com/searchresults.pl.html?ss=Valamar+Tirena+Hotel+Dubrownik)** — Ok. 5–6 km od centrum, autobus 6 · 9.0/10 (1096 opinii) · ok. 1242 zl/noc, 4 noce ok. 4 970 zl (odczyt na lipiec, szczyt) · strona: https://www.valamar.com/en/hotels-dubrovnik/tirena-hotel
+- ⚓ **[Boutique Hotel Porto (4★) — najnowszy](https://www.booking.com/hotel/hr/porto-dubrovnik.html)** — Autobus do starowki <10 min, przy shuttle na lotnisko · 9.0–9.1/10 (ok. 1850 opinii) · ok. 850–1230 zl/noc, 4 noce ok. 3 400–4 920 zl · otwarty 2021, rabat early booker · strona: https://www.hotelporto.hr/
+- 🏨 **[Hotel Lero (4★)](https://www.booking.com/hotel/hr/lero.html)** — Ok. 15–25 min pieszo do starowki, przy ruchliwej ulicy, bez klimatu deptaka · 8.9–9.0/10 (ok. 3900 opinii) · ok. 850–1190 zl/noc (ok. 150–200 EUR), 4 noce ok. 3 400–4 760 zl · stare zgloszenia pluskiew (2013) i plesni (2017), stechlizna (08.2026) · strona: https://www.hotel-lero.hr/
+- 🌴 **[Hotel Lapad (4★)](https://www.booking.com/hotel/hr/lapad.en-gb.html)** — Autobus 10–20 min do starowki · 8.7/10 (ok. 1800 opinii) · ok. 850–1190 zl/noc, 4 noce ok. 3 400–4 760 zl · strona: https://www.hotel-lapad.hr/
+- 🏖 **[Hotel Perla (3★)](https://www.booking.com/searchresults.pl.html?ss=Hotel+Perla+Dubrownik)** — Autobus 15–20 min, przy plazy · 8.3–8.6/10 Kayak (ok. 620 opinii) — nizsza ocena · ok. 640–680 zl/noc, 4 noce ok. 2 560–2 720 zl · sniadanie ok. 15 EUR/os. extra
 - 🌳 **[Heritage Hotel Zagreb (3★)](https://www.kayak.co.uk/Dubrovnik-Hotels-Hotel-Zagreb.80677.ksp)** — Na samym deptaku Lapad, Setaliste kralja Zvonimira 5 · 9.4/10 (747 ocen) · czystosc 9/10 · brak wzmianek o insektach · bez windy · ok. 150–220 EUR
 - ✨ **[Hotel Uvala (4★, Maistra)](https://tripexpert.com/dubrovnik/hotels/hotel-lero-vs-hotel-uvala)** — Przy deptaku i plazy Lapad · wyraznie lepszy standard · ok. 200–280 EUR
 - 🏝 **[Hotel Splendid (3★, Maistra)](https://www.trivago.com/en-US/oar/hotel-splendid-dubrovnik?search=100-88006)** — Nad zatoka Lapad, autobus spod drzwi · 8.1/10 (ok. 3900 ocen) · slabsze lazienki · ok. 130–190 EUR
@@ -186,8 +216,8 @@ zrodlo: index.html
 - 🌅 **[Tailor Cut with a Private Terrace (Ploce) — apartament, nie hotel](https://www.booking.com/hotel/hr/tailor-cut-with-a-private-terrace.html)** — Marojice Kaboge 6, ok. 5 min do bramy Ploce i Stradunu · 9.2/10 · prywatny taras · bez recepcji · od ok. 155 EUR, w czerwcu raczej 180–250 EUR
 - 🧱 **[Kenova Apartments Old Town — apartament, nie hotel](https://www.booking.com/hotel/hr/kenova-apartments-old-town.html)** — Dura Baljevija 1, w obrebie starowki · 8.4/10 · kuchnia, balkon · starowka = schody i wieczorny gwar · poza sezonem od ok. 100 EUR, w czerwcu ok. 160–220 EUR
 - 💸 **[Hotel Stari Grad (4★) — za drogo](https://www.kayak.com/Dubrovnik-Hotels-Boutique-Hotel-Stari-Grad.101882.ksp)** — Od Sigurate 4, przy bramie Pile · 9.1/10 (459 ocen) · bez windy, halas z ulicy, ocena „wartosc za cene” 4/10 · ok. 450–650 EUR za noc
-- ⛔ **[Hotel Ivka (4★) — odrzucony przez Alberta](https://www.booking.com/hotel/hr/ivka.en-gb.html)** — Autobus 6 ok. 15 min do starowki, mieszkalna okolica · 9.2/10 (1081 opinii) · ok. 760–1100 zl/noc, 3 noce ok. 2280–3300 zl · remont 2025–26 · strona: https://www.hotel-ivka.com/
-- ⛔ **[Maistra Select Astarea (Mlini, 3★) — odrzucony przez Alberta](https://www.booking.com/searchresults.pl.html?ss=Maistra+Select+Astarea+%28Mlini%29+Dubrownik)** — Mlini, autobus 10 25–30 min, w sezonie lodz · 8.8/10 Kayak (ok. 2480 opinii) · ok. 700–810 zl/noc, 3 noce ok. 2100–2430 zl — najtaniej z dobra ocena · cienkie sciany
+- ⛔ **[Hotel Ivka (4★) — odrzucony przez Alberta](https://www.booking.com/hotel/hr/ivka.en-gb.html)** — Autobus 6 ok. 15 min do starowki, mieszkalna okolica · 9.2/10 (1081 opinii) · ok. 760–1100 zl/noc, 4 noce ok. 3 040–4 400 zl · remont 2025–26 · strona: https://www.hotel-ivka.com/
+- ⛔ **[Maistra Select Astarea (Mlini, 3★) — odrzucony przez Alberta](https://www.booking.com/searchresults.pl.html?ss=Maistra+Select+Astarea+%28Mlini%29+Dubrownik)** — Mlini, autobus 10 25–30 min, w sezonie lodz · 8.8/10 Kayak (ok. 2480 opinii) · ok. 700–810 zl/noc, 4 noce ok. 2 800–3 240 zl — najtaniej z dobra ocena · cienkie sciany
 - ⛔ **[Hotel Vis — odradzam](https://www.tripadvisor.com/Hotel_Review-g295371-d304338-Reviews-Hotel_Vis-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html)** — 3.2/5 na Tripadvisorze · plesn w lazience, mrowki w pokoju
 - ⛔ **Hotel Bellevue — odpada** — Zgloszenia karaluchow — usuniety z listy
 
@@ -215,11 +245,13 @@ zrodlo: index.html
 - 🍷 **[D’vino Wine Bar — winiarnia, najlepsza degustacja win w podrozy](https://www.google.com/maps/search/?api=1&query=D%E2%80%99vino%20Wine%20Bar%20Palmoti%C4%87eva%204a%20Dubrovnik)** — Palmoticeva 4a, zachod starowki · Zamow: degustacja chorwackich win (Dingac + Posip) + deska serow i wedlin (prsut, paski sir); zapytaj o Postup, Grk, Malvasija dubrovacka · Google 10–35 €/os.; degustacja i deska osobno do wyceny · ⭐ Google 4,6/5 (833 ocen, odczyt 24.09.2026) · Rezerwacja wskazana; zarezerwuj 45–60 min; po wieczornym spacerze · [menu](https://www.dvino.net/)
 - 🌅 **[Bard (Mala buza) – Sunset bar — bar widokowy (opcjonalnie)](https://www.google.com/maps/search/?api=1&query=Bard%20(Mala%20bu%C5%BEa)%20%E2%80%93%20Sunset%20bar%20Ispod%20Mira%2014%20Dubrovnik)** — Ispod Mira 14, skaly pod murami · Zamow: piwo lub napoj bezalkoholowy przy zachodzie · Google 5–15 €/os. · ⭐ Google 4,2/5 (1406 ocen, odczyt 24.09.2026) · Placisz za widok i zdjecia, nie za obsluge/koktajle; schody i skaly — kiepski odpoczynek po murach; nie mylic z inna Buza
 
-## 🏰 Dubrownik — mury, Lokrum i bilety
+## 🏰 Dubrownik — mury, Lokrum, Lopud i bilety
 
 > Mury i Lokrum to obowiazkowe punkty. Policz, czy Dubrovnik Pass (mury + muzea + autobusy) nie wyjdzie taniej niz osobny bilet na mury plus przejazdy Libertas. Kolejke na Srd mozna pominac — widok z murow wystarczy.
 
 - ⭐ **[Mury Dubrownika (z twierdza Lovrijenac) — oficjalny sklep](https://shop.citywallsdubrovnik.hr/en)** — ok. 35–40 EUR/os · 2 os. ok. 70–80 EUR · obowiazkowo
 - 🎫 **[Dubrovnik Pass — mury + muzea + autobusy](https://www.dubrovnikpass.com/)** — porownaj z osobnym biletem na mury i przejazdami Libertas
 - 🏝 **[Lokrum — bilet z rejsem w obie strony](https://www.lokrum.hr/en/)** — ok. 30 EUR/os · 2 os. ok. 60 EUR · zielona wyspa 15 min lodzia
+- 🏖 **[Lopud — plaza Sunj, statek Jadrolinii z Gruzu (3 lipca)](https://www.jadrolinija.hr/)** — ok. 11 EUR/os. tam i z powrotem · 2 os. ok. 22 EUR · piaszczysta plaza, wyspa bez aut · bilet na konkretny kurs
+- 🟨 **[Cavtat — zamiennik Lopudu (lodz ze starego portu)](https://kompas.hr/cavtat/getting-around/cavtat-dubrovnik-ferry)** — ok. 45 min · ok. 15 EUR w jedna strone / 20 EUR w obie strony za osobe (Adriana, Vivado, Sea Line) · tanszy autobus nr 10 ok. 30 min
 - ⛔ **[Kolejka na Srd (Dubrovnik Cable Car) — pomin](https://www.dubrovnikcablecar.com/timetable-and-prices/)** — ok. 30 EUR/os · 2 os. ok. 60 EUR · widok z murow wystarczy

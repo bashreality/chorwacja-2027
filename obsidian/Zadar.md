@@ -7,13 +7,13 @@ zrodlo: index.html
 
 # Zadar — Organy Morskie, pieszy Zadar, Plitvice i Kornati
 
-**2–6 czerwca | 4 noce | dni 1–4**
+**18–22 czerwca | 4 noce | 18–21.06**
 
 ← [[Chorwacja 2027]]
 
-## Dzien 1 · Przylot i pierwszy zachod
+## 18 czerwca · Przylot i pierwszy zachod
 
-*Sroda, 2 czerwca* · Jadera, Forum, Organy Morskie, Pozdrav Suncu
+*Piatek, 18 czerwca* · Jadera, Forum, Organy Morskie, Pozdrav Suncu
 
 | Godzina | Plan |
 |---|---|
@@ -35,9 +35,9 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > Godziny orientacyjne, daty robocze — brak rezerwacji; poranne okna dopasuj do kupionego lotu. Trasa po odpoczynku: nocleg → Jadera → Forum → promenada → Organy Morskie → Pozdrav Suncu | spacer ok. 1,5–3 km plus hotel, latwy, plasko — najwiekszym obciazeniem jest przylot i walizka | [Mapa: Jadera → Forum → Organy → Pozdrav Suncu](https://www.google.com/maps/dir/?api=1&origin=Restaurant%20Jadera%20Zadar&destination=Greeting%20to%20the%20Sun%20Zadar&waypoints=Roman%20Forum%20Zadar%7CSea%20Organ%20Zadar&travelmode=walking)
 
-## Dzien 2 · Zadar od targu do Fosy + Kolovare
+## 19 czerwca · Zadar od targu do Fosy + Kolovare
 
-*Czwartek, 3 czerwca* · Cala starowka pieszo, po poludniu plaza Kolovare
+*Sobota, 19 czerwca* · Cala starowka pieszo, po poludniu plaza Kolovare
 
 | Godzina | Plan |
 |---|---|
@@ -59,11 +59,11 @@ zrodlo: index.html
 > Krotka starowka i jeden popoludniowy cel: 09:00–10:00 sniadanie w Pjacecie albo przy hotelu | 10:00–11:30 Forum, sw. Donat z zewnatrz, najwyzej jedno wnetrze, bez wiezy | 11:30–12:00 powoli Kalelarga do Narodni trg | 12:00–13:00 lunch w 4 Kantuna | 13:00–16:30 odpoczynek w noclegu | 16:30–18:00 Fosa i krotki spacer **albo** Kolovare i kapiel (wg polozenia hotelu) | 18:00–19:00 powrot i prysznic | 19:00–20:00 kolacja przy noclegu (Pjat/4 Kantuna tylko gdy wracacie na polwysep) | 20:00–20:30 prowiant, woda i kurtka na Plitvice.
 
 > [!caution] ⚠️ Uwaga
-> Jedyny pelny dzien w Zadarze — splyw kajakowy przeniesiono na Cetine w Omisu (dzien 12, z Breli). Spacer: rano ok. 2–3 km, z plaza i powrotem lacznie ok. 5–7 km + hotel, latwy (wieza to osobny wysilek po schodach). Godziny orientacyjne, brak rezerwacji.
+> Jedyny pelny dzien w Zadarze — splyw kajakowy przeniesiono na Cetine w Omisu (dzien 29.06, z Breli). Spacer: rano ok. 2–3 km, z plaza i powrotem lacznie ok. 5–7 km + hotel, latwy (wieza to osobny wysilek po schodach). Godziny orientacyjne, brak rezerwacji.
 
-## Dzien 3 · Plitvice — pelny dzien wsrod jezior
+## 20 czerwca · Plitvice — pelny dzien wsrod jezior
 
-*Piatek, 4 czerwca* · Kladki, wodospady, gorne i dolne jeziora z wycieczka z Zadaru
+*Niedziela, 20 czerwca* · Kladki, wodospady, gorne i dolne jeziora z wycieczka z Zadaru
 
 | Godzina | Plan |
 |---|---|
@@ -75,14 +75,14 @@ zrodlo: index.html
 | 13:00–15:30 | Dalsze jeziora i parkowy transport wedlug trasy. Zdjecia rob na poszerzeniach kladek, zostawiajac przejscie innym |
 | 15:30–18:00 | Zbiorka i powrot do Zadaru, z buforem na opoznienia |
 | 18:00–19:30 | Odpoczynek i prysznic |
-| 19:30–20:30 | Kolacja blisko hotelu. Przy pozniejszym powrocie wybierz najblizsza otwarta kuchnie<br>🍽 **4 Kantuna albo Jadera** — Polwysep · 4 Kantuna — makaron/pizza · Jadera — jesli nie udala sie pierwszego wieczoru |
+| 19:30–20:30 | Kolacja blisko hotelu. Przy pozniejszym powrocie wybierz najblizsza otwarta kuchnie<br>🍽 **4 Kantuna** — Polwysep · makaron/pizza · Jadera w niedziele zamknieta |
 | 20:30–21:15 | Przygotowanie na rejs i sen. Nie planuj dlugiego pubowego wieczoru po calym dniu chodzenia |
 
 > [!warning] 🌧 Deszcz
 > **Lekki deszcz:** Plitvice moga pozostac mozliwe — decyduja park, ostrzezenia i operator. **Burza lub zamkniecie:** zamien dzien albo wybierz lokalny program pod dachem. **Przy zmeczeniu odpusc:** wieczorne atrakcje po powrocie; krotsza trasa w samym parku wymaga wczesniejszego ustalenia.
 
 > [!tip] 😌 Spokojniej
-> **Zamiast Plitvic zostajecie w Zadarze** (ok. 3–5 km + hotel; wycieczka wypada z pobytu, jesli nie da sie jej przelozyc na inny pelny dzien): 09:00–10:00 sniadanie w Pjacecie, bez wczesnej pobudki | 10:00–11:30 Muzeum Szkla albo krotki spacer po centrum (zaleznie od pogody) | 11:30–12:00 kawa lub spokojne przejscie ku poludniowej starowce | 12:00–13:00 lunch w 4 Kantuna (makaron lub pizza) | 13:00–16:00 odpoczynek w noclegu | 16:00–18:00 Kolovare i kapiel (przy gorszej pogodzie krotki spacer przy hotelu) | 18:00–19:00 powrot, prysznic, odpoczynek | 19:00–20:00 kolacja przy hotelu — Jadera na polwyspie, jesli nie udala sie wczesniej | 20:00–20:30 przygotuj plecaki na rejs i potwierdz miejsce zbiorki.
+> **Zamiast Plitvic zostajecie w Zadarze** (ok. 3–5 km + hotel; wycieczka wypada z pobytu, jesli nie da sie jej przelozyc na inny pelny dzien): 09:00–10:00 sniadanie w Pjacecie, bez wczesnej pobudki | 10:00–11:30 Muzeum Szkla albo krotki spacer po centrum (zaleznie od pogody) | 11:30–12:00 kawa lub spokojne przejscie ku poludniowej starowce | 12:00–13:00 lunch w 4 Kantuna (makaron lub pizza) | 13:00–16:00 odpoczynek w noclegu | 16:00–18:00 Kolovare i kapiel (przy gorszej pogodzie krotki spacer przy hotelu) | 18:00–19:00 powrot, prysznic, odpoczynek | 19:00–20:00 kolacja przy hotelu — 4 Kantuna na polwyspie (Jadera w niedziele zamknieta) | 20:00–20:30 przygotuj plecaki na rejs i potwierdz miejsce zbiorki.
 
 > [!note] 🔄 Alternatywa
 > **Wybor wycieczki:** Travel More — referencyjny wyjazd ok. 07:30, ok. 2 h jazdy w jedna strone, ok. 5 h zwiedzania, powrot ok. 18:00. Oferta lato 2026: 80 €/dorosly, wejscie do parku w cenie (ale lista rzeczy zawiera gotowke na wejscie); jedzenie i napoje poza cena — [oferta operatora](https://www.morezadar-travel.com/en/our-offers/tours/nature/tour-plitvice-lakes-guided-tour-from-zadar). Dla porownania park: **program B: 4 km / 3–4 h**, **C: 8 km / 4–5 h** — to parametry oficjalnych tras, nie obietnica, ze grupa pojdzie wlasnie nimi. Krotsza wersje ustal przy rezerwacji; nie odlaczaj sie samodzielnie, liczac na ten sam powrot — [🗺️ oficjalne programy tras](https://np-plitvicka-jezera.hr/en/plan-your-visit/istrazite-jezera/activities/lake-tour-programmes/).
@@ -90,9 +90,9 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > **Trasa:** nocleg → potwierdzona zbiorka w Zadarze → park i program operatora → powrot do Zadaru → kolacja przy noclegu. **Spacer:** roboczo ok. 5–10 km zaleznie od programu, umiarkowany, wielogodzinny, z kladkami, schodami i kolejkami (szacunek). **Przed zakupem na 2027 potwierdz na pismie pelna cene, bilet parkowy, trase oraz miejsce i godzine zbiorki.** **Zabierz:** buty z przyczepna podeszwa, lekka warstwe na chlodniejszy lad, kurtke przeciwdeszczowa, wode i prowiant. Kapiel w jeziorach zabroniona — [oficjalne FAQ parku](https://np-plitvicka-jezera.hr/en/faq/).
 
-## Dzien 4 · Kornati i Telascica — rejs
+## 21 czerwca · Kornati i Telascica — rejs
 
-*Sobota, 5 czerwca* · Morze, klify i slone jezioro Mir
+*Poniedzialek, 21 czerwca* · Morze, klify i slone jezioro Mir
 
 | Godzina | Plan |
 |---|---|
@@ -106,7 +106,7 @@ zrodlo: index.html
 | 20:30–21:30 | Spakuj walizke, potwierdz autobus i dojscie/dojazd na dworzec. Jutro zmiana bazy! |
 
 > [!warning] 🌧 Deszcz
-> Wiatr / odwolanie: zapytaj o uzgodniona zmiane lub refundacje (jesli dni 2–3 juz minely, rejs wypada z pobytu). Plan zastepczy: Muzeum Szkla 10:00–11:30, lunch i odpoczynek. Silny wiatr moze zatrzymac rejs mimo slonca — nie szukaj mniejszej lodzi wbrew ostrzezeniom. Przy zmeczeniu odpusc drugi cel na ladzie i wieczorne wyjscie do baru.
+> Wiatr / odwolanie: zapytaj o uzgodniona zmiane lub refundacje (jesli dni 19–20.06 juz minely, rejs wypada z pobytu). Plan zastepczy: Muzeum Szkla 10:00–11:30, lunch i odpoczynek. Silny wiatr moze zatrzymac rejs mimo slonca — nie szukaj mniejszej lodzi wbrew ostrzezeniom. Przy zmeczeniu odpusc drugi cel na ladzie i wieczorne wyjscie do baru.
 
 > [!tip] 😌 Spokojniej
 > Zamiast rejsu zostajecie w Zadarze (ok. 3–5 km + hotel, latwo; rejs wypada z pobytu, jesli nie odbyl sie wczesniej): 09:00–10:00 sniadanie przy hotelu | 10:00–12:00 Kolovare, kapiel i spokojne siedzenie nad morzem | 12:00–13:00 lunch przy plazy lub noclegu (otwarta kuchnia na trasie powrotu) | 13:00–16:30 odpoczynek i prysznic | 16:30–18:00 Fosa i poludniowa starowka, krotka kawa | 18:00–19:00 kolacja w 4 Kantuna albo Bistro Pjat | 19:00–20:00 spacer powrotny; Organy tylko, jesli pierwszego dnia sie nie udaly i jest energia | 20:00–21:00 pakowanie, potwierdzenie autobusu do Splitu i dojazdu na dworzec.
@@ -117,27 +117,27 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > Trasa: nocleg → potwierdzone nabrzeze → rejs i postoje operatora → Zadar → nocleg. Spacer ok. 2–5 km na ladzie, latwy do umiarkowanego — kamieniste sciezki, slonce i wiele godzin na wodzie mecza bardziej niz dystans. Brak rezerwacji, godziny orientacyjne. Najlepsze kadry archipelagu czesto z pokladu; przy krotkim postoju jeden spokojny widok lepszy niz bieg miedzy jeziorem i klifami.
 
-## 🗺 Plan pobytu — Zadar (2–6 czerwca, 4 noce, dni 1–4)
+## 🗺 Plan pobytu — Zadar (18–22 czerwca, 4 noce)
 
 > Najwazniejsze: wieczor przy Organach Morskich, pieszy Zadar, Plitvice i Kornati/Telascica. Dwa pelne wyjazdy w trzy pelne dni = intensywny poczatek podrozy. Zamienniki zostaja w Zadarze — wybor zamiennika oznacza pominiecie wycieczki, jesli nie odbedzie sie innego dnia. Godziny w dniach to okna planowania, nie potwierdzone rozklady 2027. Brak rezerwacji.
 
-- 🧭 **Mapa dni 1–4 — plan glowny i spokojny zamiennik** — Dzien 1 (sr. 02.06): przylot, kolacja, pierwszy zachod — spokojnie: odpoczynek + Organy · Dzien 2 (czw. 03.06): starowka, Fosa, Kolovare — spokojnie: Forum, obiad i morze · Dzien 3 (pt. 04.06): Plitvice z transportem — spokojnie: muzeum lub lokalna plaza · Dzien 4 (sob. 05.06): Kornati/Telascica — spokojnie: spokojny Zadar i pakowanie
-- 🌦️ **Pogodowa kolejnosc dni 2–4** — Najwczesniejszy dzien ze spokojnym morzem → rejs · kolejny odpowiedni → Plitvice · dzien miejski na gorsza pogode · zamiany uzgodnij z OBOMA operatorami — przesuniecie wpisu w planie nie zmienia biletu · rejsu nie przenos na dzien wyjazdu do Splitu
+- 🧭 **Mapa dni 18–21.06 — plan glowny i spokojny zamiennik** — pt. 18.06: przylot, kolacja, pierwszy zachod — spokojnie: odpoczynek + Organy · sob. 19.06: starowka, Fosa, Kolovare — spokojnie: Forum, obiad i morze · nd. 20.06: Plitvice z transportem — spokojnie: muzeum lub lokalna plaza · pn. 21.06: Kornati/Telascica — spokojnie: spokojny Zadar i pakowanie
+- 🌦️ **Pogodowa kolejnosc dni 19–21.06** — Najwczesniejszy dzien ze spokojnym morzem → rejs · kolejny odpowiedni → Plitvice · dzien miejski na gorsza pogode · zamiany uzgodnij z OBOMA operatorami — przesuniecie wpisu w planie nie zmienia biletu · rejsu nie przenos na dzien wyjazdu do Splitu
 - 📍 **Baza — polwysep starego miasta lub jego poludniowe obrzeza** — Pierwsza para do porownania: Teatro Verdi i Bastion · Miramare — przy priorytecie basenu/Kolovare · DeZign — jako apartament · lokalizacja pokoju, schody i przechowanie walizki wazniejsze niz odleglosc w linii prostej
 - 🗺️ **Rozklad miasta — jak chodzic bez cofania** — Organy i Pozdrav Suncu: polnocno-zachodni koniec polwyspu · katedra, sw. Donat i Forum: jeden bliski zespol · targ: wschodnia strona · Fosa i Brama Ladowa zamykaja spacer od poludnia · Kolovare: dalszy odcinek poza murami — laczyc z Fosa, nie wciskac miedzy Forum a Organy
-- 🚶 **Start dnia 2 zalezy od hotelu** — Nocleg na polnocnym koncu: zacznij od katedry/Forum, potem targ i Narodni trg na poludnie — sniadanie w Pjacecie po pierwszym krotkim spacerze · hotel kolo Kolovare: zacznij od poludniowego wejscia na polwysep, na plaze wroc po odpoczynku · nie dokladaj spaceru przez cale miasto tylko dla lokalu · km w planach to szacunki samych spacerow, bez dojsc do hotelu i dworcow
-- 🎟️ **Do ustalenia — po ustaleniu obu lotow** — 4 noce, check-in, walizka przed zameldowaniem · roboczy powrot 18.06 nadal nie oznacza potwierdzonego lotu
+- 🚶 **Start dnia 19.06 zalezy od hotelu** — Nocleg na polnocnym koncu: zacznij od katedry/Forum, potem targ i Narodni trg na poludnie — sniadanie w Pjacecie po pierwszym krotkim spacerze · hotel kolo Kolovare: zacznij od poludniowego wejscia na polwysep, na plaze wroc po odpoczynku · nie dokladaj spaceru przez cale miasto tylko dla lokalu · km w planach to szacunki samych spacerow, bez dojsc do hotelu i dworcow
+- 🎟️ **Do ustalenia — po ustaleniu obu lotow** — 4 noce, check-in, walizka przed zameldowaniem · powrot nd. 04.07 — lot do potwierdzenia po publikacji rozkladu 2027
 - 🎟️ **Do ustalenia — przy zakupie Plitvic** — Zbiorka, wejscie do parku w cenie, dlugosc trasy, posilek, zamiana daty · nie kupowac drugiego biletu parkowego
 - 🎟️ **Do ustalenia — przy zakupie rejsu Kornati** — Nabrzeze, postoje i czas na ladzie, obiad miesny, wejscia, anulowanie przy wietrze · nazwa „Kornati + Telascica” nie okresla dokladnego programu
-- 🎟️ **Do ustalenia — przed dniem 5** — Autobus do Splitu, dworzec, warunki przewozu walizki · przejazd bez zwiedzania z bagazem
+- 🎟️ **Do ustalenia — przed dniem 22.06** — Autobus do Splitu, dworzec, warunki przewozu walizki · przejazd bez zwiedzania z bagazem
 - 🏺 **[Muzeum Szkla Antycznego — najlepszy dodatek na deszcz](https://www.mas-zadar.hr/hr/o-muzeju/opce-informacije)** — 60–90 min · wschodnia strona starowki · demonstracje pracy ze szklem sprawdz osobno — bilet nie gwarantuje pokazu · odczyt 25.09.2026: dorosly 7 EUR, latem 09:00–21:00 — nie jest to potwierdzenie sezonu 2027 · informacje muzeum
 - 🌀 **[Muzeum Iluzji — szybki, lekki dodatek](https://www.google.com/maps/search/?api=1&query=Museum%20of%20Illusions%20Zadar)** — Poljana Zemaljskog Odbora · 30–45 min · deszczowy zamiennik lub wieczorne urozmaicenie · sprawdz otwarcie i cene na 2027
 - 🍒 **Maraschino Maraska — pamiatka z Zadaru** — Historyczna stolica likieru z wisni maraski (od XVI w.) · butelka Maraska Original ze sklepow przy starowce, nie na lotnisku · kieliszek: Deja Brew lub po kolacji w Jaderze
-- 🍺 **Brlog i Pizzeria Sime — poza starowka** — Brlog: spoldzielczy taproom, lokalne APA i IPA · Andrije Hebranga 6 · wieczor dnia 2 lub spokojny dzien 4 bez wycieczki · Pizzeria Sime pasuje do Boriku, nie do codziennych spacerow po starowce
-- ⛔ **Granice planu — czego nie dokladac** — Nin albo Paklenica zastepuja pelny dzien (przy Plitvicach i Kornatach zabralyby jedyny pelny dzien miasta) · Krka wypadla: drugi park wodospadow po Plitvicach · Zrmanja wypadla: kajaki lepiej na Cetinie w Omisu (dzien 12, 20 km od Breli) · Sibenik/Trogir nie sa obowiazkowymi przystankami z walizka w drodze do Splitu
+- 🍺 **Brlog i Pizzeria Sime — poza starowka** — Brlog: spoldzielczy taproom, lokalne APA i IPA · Andrije Hebranga 6 · wieczor dnia 19.06 lub spokojny dzien 21.06 bez wycieczki · Pizzeria Sime pasuje do Boriku, nie do codziennych spacerow po starowce
+- ⛔ **Granice planu — czego nie dokladac** — Nin albo Paklenica zastepuja pelny dzien (przy Plitvicach i Kornatach zabralyby jedyny pelny dzien miasta) · Krka wypadla: drugi park wodospadow po Plitvicach · Zrmanja wypadla: kajaki lepiej na Cetinie w Omisu (29.06, 20 km od Breli) · Sibenik/Trogir nie sa obowiazkowymi przystankami z walizka w drodze do Splitu
 - 📚 **Aktualnosc zrodel i mapy tras** — Przeglad atrakcji i transportu: 25.09.2026 · przebudowa programu (bez Zrmanji): 18.10.2026 · zrodla nie potwierdzaja rozkladow, dostepnosci ani cen 2027 · mapy pokazuja kolejnosc punktow, nie pomiar marszu — w centrum trzymaj sie kolejnosci z opisu · po wyborze hotelu dopisz tylko dojscie do pierwszego i powrot z ostatniego punktu
 
-## 🚌 Przejazd — lotnisko Zadar → centrum (2 czerwca)
+## 🚌 Przejazd — lotnisko Zadar → centrum (piatek 18 czerwca)
 
 > 🚆 Pociagi sie nie oplacaja: do Breli i Dubrownika nie ma torow, a Zadar–Split to bus HZPP do Knina + pociag, razem 4–5h. Wszystkie przejazdy robimy autobusem. Z lotniska tylko autobus lub taxi (ok. 25–30 EUR, 15 min). Na wycieczki w Zadarze (Plitvice, Kornati) dochodzimy na zbiorke pieszo — 0 EUR.
 
@@ -145,7 +145,7 @@ zrodlo: index.html
 - ✈️ **[Poznan → Zadar — Ryanair (+ wspolna walizka 20 kg)](https://www.ryanair.com/pl/pl)** — 1 h 45 min · ok. 200–300 zl/os + walizka ok. 150–250 zl · 2 os. ok. 550–850 zl
 - 🚕 **[Taxi z lotniska ZAD — alternatywa](https://zadar-airport.hr/kako-do-nas/)** — ok. 20–25 EUR · ok. 20–30 min · dojazd z lotniska — strona lotniska
 
-## 🛏 Noclegi — kandydaci (2–6 czerwca, 4 noce, 2 os.)
+## 🛏 Noclegi — kandydaci (18–22 czerwca, 4 noce, 2 os.)
 
 > Tylko hotele, ceny za caly pobyt 4 nocy dla 2 osob. Ceny A’mare i Almayer — odczyt z Bookingu (X 2026), Teatro Verdi — Booking 23.09.2026, pozostale — szacunki z Kayak/Hotels.com (18.10.2026). W przeczytanych opiniach brak zgloszen karaluchow. Rekomendacja: 🥇 A’mare, 🥈 Teatro Verdi, 🥉 Bastion (ale wyprzedany).
 
@@ -160,7 +160,7 @@ zrodlo: index.html
 
 ## 🍽 Jedzenie — restauracje i bary
 
-> Wybierz lokal przy aktualnej trasie. Sniadanie 10–14 €/os., danie glowne ok. 25 €/os. bez napoju. Kolejnosc: Jadera (dalmatynska wolowina), 4 Kantuna (makaron), Pjaceta (sniadanie), wieczorem Deja Brew; Brlog i Sime tylko gdy spacer wypada poza polwysep. Na Plitvice zabierz prowiant i wode; na rejsie potwierdz obiad w cenie i wariant miesny. Jadera publikuje zamkniecie w niedziele (strona sprawdzona 25.09.2026 — potwierdz przed wyjazdem). Oceny Google z 24.09.2026, przedzialy „Google” to deklarowane wydatki na osobe; menu i ceny to nie oferta na lato 2027. Przed wyjsciem sprawdz godziny kuchni, policz danie + dodatki + napoj + ewentualny serwis; na lepsza kolacje zarezerwuj stolik; sniadanie hotelowe moze zastapic kawiarnie. Maraschino (likier z wisni maraski, z Zadaru od XVI w.) kupuj w Zadarze — butelka Maraska Original to klasyczna pamiatka, na lotnisku w Dubrowniku podwojna cena.
+> Wybierz lokal przy aktualnej trasie. Sniadanie 10–14 €/os., danie glowne ok. 25 €/os. bez napoju. Kolejnosc: Jadera (dalmatynska wolowina), 4 Kantuna (makaron), Pjaceta (sniadanie), wieczorem Deja Brew; Brlog i Sime tylko gdy spacer wypada poza polwysep. Na Plitvice zabierz prowiant i wode; na rejsie potwierdz obiad w cenie i wariant miesny. Jadera publikuje zamkniecie w niedziele — nd. 20.06 to dzien Plitvic (strona sprawdzona 25.09.2026 — potwierdz przed wyjazdem). Oceny Google z 24.09.2026, przedzialy „Google” to deklarowane wydatki na osobe; menu i ceny to nie oferta na lato 2027. Przed wyjsciem sprawdz godziny kuchni, policz danie + dodatki + napoj + ewentualny serwis; na lepsza kolacje zarezerwuj stolik; sniadanie hotelowe moze zastapic kawiarnie. Maraschino (likier z wisni maraski, z Zadaru od XVI w.) kupuj w Zadarze — butelka Maraska Original to klasyczna pamiatka, na lotnisku w Dubrowniku podwojna cena.
 
 
 **Kolacja**

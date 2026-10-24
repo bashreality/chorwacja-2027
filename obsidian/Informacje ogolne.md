@@ -11,25 +11,24 @@ zrodlo: index.html
 
 ## 🧭 Wyjazd w skrocie
 
-> Nic nie jest jeszcze zarezerwowane (stan 18.10.2026) — daty robocze 02–18.06.2027, rekomendacja 08–24.06.2027. Albert jeszcze decyduje.
+> Termin wybrany 24.10.2026: pt. 18.06 – nd. 04.07.2027 (16 nocy, 11 dni urlopu). Nic nie jest jeszcze zarezerwowane.
 
-- 👥 **2 dorosle osoby z Poznania, bez samochodu** — 17 dni / 16 nocy · Zadar 4 → Split 3 → Brela 6 → Dubrownik 3 · lot POZ → ZAD, powrot DBV → POZ (Ryanair)
-- 🗓️ **Daty robocze: sr. 02.06 – pt. 18.06.2027** — tak sa ustawione dni w planerze · problem: w piatek brak lotu DBV → POZ (zob. karta Loty)
-- ⭐ **Rekomendacja: wt. 08.06 – czw. 24.06.2027** — albo pn. 07.06 – sr. 23.06 · morze ok. 2°C cieplejsze niz na poczatku czerwca · nadal ceny przedsezonowe · powrot w dzien, w ktory latal Dubrownik–Poznan
-- 🔁 **Zmiana dat = przesun caly uklad 4/3/6/3** — zachowaj 4 + 3 + 6 + 3 = 16 nocy · sprawdz ponownie dni tygodnia restauracji (dni zamkniecia) i kursy wycieczek · Mostar nie w sobote, Omis — uwaga na niedziele
+- 👥 **2 dorosle osoby z Poznania, bez samochodu** — 17 dni / 16 nocy · Zadar 4 → Split 3 → Brela 5 → Dubrownik 4 · lot POZ → ZAD, powrot DBV → POZ (Ryanair)
+- 🗓️ **Termin: pt. 18.06 – nd. 04.07.2027** — oba konce w weekend — tylko 11 dni urlopu · w niedziele latal Dubrownik → Poznan · morze ok. 23–26°C
+- 🔁 **Uklad 4/3/5/4 (zmiana 24.10.2026)** — Brela 5 nocy, Dubrownik 4 — dzien z Makarska wypadl (opcja rano 28.06), w Dubrowniku doszedl Lopud · Mostar w niedziele 27.06 (nie w sobote), Omis we wtorek 29.06 · sprawdz dni zamkniecia restauracji
 - 🟨 **Kolory w notatkach** — 🟦 plan dnia i logistyka · 🟩 szybki wybor lub spokojny wariant · 🟨 dodatek lub rzecz do potwierdzenia · 🌧️ zamiennik pogodowy · ⛔ odradzane
 - 🕑 **Godziny w planach to okna, nie rozklady 2027** — dystanse to szacunki spacerow — dojscie z wybranego hotelu moze je zmienic · wariant spokojny zastepuje glowny program · plaza zamiast wycieczki = atrakcja wypada lub trzeba ja przelozyc
 
 ## ✈️ Loty — terminy i opcje
 
-> W lecie 2026 Ryanair FR5922 latal z Dubrownika do Poznania tylko w srody, czwartki i niedziele — przy 16 nocach wylot musi wypasc w poniedzialek, wtorek albo piatek. Rozklad na czerwiec 2027 sprawdz po publikacji.
+> Ryanair FR5922 latal z Dubrownika do Poznania w srody, czwartki i niedziele (stan X 2026) — niedziela 04.07 pasuje. Rozklad na 2027 sprawdz po publikacji.
 
-- 🛫 **[Poznan → Zadar (POZ → ZAD) — Ryanair](https://www.ryanair.com/pl/pl/trip/flights/select?adults=2&dateOut=2027-06-08&isReturn=false&originIata=POZ&destinationIata=ZAD)** — w 2026 latal prawie codziennie · link: wyszukiwanie na 08.06.2027, 2 os.
-- 🛬 **[Dubrownik → Poznan (DBV → POZ) — Ryanair FR5922](https://www.ryanair.com/pl/pl/trip/flights/select?adults=2&dateOut=2027-06-24&isReturn=false&originIata=DBV&destinationIata=POZ)** — w 2026 tylko sr / czw / nd · piatku 18.06 brak! · link: wyszukiwanie na 24.06.2027, 2 os.
+- 🛫 **[Poznan → Zadar (POZ → ZAD) — Ryanair](https://www.ryanair.com/pl/pl/trip/flights/select?adults=2&dateOut=2027-06-18&isReturn=false&originIata=POZ&destinationIata=ZAD)** — w 2026 latal prawie codziennie — piatek 18.06 potwierdz · link: wyszukiwanie na 18.06.2027, 2 os.
+- 🛬 **[Dubrownik → Poznan (DBV → POZ) — Ryanair FR5922](https://www.ryanair.com/pl/pl/trip/flights/select?adults=2&dateOut=2027-07-04&isReturn=false&originIata=DBV&destinationIata=POZ)** — w 2026 sr / czw / nd — niedziela 04.07 pasuje · link: wyszukiwanie na 04.07.2027, 2 os.
 - 🔀 **Alternatywa powrotu: Dubrownik → Wroclaw** — Ryanair, wg agregatorow wt / czw / pt / sob · dalej pociag do Poznania 2–2,5 h
 - 🌍 **Inne kierunki z Dubrownika** — Warszawa, Gdansk, Katowice, Krakow, Berlin · bezposredniego Split–Poznan nie ma
 - 📜 **Tylko zapis historyczny (17.09.2026)** — POZ–ZAD 02.06.2027, FR7246, 08:00–09:45, Basic 213 zl/os. — to NIE jest biezaca oferta
-- ✅ **Przy zakupie** — potwierdz oba loty i pelna cene wspolnej walizki 20 kg w kazdym kierunku · po zakupie zastap wzgledna os czasu dnia 17 faktycznym lotem i transferem na DBV
+- ✅ **Przy zakupie** — potwierdz oba loty i pelna cene wspolnej walizki 20 kg w kazdym kierunku · po zakupie zastap wzgledna os czasu dnia 04.07 faktycznym lotem i transferem na DBV
 
 ## 🌡️ Kiedy jechac — morze, ceny, tlok
 
@@ -40,8 +39,8 @@ zrodlo: index.html
 - 🌊 **21–30 VI** — morze 23–26°C · indeks 105–120 · tlok sredni · polskie wakacje od 26.06
 - 🌊 **1–15 VII** — morze 24–26°C · indeks 125–135 · tlok wysoki
 - 🌊 **15 VII – 25 VIII** — morze 25–26°C · indeks 130–150 · tlok bardzo wysoki
-- 🏖️ **Przy terminie 08–24.06** — Brela wypada na 15–21.06 (morze ok. 23–24°C), Dubrownik na 21–24.06 (ok. 24°C) · calosc przed polskimi i niemieckimi wakacjami
-- 🟨 **Swieta i szkoly w Chorwacji** — chorwackie szkoly koncza 15.06 · wt. 22.06 swieto w Chorwacji · weekend 19–20.06 nad morzem moze byc tloczniejszy
+- 🏖️ **Przy terminie 18.06–04.07** — Brela wypada na 25–30.06 (morze ok. 23–26°C), Dubrownik na 30.06–04.07 (ok. 24–26°C) · od 26.06 polskie wakacje — noclegi licz ok. 10–30% drozej niz w odczytach na czerwiec
+- 🟨 **Swieta i szkoly w Chorwacji** — chorwackie szkoly koncza sie w polowie czerwca · wt. 22.06 swieto w Chorwacji — dzien przejazdu Zadar → Split · weekend 26–27.06 nad morzem tloczniejszy
 - ℹ️ **Skad te temperatury** — srednie z lat 2025–2026 (cieple lata) · w przecietnym roku licz 0,5–1,5°C mniej
 
 ## 💰 Budzet calej podrozy — 2 osoby
@@ -50,9 +49,9 @@ zrodlo: index.html
 
 - 🏨 **Zadar · 4 noce — ~3 000 zl** — Hotel A’mare ze sniadaniem · cena z odczytu Alberta na Booking
 - 🏨 **Split · 3 noce — ~2 800 zl** — Hotel Villa Diana ze sniadaniem · dla porownania FERMAI ~4 600 zl
-- 🏨 **Brela · 6 nocy — ~7 300 zl** — Maestral Adults Exclusive · cena Alberta za 5 nocy × 6/5
-- 🏨 **Dubrownik · 3 noce — ~2 100–2 700 zl** — Ivka (do ~900 zl/noc), inaczej Astarea w Mlini · szacunek
-- 🧮 **Noclegi razem — ~15 300–15 900 zl** — limit 16 000 zl · + oplata turystyczna ~250–350 zl
+- 🏨 **Brela · 5 nocy — ~6 100 zl** — Maestral Adults Exclusive · cena Alberta za 5 nocy
+- 🏨 **Dubrownik · 4 noce — ~2 800–3 600 zl** — hotel do ~900 zl/noc (Berkeley, Porto) · szacunek
+- 🧮 **Noclegi razem — ~14 700–15 500 zl** — limit 16 000 zl · ceny z odczytow na czerwiec — od 26.06 licz +10–30% · + oplata turystyczna ~250–350 zl
 - ✈️ **Loty + wspolna walizka 20 kg w obie strony — ~1 200–1 900 zl** — Ryanair POZ–ZAD i DBV–POZ · szacunek
 - 🚌 **Autobusy, shuttle, taksowki — ~800–1 200 zl** — rozpiska odcinkow w notatce „Wycieczki i transport”
 - 🎟️ **Wycieczki i bilety — ~2 000–2 350 zl** — wariant „rozsadny”: Plitvice, Kornati ALBO Brac, Omis, Makarska, mury, Lokrum — bez Mostaru
@@ -65,10 +64,10 @@ zrodlo: index.html
 
 > Kupuj w kolejnosci: oba loty → noclegi z darmowa anulacja → reszta.
 
-- 1️⃣ **Oba loty** — najpierw ustal daty wg rozkladu Ryanair 2027 (powrot DBV → POZ w dniu, w ktory lata)
+- 1️⃣ **Oba loty** — pt. 18.06 POZ → ZAD i nd. 04.07 DBV → POZ — sprawdz rozklad Ryanair 2027
 - 2️⃣ **Wspolna walizka 20 kg w obu kierunkach** — dokup od razu przy locie i sprawdz pelna cene
 - 3️⃣ **Cztery noclegi** — z darmowa anulacja · sprawdz schody/winde, klimatyzacje, cisze, sniadanie, anulacje i przechowanie bagazu
-- 4️⃣ **Autobusy** — dni 5, 8 i 14 + taksowka z walizka z/na przystanek przy D8 w Breli
+- 4️⃣ **Autobusy** — dni 22.06, 25.06 i 30.06 + taksowka z walizka z/na przystanek przy D8 w Breli
 - 5️⃣ **Plitvice / rejs** — sprawdz bilety parkowe i unikaj podwojnego zakupu
 - 6️⃣ **Pozostale wycieczki i bilety** — mury / Pass i Lokrum — potwierdz godziny, zakres i ceny na 2027 · Srd / Biokovo tylko po swiadomym wyborze
 
@@ -81,7 +80,7 @@ zrodlo: index.html
 - 💶 **Budzet noclegow do 16 000 zl** — w Breli porzadny hotel (Maestral Adults Exclusive) · w pozostalych miastach taniej, ale wysoka ocena i duzo opinii
 - 🎟️ **Wycieczki — wariant „rozsadny”** — Plitvice, mury i Lokrum obowiazkowo · Omis i Makarska (tanio) · JEDEN dzien na lodzi (Kornati ALBO tania wyspa Brac) · Mostar najlatwiej skreslic
 - 🥩 **Jedzenie** — lubi mieso (pasticada, grill, cevapi, peka), makarony, pizze · owoce morza okazjonalnie · sniadanie 10–14 EUR/os., danie glowne ~25 EUR/os. bez napoju
-- 🔒 **Decyzji nie cofac bez pytania** — usuniete Zrmanja i Krka (powtorki) · Omis przeniesiony ze Splitu do Breli · Mostar nie w sobote · Brela zostaje na 6 nocy
+- 🔒 **Decyzji nie cofac bez pytania** — usuniete Zrmanja i Krka (powtorki) · Omis przeniesiony ze Splitu do Breli · Mostar nie w sobote · Brela 5 nocy, Dubrownik 4 (decyzja 24.10.2026)
 - ✨ **Kazda atrakcja raz** — jeden park wodospadow (Plitvice), jeden kanion (Cetina w Omisu), jeden rejs po archipelagu (Kornati), jeden dzien na duzej wyspie (Hvar albo Bol)
 
 ## 🧳 Bagaz
@@ -98,7 +97,7 @@ zrodlo: index.html
 
 > Czesc kursow Brela → Dubrownik jedzie przez Neum (BiH) — dokument przy sobie, nie w walizce.
 
-- 🪪 **Dowod / paszport przy sobie** — dzien 14 (Neum) i dzien 10 (Mostar) · dokument podrozy, nie zdjecie
+- 🪪 **Dowod / paszport przy sobie** — 30.06 (Neum) i 27.06 (Mostar) · dokument podrozy, nie zdjecie
 - 🏥 **Ubezpieczenie podrozne — obowiazkowo** — EKUZ nie dziala w Bosni i Hercegowinie (Mostar, Neum)
 
 ## 💶 Pieniadze
@@ -117,23 +116,23 @@ zrodlo: index.html
 - 🕛 **Unikaj slonca 12:00–15:00** — plan zaklada sjeste w noclegu — nie rezygnuj z niej na rzecz kolejnej atrakcji
 - 🧢 **Nakrycie glowy i krem SPF 30+** — obowiazkowo na mury, Lokrum, Plitvice, Kornati i Biokovo
 - 👟 **Buty z przyczepnoscia** — mokre kladki na Plitvicach, kamieniste sciezki na Lokrum, schody murow
-- 🌬️ **Wiatr zamiast deszczu** — rejs na Kornati i katamaran na wyspe zaleza od wiatru — zamien z dniem miejskim w tej samej bazie (2–4 w Zadarze, 6–7 w Splicie) · w Dubrowniku dni 15 i 16 sa wymienne · nie przenos wycieczek na dzien przejazdu
+- 🌬️ **Wiatr zamiast deszczu** — rejs na Kornati i katamaran na wyspe zaleza od wiatru — zamien z dniem miejskim w tej samej bazie (19–21.06 w Zadarze, 23–24.06 w Splicie) · w Dubrowniku dni 01.07 i 02.07 sa wymienne · nie przenos wycieczek na dzien przejazdu
 - 📞 **Numer alarmowy** — 112
 
 ## ✅ Przed wyjazdem — checklista
 
-- ✈️ **Loty i walizka** — potwierdz oba loty i pelna cene walizki 20 kg w kazdym kierunku · wpisz ostateczne daty (4 + 3 + 6 + 3 = 16 nocy)
+- ✈️ **Loty i walizka** — potwierdz oba loty i pelna cene walizki 20 kg w kazdym kierunku · termin 18.06–04.07 (4 + 3 + 5 + 4 = 16 nocy)
 - 🏨 **Noclegi** — schody/winda, klimatyzacja, cisza, sniadanie, anulacja, przechowanie bagazu · opinie pod katem karaluchow
-- 🚌 **Autobusy dni 5, 8 i 14** — plus taksowka z walizka z/na D8 w Breli · zapisz powroty z Omisa i Makarskiej
+- 🚌 **Autobusy dni 22.06, 25.06 i 30.06** — plus taksowka z walizka z/na D8 w Breli · zapisz powroty z Omisa i Makarskiej
 - 🎟️ **Wycieczki** — dni, miejsca zbiorek, anulacja pogodowa · Plitvice/rejs: bilety parkowe bez podwojnego zakupu
-- 🏝️ **Wyspa w dniu 6** — KOMERCYJNY katamaran rano tam i po poludniu z powrotem (Krilo / TP Line / Jadrolinija), nabrzeze w Splicie
-- 🛶 **Omis w dniu 12** — dwa kursy powrotne do Breli (niedziela!) · rafting/canyoning zarezerwuj kilka dni wczesniej, rejs po Cetinie na miejscu
-- 🌉 **Mostar** — odbior w Breli, ok. 4 h w miescie, dzien powszedni, cena calosci, dokument podrozy i powrot
+- 🏝️ **Wyspa w dniu 23.06** — KOMERCYJNY katamaran rano tam i po poludniu z powrotem (Krilo / TP Line / Jadrolinija), nabrzeze w Splicie
+- 🛶 **Omis w dniu 29.06** — dwa kursy powrotne do Breli · rafting/canyoning zarezerwuj kilka dni wczesniej, rejs po Cetinie na miejscu
+- 🌉 **Mostar** — odbior w Breli, ok. 4 h w miescie, kurs w niedziele 27.06, cena calosci, dokument podrozy i powrot
 - 🛡️ **Ubezpieczenie i gotowka** — ubezpieczenie podrozne (EKUZ nie w BiH) · gotowka w euro na Brele
-- 🪪 **Dzien 14** — dokument przy sobie na ewentualna kontrole w Neum
+- 🪪 **Dzien 30.06** — dokument przy sobie na ewentualna kontrole w Neum
 - 🏰 **Mury / Pass i Lokrum** — potwierdz godziny, zakres i ceny na 2027 · Srd / Biokovo tylko po swiadomym wyborze
 - 🍽️ **Restauracje** — godziny kuchni i stoliki · peka dzien wczesniej · w Breli umow darmowy dowoz do Katary / Ivandicy Dvori
-- 🛬 **Dzien 17** — zastap wzgledna os czasu faktycznym lotem i transferem na DBV (na lotnisku ok. 3 h przed lotem)
+- 🛬 **Dzien 04.07** — zastap wzgledna os czasu faktycznym lotem i transferem na DBV (na lotnisku ok. 3 h przed lotem)
 - 📱 **Offline** — zapisz pliki, bilety i mapy do uzytku offline · otworz linki do punktow przed wyjsciem — lokalizacja hotelu wyznaczy pierwszy i ostatni odcinek
 
 ## 📌 Twoje rezerwacje — do uzupelnienia
@@ -158,7 +157,7 @@ zrodlo: index.html
 - 🚌 **[Arriva — polaczenia](https://www.arriva.com.hr/)** — autobusy w Chorwacji
 - 🟢 **[FlixBus](https://www.flixbus.pl/)** — autobusy, bilet w aplikacji
 - 🦪 **[Ston](https://www.ston.hr/)** — tylko z prywatnym transferem do Dubrownika, umowionym bagazem i dodatkowym czasem
-- 🏛️ **[Trogir](https://visittrogir.hr/)** — osobna organizacja transportu i przechowalni · moze zastapic wyspe w dniu 6
+- 🏛️ **[Trogir](https://visittrogir.hr/)** — osobna organizacja transportu i przechowalni · moze zastapic wyspe w dniu 23.06
 - 🏛️ **[Sibenik](https://www.sibenik-tourism.hr/)** — osobna organizacja transportu i przechowalni
 
 ## 📚 Aktualnosc danych

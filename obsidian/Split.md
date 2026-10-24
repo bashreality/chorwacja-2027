@@ -7,13 +7,13 @@ zrodlo: index.html
 
 # Split — Palac Dioklecjana, Vidilica i wyspa Hvar albo Brac
 
-**6–9 czerwca | 3 noce | dni 5–7**
+**22–25 czerwca | 3 noce | 22–24.06**
 
 ← [[Chorwacja 2027]]
 
-## Dzien 5 · Zadar → Split i pierwsze wejscie do palacu
+## 22 czerwca · Zadar → Split i pierwsze wejscie do palacu
 
-*Niedziela, 6 czerwca* · Transfer autobusem, Brama Brazowa → Perystyl → Zlota Brama → Pjaca → Riva | spacer ok. 2–3 km, latwy (bruk, krotkie schody)
+*Wtorek, 22 czerwca* · Transfer autobusem, Brama Brazowa → Perystyl → Zlota Brama → Pjaca → Riva | spacer ok. 2–3 km, latwy (bruk, krotkie schody)
 
 | Godzina | Plan |
 |---|---|
@@ -21,8 +21,8 @@ zrodlo: index.html
 | 09:00–10:00 | Dojscie/dojazd na dworzec i zapas przed wybranym kursem |
 | 10:00–13:30 | Robocze okno przejazdu Zadar → Split. Arriva: polaczenie miedzy glownymi dworcami, zwykle ok. 2–3 h jazdy; od hotelu do hotelu licz **ok. 3–4,5 h**, przy niekorzystnym kursie lub korkach wiecej · [Oficjalna relacja Zadar–Split (Arriva)](https://www.arriva.com.hr/hr-hr/bus-zadar-split) · [📍 Dworzec dalekobiezny Split przy porcie](https://www.google.com/maps/search/?api=1&query=Autobusni%20kolodvor%20Split%20Obala%20kneza%20Domagoja%2012) |
 | 13:30–14:30 | Zostaw bagaz i zjedz lunch. Bakra pasuje, jesli idziecie z portu w strone Lucaca/Bacvic (pizza lub cevapi). Przy noclegu na polnoc/zachod od palacu idz od razu do hotelu i zjedz w jego poblizu — Bakra nie wymaga osobnego powrotu<br>🍽 **Bakra – Steak & Pizza Bar** — Pizza Lucac / cevapi · Majstora Radovana 2 · 15–35 EUR/os · 4.5 · 5287 ocen |
-| 14:30–17:00 | Zameldowanie i odpoczynek. **Sug nie jest domyslnym wyborem na dzis** — wg oficjalnej strony niedziela zamknieta; zasady na 2027 sprawdz ponownie · [Strona Sug](https://sug.hr/menu/) |
-| 17:00–18:00 | Start przy wschodniej czesci **Rivy**, wejscie przez **Brame Brazowa** i centralny ciag podziemi ku **Perystylowi**. Jesli przejscie niedostepne — wejdz od strony Srebrnej Bramy. Pelne platne sale podziemi zostaja na dzien 7 lub deszcz |
+| 14:30–17:00 | Zameldowanie i odpoczynek. **Sug nie jest domyslnym wyborem na dzis** — 22.06 to swieto panstwowe w Chorwacji: godziny lokali i autobusow sprawdz wczesniej, Sug lepiej na kolejny wieczor · [Strona Sug](https://sug.hr/menu/) |
+| 17:00–18:00 | Start przy wschodniej czesci **Rivy**, wejscie przez **Brame Brazowa** i centralny ciag podziemi ku **Perystylowi**. Jesli przejscie niedostepne — wejdz od strony Srebrnej Bramy. Pelne platne sale podziemi zostaja na dzien 24.06 lub deszcz |
 | 18:00–18:45 | **Vestibul** obok Perystylu → uliczki palacu → **Zlota Brama**. Dzis ogladacie przestrzen miasta, nie wszystkie platne obiekty. Krotki przystanek przy posagu Grzegorza z Ninu i parkowej zieleni domyka polnocny koniec spaceru · [Oficjalna mapa bram i glownych punktow (PDF)](https://visitsplit.com/clients/1/downloads/67ck1bhalu62pnp.pdf?lang=en) · [🗺️ Palac: Brama Brazowa → Perystyl → Zlota Brama → Pjaca](https://www.google.com/maps/dir/?api=1&origin=Bronze%20Gate%20Split&destination=Narodni%20trg%20Split&waypoints=Peristyle%20Split%7CGolden%20Gate%20Split&travelmode=walking) |
 | 18:45–19:45 | Przez **Pjace** do Kantun Paulina (zachodnia czesc centrum) — cevapi w lepinji jako prosty miesny posilek. Po kolacji dalej ku Prokurative, bez obowiazkowego powrotu przez caly palac<br>🍽 **Kantun Paulina** — Cevapi w lepinji z cebula · Matosica 1 · 5–10 EUR/os · 4.6 · 4503 ocen · mala kolejka |
 | 19:45–21:00 | **Prokurative → zachodnia Riva**, kawa lub siedzenie nad woda. Przy hotelu na wschodzie powrot Riva naturalnie zamyka petle; przy Varosu zakoncz spacer tutaj. **Drobny wybor na wieczor:** Perystyl po zmroku jako swiadomy dodatkowy powrot po kolacji (ok. 15–25 min samego chodzenia) — do tego wariantu pasuje Marvlvs (Papaliceva); NOOR do wieczoru kolo Pjacy. Nie dokladaj obu barow i obu zakonczen naraz |
@@ -34,11 +34,11 @@ zrodlo: index.html
 > Transfer ten sam, starowka skrocona do Rivy i Perystylu (godziny przejazdu wg kupionego biletu). 08:00–09:00 sniadanie, wymeldowanie, kontrola dokumentow/bagazu | 09:00–10:00 dworzec w Zadarze z zapasem | 10:00–13:30 podroz do Splitu z buforem na ruch | 13:30–14:30 walizka i lunch blisko hotelu (Bakra, jesli pasuje do dojscia od portu) | 14:30–18:00 zameldowanie, prysznic, dlugi odpoczynek | 18:00–19:00 Riva, kawa nad woda | 19:00–20:00 kolacja po stronie hotelu: Kantun Paulina (zachodnie centrum) lub Bakra (Lucac/Bacvice) | 20:00–21:00 krotkie wejscie na Perystyl, bez polnocnej petli i platnych wnetrz | 21:00–21:30 powrot i odpoczynek.
 
 > [!caution] ⚠️ Uwaga
-> Godziny orientacyjne, daty robocze — brak rezerwacji. Nie nosicie walizki podczas zwiedzania. Transfer bez przystankow: Trogir i Sibenik wymagaja osobnych odcinkow transportu i przechowania walizki — nie sa czescia tego przejazdu, kierowca autobusu liniowego nie czeka na zwiedzanie. Sug w niedziele zamkniety.
+> Godziny orientacyjne, daty robocze — brak rezerwacji. Nie nosicie walizki podczas zwiedzania. Transfer bez przystankow: Trogir i Sibenik wymagaja osobnych odcinkow transportu i przechowania walizki — nie sa czescia tego przejazdu, kierowca autobusu liniowego nie czeka na zwiedzanie. Wt. 22.06 to swieto w Chorwacji — autobusy moga jechac wg rozkladu swiatecznego.
 
-## Dzien 6 · Wyspa Hvar albo Brac
+## 23 czerwca · Wyspa Hvar albo Brac
 
-*Poniedzialek, 7 czerwca* · Hvar: Pjaca, Arsenal, twierdza Fortica i Pakleni otoci — albo Bol i Zlatni Rat
+*Sroda, 23 czerwca* · Hvar: Pjaca, Arsenal, twierdza Fortica i Pakleni otoci — albo Bol i Zlatni Rat
 
 | Godzina | Plan |
 |---|---|
@@ -55,7 +55,7 @@ zrodlo: index.html
 | 19:30–20:30 | Kolacja przy hotelu: **Bakra** przy Lucacu/Bacvicach albo **Kantun Paulina** w zachodnim centrum. Sug ma sens tego wieczoru po wczesniejszej rezerwacji |
 
 > [!warning] 🌧 Deszcz
-> Silny wiatr lub odwolane katamarany: zostan w Splicie — podziemia lub katedra, obiad, odpoczynek; wykonane wnetrze wykresl z dnia 7. Dni 6 i 7 mozna zamienic, jesli bilety na katamaran na to pozwalaja. Przy zmeczeniu odpusc najpierw lodke na Pakleni otoci (Hvar) albo spacer po Bolu; zachowaj zapas na powrotny katamaran.
+> Silny wiatr lub odwolane katamarany: zostan w Splicie — podziemia lub katedra, obiad, odpoczynek; wykonane wnetrze wykresl z dnia 24.06. Dni 23.06 i 24.06 mozna zamienic, jesli bilety na katamaran na to pozwalaja. Przy zmeczeniu odpusc najpierw lodke na Pakleni otoci (Hvar) albo spacer po Bolu; zachowaj zapas na powrotny katamaran.
 
 > [!tip] 😌 Spokojniej
 > Zamiast wyspy — plaza w Splicie, ok. 3–5 km z powrotem, latwo ([trasa Riva → Bacvice → Ovcice → Bakra](https://www.google.com/maps/dir/?api=1&origin=Riva%20Split&destination=Bakra%20Split&waypoints=Bacvice%20Beach%20Split%7COvcice%20Beach%20Split&travelmode=walking)): 09:00–10:00 sniadanie i spokojne wyjscie | 10:00–12:00 Bacvice → Ovcice, jedno miejsce na kapiel | 12:00–13:00 Bakra przy powrocie przez Lucac (pizza lub cevapi) | 13:00–17:00 hotel, prysznic, odpoczynek | 17:00–18:00 krotki spacer po Rivie i kawa | 18:00–19:00 kolacja: Kantun Paulina albo Sug po sprawdzeniu stolika | 19:00–20:30 spokojny powrot, sprawdzenie godzin jutrzejszych wnetrz i komunikatow o Marjanie
@@ -64,11 +64,11 @@ zrodlo: index.html
 > ALT: **Bol na Bracu i Zlatni Rat** (wybierz, jesli marzy Ci sie wlasnie Zlatni Rat). Trasa: Split → katamaran Krilo → Bol, port → promenada z sosnami → Zlatni Rat → obiad → port → Split | port → Zlatni Rat ok. 2 km / 25–30 min plaska promenada w cieniu sosen, w obie strony 4–5 km, latwy | 08:00–09:00 sniadanie i dojscie na nabrzeze | 09:30–10:30 katamaran do Bolu (Krilo sezonowo, w 2024 od ok. 8.06, np. 09:30; ok. 1 h, ok. 25 EUR/os/strona; najtaniej: prom Jadrolinija do Supetaru ok. 50 min + autobus ok. 1 h) | 10:30–11:00 promenada wzdluz morza na zachod | 11:00–14:00 **Zlatni Rat** — zwirowy cypel zmieniajacy ksztalt z wiatrem i pradem; kapiel, cien pod sosnami za plaza; lezaki i parasole platne, przy dwoch osobach jeden parasol wystarczy | 14:00–15:00 obiad przy plazy lub w drodze do portu | 15:00–16:00 port i uliczki Bolu, lody | 16:00–17:30 katamaran do Splitu (wg biletu; przez Supetar doliczcie autobus) | 18:00–20:30 odpoczynek i kolacja przy hotelu | Wiatr: po poludniu przy Zlatnym Racie bywa wietrznie — rano spokojniej | [📍 Zlatni Rat](https://www.google.com/maps/search/?api=1&query=Zlatni%20Rat%20Bol) | [📍 Port w Bolu](https://www.google.com/maps/search/?api=1&query=Bol%20harbour%20Brac) | [Informacja turystyczna Bolu](https://www.bol.hr/)
 
 > [!caution] ⚠️ Uwaga
-> **Katamarany — najwazniejsza pulapka:** tanie linie panstwowe nie nadaja sie na jednodniowke — Jadrolinija 9603 (Split–Bol–Jelsa, ok. 6 EUR) i TP Line 9604 (Split–Hvar, ok. 10 EUR) plyna ze Splitu po poludniu, a z wysp wczesnie rano. Kupuj komercyjne katamarany rano tam, po poludniu z powrotem — **bilety tam i z powrotem na konkretne kursy** (w czerwcu poranne potrafia sie wyprzedac). Zapisz nabrzeze odplyniecia w Splicie. Przy Bolu sprawdz, czy Krilo kursuje juz w Twoim terminie (poczatek czerwca moze wypasc przed startem linii sezonowej). Budzet 2 os.: ok. **80–100 EUR za katamarany w obie strony** + jedzenie, twierdza, ewentualna lodka. Dane 2024–2026 (odczyt 18.10.2026), nie rozklad na 2027 — sprawdz ok. marca–kwietnia 2027. Rekomendacja: **Hvar** — plaz bedzie pod dostatkiem w Breli. To jedyny dzien na duzej wyspie w podrozy; Omis z Cetina przeniesiony do Breli (dzien 12), Krka i Zrmanja wypadly. | [Krilo — rozklad](https://www.krilo.hr/hr/schedule) | [Jadrolinija](https://www.jadrolinija.hr/hr/putovanje/split_-_bol_brac_-_jelsa_hvar) | [TP Line](https://www.tp-line.hr/) | [Zbiorczy rozklad Split–Hvar](https://www.allferriescroatia.com/en/route/split--hvar-center-hvar--ferry-catamaran-ship-timetable-prices) | [Zbiorczy rozklad Split–Bol](https://www.allferriescroatia.com/en/route/split--bol-brac--ferry-catamaran-ship-timetable-prices)
+> **Katamarany — najwazniejsza pulapka:** tanie linie panstwowe nie nadaja sie na jednodniowke — Jadrolinija 9603 (Split–Bol–Jelsa, ok. 6 EUR) i TP Line 9604 (Split–Hvar, ok. 10 EUR) plyna ze Splitu po poludniu, a z wysp wczesnie rano. Kupuj komercyjne katamarany rano tam, po poludniu z powrotem — **bilety tam i z powrotem na konkretne kursy** (w czerwcu poranne potrafia sie wyprzedac). Zapisz nabrzeze odplyniecia w Splicie. Przy Bolu sprawdz, czy Krilo kursuje juz w Twoim terminie (poczatek czerwca moze wypasc przed startem linii sezonowej). Budzet 2 os.: ok. **80–100 EUR za katamarany w obie strony** + jedzenie, twierdza, ewentualna lodka. Dane 2024–2026 (odczyt 18.10.2026), nie rozklad na 2027 — sprawdz ok. marca–kwietnia 2027. Rekomendacja: **Hvar** — plaz bedzie pod dostatkiem w Breli. To jedyny dzien na duzej wyspie w podrozy; Omis z Cetina przeniesiony do Breli (dzien 29.06), Krka i Zrmanja wypadly. | [Krilo — rozklad](https://www.krilo.hr/hr/schedule) | [Jadrolinija](https://www.jadrolinija.hr/hr/putovanje/split_-_bol_brac_-_jelsa_hvar) | [TP Line](https://www.tp-line.hr/) | [Zbiorczy rozklad Split–Hvar](https://www.allferriescroatia.com/en/route/split--hvar-center-hvar--ferry-catamaran-ship-timetable-prices) | [Zbiorczy rozklad Split–Bol](https://www.allferriescroatia.com/en/route/split--bol-brac--ferry-catamaran-ship-timetable-prices)
 
-## Dzien 7 · Palac rano, zachodnia starowka i Vidilica po odpoczynku
+## 24 czerwca · Palac rano, zachodnia starowka i Vidilica po odpoczynku
 
-*Wtorek, 8 czerwca* · Katedra, Jowisz, podziemia, Pjaca i Prokurative, sjesta, panorama z Vidilicy | ok. 5–7 km + hotel (dalszy Marjan wiecej) | umiarkowany — glownie schody na punkt widokowy
+*Czwartek, 24 czerwca* · Katedra, Jowisz, podziemia, Pjaca i Prokurative, sjesta, panorama z Vidilicy | ok. 5–7 km + hotel (dalszy Marjan wiecej) | umiarkowany — glownie schody na punkt widokowy
 
 | Godzina | Plan |
 |---|---|
@@ -98,40 +98,40 @@ zrodlo: index.html
 > [!caution] ⚠️ Uwaga
 > **Dostep do Marjanu:** sprawdz biezace komunikaty [zarzadcy Park-suma Marjan](https://www.marjan-parksuma.hr/) i oznakowanie na miejscu; stare artykuly o zamknieciach/remontach nie przesadzaja stanu w 2027, nie obchodz barier. Jesli Vidilica niedostepna — zakoncz na dolnym Varosu i Rivie | [Miejska informacja o Marjanie](https://visitsplit.com/index.php/hr/506/marjan). Godziny orientacyjne, brak rezerwacji.
 
-## 🗺 Plan pobytu — Split (6–9 czerwca, 3 noce, dni 5–7)
+## 🗺 Plan pobytu — Split (22–25 czerwca, 3 noce)
 
-> Najwazniejsze: palac Dioklecjana i zycie uliczek, katedra oraz panorama z Vidilicy. Dzien 6 to wyspa: Hvar albo Bol na Bracu katamaranem ze Splitu. Rytm: lekki wieczor po przyjezdzie, jeden wyjazd i jeden dzien miejski z odpoczynkiem. 2 osoby, bez auta, dwa male plecaki + wspolna walizka 20 kg — brak rezerwacji. Godziny to okna planowania, nie rozklad 2027.
+> Najwazniejsze: palac Dioklecjana i zycie uliczek, katedra oraz panorama z Vidilicy. Dzien 23.06 to wyspa: Hvar albo Bol na Bracu katamaranem ze Splitu. Rytm: lekki wieczor po przyjezdzie, jeden wyjazd i jeden dzien miejski z odpoczynkiem. 2 osoby, bez auta, dwa male plecaki + wspolna walizka 20 kg — brak rezerwacji. Godziny to okna planowania, nie rozklad 2027.
 
-- 🧭 **Mapa dni — glowny plan i spokojny zamiennik** — Dzien 5 (niedz. 06.06): Zadar → Split, palac i wieczorna starowka · spokojnie: transfer, kolacja i Riva · Dzien 6 (pon. 07.06): Hvar (twierdza, Pakleni otoci) albo Bol i Zlatni Rat · spokojnie: Bacvice/Ovcice i odpoczynek · Dzien 7 (wt. 08.06): wnetrza palacu → zachodnia starowka → Marjan · spokojnie: jedno wnetrze i Vidilica
+- 🧭 **Mapa dni — glowny plan i spokojny zamiennik** — wt. 22.06, swieto: Zadar → Split, palac i wieczorna starowka · spokojnie: transfer, kolacja i Riva · sr. 23.06: Hvar (twierdza, Pakleni otoci) albo Bol i Zlatni Rat · spokojnie: Bacvice/Ovcice i odpoczynek · czw. 24.06: wnetrza palacu → zachodnia starowka → Marjan · spokojnie: jedno wnetrze i Vidilica
 - 📍 **Baza — dolny Varos lub obrzeza palacu** — FERMAI i Cornaro pasuja do zwiedzania pieszo · przy Varosu sprawdz, jak wysoko lezy obiekt i ile schodow dzieli go od ulicy dostepnej dla taksowki · samo „centrum” nie gwarantuje wygodnej trasy z walizka
 - 🗺️ **Geografia spacerow — co gdzie lezy** — Port, dworzec dalekobiezny i Bacvice: na poludniowy wschod od starowki · palac: przy Rivie · Prokurative, Varos i wejscie na Marjan: na zachod · miejskiego dnia nie przecinaj w polowie wyjsciem na plaze po przeciwnej stronie
-- 🚶 **Start dnia 7 zalezy od hotelu** — Nocleg na wschod od palacu: zacznij od Pazaru/Srebrnej Bramy · FERMAI/Cornaro: wejdz od Zlotej Bramy i idz wprost ku Perystylowi · dolny Varos: jedno dojscie do palacu rano, potem powrot przez zachodnia starowke w strone hotelu i Marjanu · bez dodatkowej rundy tylko po to, by zaczac od „pierwszego” punktu mapy · km to szacunki tras bez dojsc do hotelu i przystankow
+- 🚶 **Start dnia 24.06 zalezy od hotelu** — Nocleg na wschod od palacu: zacznij od Pazaru/Srebrnej Bramy · FERMAI/Cornaro: wejdz od Zlotej Bramy i idz wprost ku Perystylowi · dolny Varos: jedno dojscie do palacu rano, potem powrot przez zachodnia starowke w strone hotelu i Marjanu · bez dodatkowej rundy tylko po to, by zaczac od „pierwszego” punktu mapy · km to szacunki tras bez dojsc do hotelu i przystankow
 - 🎟️ **Do ustalenia — autobus Zadar → Split** — Data, dworzec, bagaz, godzina przyjazdu · zwiedzanie zaczyna sie po zostawieniu walizki
-- ⛪ **Do ustalenia — katedra i podziemia** — Aktualne pakiety, otwarcie, ostatnie wejscie · wnetrza rano dnia 7, bez uzaleznienia od wieczornych godzin
-- ⛴️ **Do ustalenia — katamaran na Hvar / do Bolu** — Komercyjne kursy rano tam i po poludniu z powrotem (Krilo, TP Line, Jadrolinija), nabrzeze w Splicie · tanie linie panstwowe plyna w zlych godzinach · szczegoly w planie dnia 6
+- ⛪ **Do ustalenia — katedra i podziemia** — Aktualne pakiety, otwarcie, ostatnie wejscie · wnetrza rano dnia 24.06, bez uzaleznienia od wieczornych godzin
+- ⛴️ **Do ustalenia — katamaran na Hvar / do Bolu** — Komercyjne kursy rano tam i po poludniu z powrotem (Krilo, TP Line, Jadrolinija), nabrzeze w Splicie · tanie linie panstwowe plyna w zlych godzinach · szczegoly w planie dnia 23.06
 - 🌲 **Do ustalenia — Marjan** — Dostepne odcinki, lokalne komunikaty · Vidilica to cel podstawowy, dalszy las to dodatek
-- 🚌 **Do ustalenia — Split → Brela** — Konkretny przystanek docelowy i odbior z walizka · dzien 8 to przejazd, nie wycieczka przez Omis
-- 🔄 **Zamiana dni 6 i 7 — przy wietrze** — Dni 6–7 mozna zamienic, jesli pozwalaja na to bilety na katamaran · przy silnym wietrze katamarany bywaja odwolywane — wtedy wyspa wypada, a Split zostaje
-- 🏖️ **Kasjuni — zamiast Bacvic/Ovcic w spokojnym dniu 6** — Tylko jesli potwierdzisz wygodny dojazd i powrot · nie dopisuj do dnia wnetrz i Marjanu — zejscie do morza i powrot istotnie zmieniaja wysilek i czas · Bacvice/Ovcice wybierasz dla wygody, nie dlatego, ze sa najpiekniejszymi plazami wyjazdu
-- 🗿 **[Galeria Mestrovic — uzupelnienie dnia 7](https://mestrovic.hr/en/split-gallery/)** — Na Marjanie, po drodze na Vidilice · dziela najwazniejszego chorwackiego rzezbiarza XX w. w willi z ogrodem nad morzem · ok. 1 h · zamiast dalszego lasu na Marjanie · osobny bilet, potwierdz godziny
-- 🏛️ **Trogir — mozliwy zamiennik wyspy w dniu 6** — Jesli wazniejsza okaze sie architektura niz morze · lokalny autobus ze Splitu · ok. pol dnia
-- ⛔ **Swiadome pominiecia — Omis, Cetina, Krka** — Omis i Cetina przeniesione do Breli (dzien 12, ok. 20 km stamtad) · Krka wypadla jako drugi park wodospadow po Plitvicach
+- 🚌 **Do ustalenia — Split → Brela** — Konkretny przystanek docelowy i odbior z walizka · dzien 25.06 to przejazd, nie wycieczka przez Omis
+- 🔄 **Zamiana dni 23.06 i 24.06 — przy wietrze** — Dni 23–24.06 mozna zamienic, jesli pozwalaja na to bilety na katamaran · przy silnym wietrze katamarany bywaja odwolywane — wtedy wyspa wypada, a Split zostaje
+- 🏖️ **Kasjuni — zamiast Bacvic/Ovcic w spokojnym dniu 23.06** — Tylko jesli potwierdzisz wygodny dojazd i powrot · nie dopisuj do dnia wnetrz i Marjanu — zejscie do morza i powrot istotnie zmieniaja wysilek i czas · Bacvice/Ovcice wybierasz dla wygody, nie dlatego, ze sa najpiekniejszymi plazami wyjazdu
+- 🗿 **[Galeria Mestrovic — uzupelnienie dnia 24.06](https://mestrovic.hr/en/split-gallery/)** — Na Marjanie, po drodze na Vidilice · dziela najwazniejszego chorwackiego rzezbiarza XX w. w willi z ogrodem nad morzem · ok. 1 h · zamiast dalszego lasu na Marjanie · osobny bilet, potwierdz godziny
+- 🏛️ **Trogir — mozliwy zamiennik wyspy w dniu 23.06** — Jesli wazniejsza okaze sie architektura niz morze · lokalny autobus ze Splitu · ok. pol dnia
+- ⛔ **Swiadome pominiecia — Omis, Cetina, Krka** — Omis i Cetina przeniesione do Breli (dzien 29.06, ok. 20 km stamtad) · Krka wypadla jako drugi park wodospadow po Plitvicach
 - 🍽️ **Jedzenie — budzet i wybory** — Sniadanie 10–14 EUR/os. i danie glowne ok. 25 EUR bez napoju · Villa Spiza: zmienna karta · Sug: sprawdz aktualna cene · Bakra: latwiejsza budzetowo przy pizzy niz steku · Marvlvs na klimat palacowych uliczek, NOOR na jeden koktajl · nie planuj dojazdu przez miasto wylacznie dla baru
-- ➡️ **[Nastepnego ranka: Brela (sroda 09.06, dzien 8)](https://www.arriva.com.hr/)** — Sniadanie, wymeldowanie, autobus z potwierdzonego dworca, przejazd bez zwiedzania po drodze · od noclegu do noclegu roboczo 2,5–4 h, zaleznie od kursu i odbioru · przy przystanku przy magistrali D8 ustal transfer/dojscie z walizka — nie zakladaj, ze autobus zjedzie do portu · Arriva — polaczenia
+- ➡️ **[Nastepnego ranka: Brela (piatek 25.06, dzien 25.06)](https://www.arriva.com.hr/)** — Sniadanie, wymeldowanie, autobus z potwierdzonego dworca, przejazd bez zwiedzania po drodze · od noclegu do noclegu roboczo 2,5–4 h, zaleznie od kursu i odbioru · przy przystanku przy magistrali D8 ustal transfer/dojscie z walizka — nie zakladaj, ze autobus zjedzie do portu · Arriva — polaczenia
 - 📚 **Aktualnosc zrodel i korzystanie z map** — Przeglad zrodel atrakcji i transportu: 25.09.2026 · wyspa zamiast Omisa/Krki: 18.10.2026 · zrodla potwierdzaja miejsca i zalozenia, nie rozklady, pakiety ani ceny 2027 · mapy pokazuja kolejnosc punktow, czas i dystans to szacunki bez hotelu · przed wyjsciem sprawdz otwarcie wnetrz i pogode, po wyborze hotelu dopisz tylko dojscie do startu i powrot z konca trasy
 
-## 🚌 Przejazd — Zadar → Split (niedziela 6 czerwca)
+## 🚌 Przejazd — Zadar → Split (wtorek 22 czerwca, swieto w Chorwacji)
 
 > Pociag odpada: z Zadaru nie ma torow do Splitu — HZPP wozi autobusem do Knina i dalej pociagiem, razem 4–5h i rzadko. Autobus jest szybszy i tanszy. W czerwcu kup bilet online kilka dni wczesniej; bagaz w lukach zwykle 1–2 EUR/szt. (gotowka dla kierowcy). Dworzec w Zadarze: Ante Starcevica 1 (1 km od starowki), w Splicie: obok portu, 5–10 min pieszo do palacu. Split ↔ wyspa (Hvar/Brac) — prom lub katamaran w cenie wycieczki, patrz Wycieczki.
 
-- ⭐ **[Autobus bezposredni — ok. 10–20 kursow dziennie](https://www.omio.co.uk/coaches/zadar/split)** — 2–3h jazdy · ok. 10–25 EUR/os · FlixBus, Arriva (Nomago Intercity), Antonio Tours, Brioni · wybierz kurs ok. 10:00 (zgodnie z planem dnia 5) · porownanie i zakup
+- ⭐ **[Autobus bezposredni — ok. 10–20 kursow dziennie](https://www.omio.co.uk/coaches/zadar/split)** — 2–3h jazdy · ok. 10–25 EUR/os · FlixBus, Arriva (Nomago Intercity), Antonio Tours, Brioni · wybierz kurs ok. 10:00 (zgodnie z planem dnia 22.06) · porownanie i zakup
 - 🟢 **[FlixBus — zwykle najtaniej przy wczesnym zakupie](https://global.flixbus.com/bus-routes/bus-zadar-split)** — od ok. 4–10 EUR/os · bagaz w cenie · bilet w aplikacji FlixBus
 - 🎫 **[GetByBus — wszyscy chorwaccy przewoznicy w jednym miejscu](https://getbybus.com/en/)** — Arriva, Antonio Tours i inni · e-bilet na telefonie
 - 🚌 **[Arriva — Zadar → Split](https://www.arriva.com.hr/hr-hr/bus-zadar-split)** — 2–3 h · ok. 12–20 EUR/os + bagaz ok. 1–2 EUR · 2 os. ok. 25–40 EUR
 
-## 🛏 Noclegi — kandydaci (6–9 czerwca, 3 noce, 2 os.)
+## 🛏 Noclegi — kandydaci (22–25 czerwca, 3 noce, 2 os.)
 
-> Tylko hotele, 3 noce, 2 osoby; 🥇🥈🥉 = rekomendacja Alberta. Ceny w zl: Booking przez strone partnera (hotelsplit.net), odczyt 18.10.2026 (w notatce dla dat 14–24.06.2027 — sprawdzic ceny na 6–9.06); Stella’s — wlasny odczyt Alberta. W odczytanych opiniach brak zgloszen karaluchow (Central Square — nie sprawdzono). Pozycje w EUR to wczesniejsze szacunki z planera. Dworzec autobusowy (Omis/Krka) blisko Rivy, od Villa Diana 600 m.
+> Tylko hotele, 3 noce, 2 osoby; 🥇🥈🥉 = rekomendacja Alberta. Ceny w zl: Booking przez strone partnera (hotelsplit.net), odczyt 18.10.2026 (w notatce dla dat 14–24.06.2027 — sprawdzic ceny na 22–25.06); Stella’s — wlasny odczyt Alberta. W odczytanych opiniach brak zgloszen karaluchow (Central Square — nie sprawdzono). Pozycje w EUR to wczesniejsze szacunki z planera. Dworzec autobusowy (Omis/Krka) blisko Rivy, od Villa Diana 600 m.
 
 - 🥇 **[Hotel Villa Diana (3★) — faworyt, ze sniadaniem](https://www.booking.com/hotel/hr/villa-diana-split.html)** — Kralja Zvonimira 29, 8 min do centrum (ok. 10 min pieszo do palacu), dworzec 600 m · 9,1 (897 opinii; wczesniej 9.1/10 z 1809 ocen) · czystosc 8.5 · rodzinny, **ze sniadaniem** · male pokoje, schody · ~941 zl/noc, **~2 820 zl za 3 noce** · [strona](https://www.villadiana.hr/) · [Kayak](https://www.kayak.com/Split-Hotels-Hotel-Villa-Diana.301247.ksp)
 - 🥈 **[Hotel Kastel 1700 (3★) — w murach palacu](https://www.booking.com/searchresults.pl.html?ss=Hotel+Ka%C5%A1tel+1700+Split)** — Mihovilova sirina 5, w palacu · 8,7 (702 opinie; wczesniej 8.7/10 z 1218 ocen) · czystosc 9 · bez sniadania (wczesniejszy odczyt: sniadanie — sprawdzic) · schody bez windy, wieczorem halas z barow, male lazienki · ~1 084 zl/noc, **~3 250 zl za 3 noce** · [strona](https://www.kastelsplit.com/en/) · [Kayak](https://www.kayak.com/Split-Hotels-B-B-Kastel-1700.192772.ksp)
@@ -160,7 +160,7 @@ zrodlo: index.html
 
 ## 🍽 Jedzenie — restauracje i bary
 
-> Wybierz lokal przy aktualnej trasie. Sniadanie: **10–14 €/os.** | danie glowne: **ok. 25 €/os. bez napoju**. Najpierw Villa Spiza (kuchnia dnia) i Kantun Paulina (cevapi); Bakra na pizze; Sug na jedna lepsza kolacje (pon./wt., po potwierdzeniu stolika i ceny — w niedziele zamkniete, a dzien przyjazdu 06.06.2027 to niedziela). Nie dodawaj Sug po zachodzie na Marjanie tylko dla obiadu — lezy po polnocno-wschodniej stronie centrum. Marvlvs = pierwszy wybor baru. Przed wyjsciem sprawdz godziny kuchni i aktualne menu; policz danie, dodatki, napoj i ewentualna oplate za obsluge; dania dnia i peka wymagaja osobnego potwierdzenia; sniadanie hotelowe moze zastapic kawiarnie. Oceny Google z 24.09.2026 (historyczne), przedzialy Google = deklarowane wydatki na osobe, nie cena dania; menu i ceny nie sa oferta na lato 2027.
+> Wybierz lokal przy aktualnej trasie. Sniadanie: **10–14 €/os.** | danie glowne: **ok. 25 €/os. bez napoju**. Najpierw Villa Spiza (kuchnia dnia) i Kantun Paulina (cevapi); Bakra na pizze; Sug na jedna lepsza kolacje (sr. 23.06 lub czw. 24.06, po potwierdzeniu stolika i ceny — w niedziele zamkniete, a dzien przyjazdu wt. 22.06 to swieto w Chorwacji). Nie dodawaj Sug po zachodzie na Marjanie tylko dla obiadu — lezy po polnocno-wschodniej stronie centrum. Marvlvs = pierwszy wybor baru. Przed wyjsciem sprawdz godziny kuchni i aktualne menu; policz danie, dodatki, napoj i ewentualna oplate za obsluge; dania dnia i peka wymagaja osobnego potwierdzenia; sniadanie hotelowe moze zastapic kawiarnie. Oceny Google z 24.09.2026 (historyczne), przedzialy Google = deklarowane wydatki na osobe, nie cena dania; menu i ceny nie sa oferta na lato 2027.
 
 
 **Obiad**
@@ -175,7 +175,7 @@ zrodlo: index.html
 **Kolacja**
 
 - 🍕 **[Bakra – Steak & Pizza Bar — pizza / grill](https://www.google.com/maps/search/?api=1&query=Bakra%20%E2%80%93%20Steak%20%26%20Pizza%20Bar%20Majstora%20Radovana%202%20Split)** — ul. Majstora Radovana 2, rejon Lucac / port / Bacvice · pizza Lucac lub cevapi (przy budzecie pizza zamiast steku) · Google 15–35 €/os. · ⭐ 4,5/5 (5287 ocen, 24.09.2026) · po przyjezdzie — pizza przed wieczorna starowka · [menu / strona](https://bakra.hr/)
-- 🍴 **[Sug Restaurant — kuchnia dalmatynska, lepsza kolacja](https://www.google.com/maps/search/?api=1&query=%C5%A0ug%20Restaurant%20Tolstojeva%201a%20Split)** — ul. Tolstojeva 1a, polnocno-wschodnia strona centrum · wedzone risotto; do porownania aktualne danie miesne · nie potwierdzono ceny porcji do 25 € · ⭐ 4,7/5 (3156 ocen, 24.09.2026) · **niedziela zamkniete** (sprawdzenie 25.09.2026) — wybierz pon. lub wt., rezerwacja wskazana · WARTO na jedna staranniej zaplanowana kolacje · [menu / zrodlo](https://sug.hr/menu/)
+- 🍴 **[Sug Restaurant — kuchnia dalmatynska, lepsza kolacja](https://www.google.com/maps/search/?api=1&query=%C5%A0ug%20Restaurant%20Tolstojeva%201a%20Split)** — ul. Tolstojeva 1a, polnocno-wschodnia strona centrum · wedzone risotto; do porownania aktualne danie miesne · nie potwierdzono ceny porcji do 25 € · ⭐ 4,7/5 (3156 ocen, 24.09.2026) · **niedziela zamkniete** (sprawdzenie 25.09.2026) — wybierz sr. 23.06 lub czw. 24.06, rezerwacja wskazana · WARTO na jedna staranniej zaplanowana kolacje · [menu / zrodlo](https://sug.hr/menu/)
 
 **Bar / wino**
 
@@ -184,17 +184,17 @@ zrodlo: index.html
 
 **Targ / produkty**
 
-- 🧀 **Pazar — targ przy wschodnim murze palacu** — wschodni mur Palacu Dioklecjana · czeresnie i figi (sezon sie zaczyna), prsut dalmatinski na wage do degustacji, paski sir (owczy ser z Pagu, z oliwkami), mala butelka lokalnej oliwy pierwszego tloczenia · rano · dzien 5 lub 7 rano
+- 🧀 **Pazar — targ przy wschodnim murze palacu** — wschodni mur Palacu Dioklecjana · czeresnie i figi (sezon sie zaczyna), prsut dalmatinski na wage do degustacji, paski sir (owczy ser z Pagu, z oliwkami), mala butelka lokalnej oliwy pierwszego tloczenia · rano · dzien 22.06 lub 24.06 rano
 
 ## 🚤 Wycieczki lodzia i katamaranem ze Splitu
 
-> Dluga wycieczka zajmuje caly dzien — pasuje na dzien 6 (7 czerwca) zamiast samodzielnego Hvaru albo Bolu. Najtaniej: rezerwowac online 3+ tygodnie wczesniej (na Rivie w sezonie drozej i czesto brak miejsc), z darmowym anulowaniem do 24h — przy wietrze rejsy bywaja odwolywane. Porownaj ta sama wycieczke na GetYourGuide i Viatorze, ceny potrafia sie roznic. Najtaniej w ogole: sam katamaran rejsowy Kapetan Luka / Jadrolinija do Hvaru (ok. 25 EUR w jedna strone) lub Bolu (ok. 20 EUR) i plazowanie na wlasna reke.
+> Dluga wycieczka zajmuje caly dzien — pasuje na 23.06 zamiast samodzielnego Hvaru albo Bolu. Najtaniej: rezerwowac online 3+ tygodnie wczesniej (na Rivie w sezonie drozej i czesto brak miejsc), z darmowym anulowaniem do 24h — przy wietrze rejsy bywaja odwolywane. Porownaj ta sama wycieczke na GetYourGuide i Viatorze, ceny potrafia sie roznic. Najtaniej w ogole: sam katamaran rejsowy Kapetan Luka / Jadrolinija do Hvaru (ok. 25 EUR w jedna strone) lub Bolu (ok. 20 EUR) i plazowanie na wlasna reke.
 
 - ⭐ **[DLUGA — Blue Cave, Vis, Stiniva, Pakleni i Hvar (speedboat, Speed Line) — najlepsza](https://www.getyourguide.com/split-l268/from-split-blue-cave-hvar-mamma-mia-5-islands-boat-tour-t351016/)** — Ok. 10,5 h · Modra Spilja na Bisevie, Komiza na Visie, zatoka Stiniva, Blue Lagoon Budikovac (kapiel i snorkeling), Pakleni, ok. 2 h w miescie Hvar · 4.9/5 (1740 ocen) · woda, przekaski, snorkel, reczniki w cenie · bilet do Blue Cave osobno gotowka (ok. 12–24 EUR) · ok. 77 EUR/os. · dla odpornych na bujanie, przy wietrze grota bywa zamknieta
 - ⛵ **[DLUGA — Katamaran Hvar, Pakleni, Brac i Solta (Summer Blues) — najwygodniejsza](https://www.viator.com/tours/Split/Full-day-Excursion-to-Hvar-Pakleni-Islands-and-Brac-from-Split/d4185-15602P1)** — Ok. 9,5 h · 3 kapiele (Brac, Pakleni, Solta) + 2 h w Hvarze z przewodnikiem · duzy, stabilny katamaran, nie trzesie · piwo, wino, napoje bez limitu, przekaski · 4.8/5 (729 ocen) · czasem tloczno · ok. 97 EUR/os.
 - 🍷 **[DLUGA — XCAPE: Solta, Hvar, Pakleni (Cobalt Escape) — premium i spokojnie](https://www.getyourguide.com/split-l268/split-hvar-pakleni-islands-and-brac-catamaran-xcape-cruise-t1212567/)** — Ok. 8,5 h · Solta (1,5 h kapieli, SUP), godzina w Hvarze, lunch i kapiel na Pakleni · lunch, owoce, bar z winem i koktajlami, deski SUP · zakaz imprezowych grup — spokojny klimat · 4.7/5 (158 ocen) · ok. 115 EUR/os.
 - 💶 **[KROTKA — Blue Lagoon i Trogir (Day Trips) — najtaniej](https://www.getyourguide.com/split-l268/blue-lagoon-and-trogir-half-day-speedboat-tour-from-split-t52261/)** — Ok. 4,5–5 h · Blue Lagoon kolo Drvenika (kapiel, snorkeling), beach bar na Ciovie, spacer po Trogirze (UNESCO) · jedzenie i napoje w cenie · 4.5/5 (243 oceny) · ok. 53 EUR/os.
-- 🏝 **[KROTKA — Blue Lagoon i 3 wyspy, mala grupa (Toto Travel)](https://www.getyourguide.com/split-l268/split-blue-lagoon-3-islands-small-group-speedboat-tour-t111373/)** — Ok. 5,5 h · Trogir, Blue Lagoon, Maslinica na Solcie · mala grupa, snorkel, jedzenie i napoje · 4.6/5 (795 ocen) · ok. 58 EUR/os. · dobre na pol dnia, np. 8 czerwca rano
+- 🏝 **[KROTKA — Blue Lagoon i 3 wyspy, mala grupa (Toto Travel)](https://www.getyourguide.com/split-l268/split-blue-lagoon-3-islands-small-group-speedboat-tour-t111373/)** — Ok. 5,5 h · Trogir, Blue Lagoon, Maslinica na Solcie · mala grupa, snorkel, jedzenie i napoje · 4.6/5 (795 ocen) · ok. 58 EUR/os. · dobre na pol dnia, np. 24.06 rano
 - ⛴ **[DIY — katamaranem rejsowym do Hvaru lub Bolu](https://www.visit-croatia.co.uk/travelling-around-croatia/ferries-croatia/ferry-and-catamaran-prices-in-croatia/)** — Split → Hvar ok. 25 EUR w jedna strone (Kapetan Luka, Jadrolinija, TP Line), Split → Bol (plaza Zlatni Rat) ok. 20 EUR · ok. 50 min · swoj rytm, bez grupy · 2 os. tam i z powrotem ok. 80–100 EUR · bilety na krilo.hr / jadrolinija.hr
 - 💶 **[Brac (Bol) najtaniej — prom Jadrolinija Split → Supetar + autobus do Bolu](https://www.jadrolinija.hr/)** — ok. 10 EUR/os w obie strony + bus · 2 os. ok. 40–50 EUR · tania wyspa, jesli chcesz wyspe bez Kornati
 - ⛴ **[Hvar — rejsowy katamaran rano tam, po poludniu z powrotem (Krilo, TP Line)](https://www.krilo.hr/hr/schedule)** — ok. 45–50 EUR/os w obie strony (+ twierdza, obiad) · 2 os. ok. 90–100 EUR + jedzenie · do wyboru z Kornati · TP Line: https://www.tp-line.hr/
