@@ -27,7 +27,9 @@ const strip = (s = '') => String(s)
   .replace(/<b>([\s\S]*?)<\/b>/gi, '**$1**').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '')
   .replace(/&mdash;/g, '—').replace(/&rarr;/g, '→').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
 const esc = (s = '') => strip(s).replace(/\s*\|\s*/g, ' · ');
-const dayHead = (day) => `Dzien ${day.id} · ${strip(day.t).replace(/[#|^[\]]/g, '')}`;
+// "Piatek, 18 czerwca" -> "18 czerwca"
+const dayDate = (day) => strip(day.dt).split(', ').pop();
+const dayHead = (day) => `${dayDate(day)} · ${strip(day.t).replace(/[#|^[\]]/g, '')}`;
 
 function listBlock(icon, block) {
   if (!block) return '';
@@ -115,7 +117,7 @@ if (INFO.length) {
   for (const [c, m] of cities) o += `| [[${m.n}]] | ${esc(m.dt)} | ${D.filter(d => d.c === c).length} |\n`;
   o += `\n## Wszystkie dni\n\n`;
   for (const [c, m] of cities) for (const day of D.filter(d => d.c === c))
-    o += `- [[${m.n}#${dayHead(day)}|Dzien ${day.id}]] — ${strip(day.dt)} — ${strip(day.t)}\n`;
+    o += `- [[${m.n}#${dayHead(day)}|${dayDate(day)}]] — ${strip(day.dt).split(', ')[0]} — ${strip(day.t)}\n`;
   if (files['Informacje ogolne.md']) o += `\nPrzed wyjazdem: [[Informacje ogolne]]\n`;
   if (files['Jedzenie i rozmowki.md']) o += `\nBonus: [[Jedzenie i rozmowki]]\n`;
   files['Chorwacja 2027.md'] = o;
