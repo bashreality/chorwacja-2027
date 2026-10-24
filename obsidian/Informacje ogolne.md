@@ -56,7 +56,7 @@ zrodlo: index.html
 - 🚌 **Autobusy, shuttle, taksowki — ~800–1 200 zl** — rozpiska odcinkow w notatce „Wycieczki i transport”
 - 🎟️ **Wycieczki i bilety — ~2 000–2 350 zl** — wariant „rozsadny”: Plitvice, Kornati ALBO Brac, Omis, Makarska, mury, Lokrum — bez Mostaru
 - 🍽️ **Jedzenie — ~4 300–5 500 zl** — sniadania czesciowo w hotelach · sniadanie 10–14 EUR/os. · danie glowne ok. 25 EUR/os. bez napoju · ~60–80 EUR/dzien dla dwojga
-- ✂️ **Gdy noclegi wyjda drozsze** — Split → Salona Palace (−800–1 100 zl) · Dubrownik → Astarea (−200–600 zl) · Brela bez zmian
+- ✂️ **Gdy noclegi wyjda drozsze** — Split → Hotel Jupiter w palacu (Salona Palace odpada — dojazd) · Dubrownik → Astarea (−200–600 zl) · Brela bez zmian
 - 💡 **Najwieksza oszczednosc** — wczesna rezerwacja w Dubrowniku i rezygnacja z czesci wycieczek (Mostar najlatwiej skreslic)
 - 📅 **Skad ceny** — Zadar, Split, Brela — odczyty Alberta z Booking (pazdziernik 2026) · Dubrownik, loty i wycieczki to szacunki
 
