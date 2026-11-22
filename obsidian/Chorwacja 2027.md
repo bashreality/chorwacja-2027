@@ -11,30 +11,29 @@ Zrodlo: `index.html` w repo bashreality/chorwacja-2027.
 
 | Miasto | Termin | Dni |
 |---|---|---|
-| [[Zadar]] | 18–22 czerwca · 4 noce · 18–21.06 | 4 |
-| [[Split]] | 22–25 czerwca · 3 noce · 22–24.06 | 3 |
-| [[Brela]] | 25–30 czerwca · 5 nocy · 25–29.06 | 5 |
-| [[Dubrownik]] | 30 czerwca – 4 lipca · 4 noce · 30.06–04.07 | 5 |
+| [[Zadar]] | 25–29 czerwca · 4 noce · 25–28.06 | 4 |
+| [[Split]] | 29 czerwca – 2 lipca · 3 noce · 29.06–01.07 | 3 |
+| [[Brela]] | 2–7 lipca · 5 nocy · 02–06.07 | 5 |
+| [[Dubrownik]] | 7–10 lipca · 3 noce · 07–10.07 | 4 |
 
 ## Wszystkie dni
 
-- [[Zadar#18 czerwca · Przylot i pierwszy zachod|18 czerwca]] — Piatek — Przylot i pierwszy zachod
-- [[Zadar#19 czerwca · Zadar od targu do Fosy + Kolovare|19 czerwca]] — Sobota — Zadar od targu do Fosy + Kolovare
-- [[Zadar#20 czerwca · Plitvice — pelny dzien wsrod jezior|20 czerwca]] — Niedziela — Plitvice — pelny dzien wsrod jezior
-- [[Zadar#21 czerwca · Kornati i Telascica — rejs|21 czerwca]] — Poniedzialek — Kornati i Telascica — rejs
-- [[Split#22 czerwca · Zadar → Split i pierwsze wejscie do palacu|22 czerwca]] — Wtorek — Zadar → Split i pierwsze wejscie do palacu
-- [[Split#23 czerwca · Wyspa Hvar albo Brac|23 czerwca]] — Sroda — Wyspa Hvar albo Brac
-- [[Split#24 czerwca · Palac rano, zachodnia starowka i Vidilica po odpoczynku|24 czerwca]] — Czwartek — Palac rano, zachodnia starowka i Vidilica po odpoczynku
-- [[Brela#25 czerwca · Split → Brela — pierwsza plaza|25 czerwca]] — Piatek — Split → Brela — pierwsza plaza
-- [[Brela#26 czerwca · Punta Rata, Kamen Brela i Podrace|26 czerwca]] — Sobota — Punta Rata, Kamen Brela i Podrace
-- [[Brela#27 czerwca · Mostar z czasem na miasto|27 czerwca]] — Niedziela — Mostar z czasem na miasto
-- [[Brela#28 czerwca · Plaza, odpoczynek i wieczorem Baska Voda|28 czerwca]] — Poniedzialek — Plaza, odpoczynek i wieczorem Baska Voda
-- [[Brela#29 czerwca · Omis i Cetina z Breli|29 czerwca]] — Wtorek — Omis i Cetina z Breli
-- [[Dubrownik#30 czerwca · Brela → Dubrownik — przyjazd i pierwsza petla po starowce|30 czerwca]] — Sroda — Brela → Dubrownik — przyjazd i pierwsza petla po starowce
-- [[Dubrownik#1 lipca · Mury miejskie — 1940 m|1 lipca]] — Czwartek — Mury miejskie — 1940 m
-- [[Dubrownik#2 lipca · Lokrum i spokojny spacer po starowce|2 lipca]] — Piatek — Lokrum i spokojny spacer po starowce
-- [[Dubrownik#3 lipca · Lopud i piaszczysta plaza Sunj|3 lipca]] — Sobota — Lopud i piaszczysta plaza Sunj
-- [[Dubrownik#4 lipca · Powrot do Poznania|4 lipca]] — Niedziela — Powrot do Poznania
+- [[Zadar#25 czerwca · Przylot wieczorem|25 czerwca]] — Piatek — Przylot wieczorem
+- [[Zadar#26 czerwca · Zadar od targu do Fosy + Kolovare|26 czerwca]] — Sobota — Zadar od targu do Fosy + Kolovare
+- [[Zadar#27 czerwca · Plitvice — pelny dzien wsrod jezior|27 czerwca]] — Niedziela — Plitvice — pelny dzien wsrod jezior
+- [[Zadar#28 czerwca · Kornati i Telascica — rejs|28 czerwca]] — Poniedzialek — Kornati i Telascica — rejs
+- [[Split#29 czerwca · Zadar → Split i pierwsze wejscie do palacu|29 czerwca]] — Wtorek — Zadar → Split i pierwsze wejscie do palacu
+- [[Split#30 czerwca · Wyspa Hvar albo Brac|30 czerwca]] — Sroda — Wyspa Hvar albo Brac
+- [[Split#1 lipca · Palac rano, zachodnia starowka i Vidilica po odpoczynku|1 lipca]] — Czwartek — Palac rano, zachodnia starowka i Vidilica po odpoczynku
+- [[Brela#2 lipca · Split → Brela — pierwsza plaza|2 lipca]] — Piatek — Split → Brela — pierwsza plaza
+- [[Brela#3 lipca · Punta Rata, Kamen Brela i Podrace|3 lipca]] — Sobota — Punta Rata, Kamen Brela i Podrace
+- [[Brela#4 lipca · Mostar z czasem na miasto|4 lipca]] — Niedziela — Mostar z czasem na miasto
+- [[Brela#5 lipca · Plaza, odpoczynek i wieczorem Baska Voda|5 lipca]] — Poniedzialek — Plaza, odpoczynek i wieczorem Baska Voda
+- [[Brela#6 lipca · Omis i Cetina z Breli|6 lipca]] — Wtorek — Omis i Cetina z Breli
+- [[Dubrownik#7 lipca · Brela → Dubrownik — przyjazd i pierwsza petla po starowce|7 lipca]] — Sroda — Brela → Dubrownik — przyjazd i pierwsza petla po starowce
+- [[Dubrownik#8 lipca · Mury miejskie — 1940 m|8 lipca]] — Czwartek — Mury miejskie — 1940 m
+- [[Dubrownik#9 lipca · Lokrum i ostatni spokojny spacer|9 lipca]] — Piatek — Lokrum i ostatni spokojny spacer
+- [[Dubrownik#10 lipca · Powrot do Poznania|10 lipca]] — Sobota — Powrot do Poznania
 
 Przed wyjazdem: [[Informacje ogolne]]
 
